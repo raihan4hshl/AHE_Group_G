@@ -1,0 +1,61 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.947811",
+   "Default View_TopLeft":"-165,-904",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace portBus A0 -pg 1 -lvl 2 -x 240 -y -810 -defaultsOSRD -top
+preplace portBus A1 -pg 1 -lvl 2 -x 150 -y -810 -defaultsOSRD -top
+preplace portBus A2 -pg 1 -lvl 2 -x 180 -y -810 -defaultsOSRD -top
+preplace portBus A3 -pg 1 -lvl 2 -x 210 -y -810 -defaultsOSRD -top
+preplace portBus B0 -pg 1 -lvl 1 -x -40 -y -810 -defaultsOSRD -top
+preplace portBus B1 -pg 1 -lvl 1 -x -130 -y -810 -defaultsOSRD -top
+preplace portBus B2 -pg 1 -lvl 1 -x -70 -y -810 -defaultsOSRD -top
+preplace portBus B3 -pg 1 -lvl 1 -x -100 -y -810 -defaultsOSRD -top
+preplace portBus S -pg 1 -lvl 6 -x 1020 -y 390 -defaultsOSRD
+preplace inst full_adder_0 -pg 1 -lvl 4 -x 680 -y -10 -defaultsOSRD
+preplace inst full_adder_1 -pg 1 -lvl 4 -x 680 -y 220 -defaultsOSRD
+preplace inst full_adder_2 -pg 1 -lvl 4 -x 680 -y 360 -defaultsOSRD
+preplace inst full_adder_3 -pg 1 -lvl 4 -x 680 -y 500 -defaultsOSRD
+preplace inst A_slice_0 -pg 1 -lvl 3 -x 420 -y -260 -defaultsOSRD
+preplace inst A_slice_1 -pg 1 -lvl 3 -x 420 -y -150 -defaultsOSRD -resize 160 88
+preplace inst A_slice_2 -pg 1 -lvl 3 -x 420 -y -30 -defaultsOSRD -resize 160 88
+preplace inst A_slice_3 -pg 1 -lvl 3 -x 420 -y 90 -defaultsOSRD -resize 160 88
+preplace inst B_slice_0 -pg 1 -lvl 1 -x -40 -y -270 -defaultsOSRD -resize 160 88
+preplace inst B_slice_1 -pg 1 -lvl 1 -x -40 -y -150 -defaultsOSRD -resize 160 88
+preplace inst B_slice_2 -pg 1 -lvl 1 -x -40 -y -20 -defaultsOSRD -resize 160 88
+preplace inst B_slice_3 -pg 1 -lvl 1 -x -40 -y 100 -defaultsOSRD -resize 160 88
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x -40 -y -450 -defaultsOSRD
+preplace inst Concat_In0 -pg 1 -lvl 5 -x 900 -y 220 -defaultsOSRD
+preplace netloc A0_1 1 2 1 310 -800n
+preplace netloc A1_1 1 2 1 300 -770n
+preplace netloc A2_1 1 2 1 290 -780n
+preplace netloc A3_1 1 2 1 320 -790n
+preplace netloc B0_1 1 0 1 -160 -770n
+preplace netloc B1_1 1 0 1 -190 -800n
+preplace netloc B2_1 1 0 1 -170 -780n
+preplace netloc B3_1 1 0 1 -180 -790n
+preplace netloc A_slice_0_Dout 1 3 1 560 -260n
+preplace netloc A_slice_1_Dout 1 3 1 540 -150n
+preplace netloc A_slice_2_Dout 1 3 1 530 -30n
+preplace netloc A_slice_3_Dout 1 3 1 520 90n
+preplace netloc B_slice_0_Dout 1 1 3 NJ -270 270J -330 570
+preplace netloc B_slice_1_Dout 1 1 3 NJ -150 280J -320 550
+preplace netloc B_slice_2_Dout 1 1 3 NJ -20 300J 360 N
+preplace netloc B_slice_3_Dout 1 1 3 NJ 100 270J 500 N
+preplace netloc xlconstant_0_dout 1 1 3 NJ -450 NJ -450 580
+preplace netloc full_adder_0_Cout 1 3 2 580 70 770
+preplace netloc full_adder_2_Cout 1 3 2 580 580 770
+preplace netloc full_adder_1_Cout 1 3 2 590 140 770
+preplace netloc full_adder_0_Sum 1 4 1 780 -20n
+preplace netloc full_adder_1_Sum 1 4 1 780 200n
+preplace netloc full_adder_2_Sum 1 4 1 780 220n
+preplace netloc full_adder_3_Sum 1 4 1 790 240n
+preplace netloc full_adder_3_Cout 1 4 1 800 260n
+preplace netloc Concat_In0_dout 1 5 1 1000 220n
+levelinfo -pg 1 -320 -40 160 420 680 900 1020
+pagesize -pg 1 -db -bbox -sgen -420 -900 1110 680
+"
+}
+

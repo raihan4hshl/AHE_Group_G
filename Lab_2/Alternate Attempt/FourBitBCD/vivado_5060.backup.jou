@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Nov  6 14:13:36 2025
+# Process ID         : 5060
+# Current directory  : D:/Advanced_Hardware_Engineering/FourBitBCD
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent15060 D:\Advanced_Hardware_Engineering\FourBitBCD\FourBitBCD.xpr
+# Log file           : D:/Advanced_Hardware_Engineering/FourBitBCD/vivado.log
+# Journal file       : D:/Advanced_Hardware_Engineering/FourBitBCD\vivado.jou
+# Running On         : LAB50-07
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 18363
+# Processor Detail   : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+# CPU Frequency      : 3408 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 17069 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 22170 MB
+# Available Virtual  : 8718 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Advanced_Hardware_Engineering/FourBitBCD/FourBitBCD.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/Advanced_Hardware_Engineering/FourBitBCD/FourBitBCD.srcs/sources_1/bd/FourBitBCD/FourBitBCD.bd}
+add_files -fileset constrs_1 -norecurse D:/Advanced_Hardware_Engineering/Nexys-A7-100T-Master.xdc
+close_project
+open_project {D:/Advanced_Hardware_Engineering/Vivado Projects/Microblaze_project_second_attempt/Microblaze_project_second_attempt.xpr}
+update_compile_order -fileset sources_1
+open_bd_design {D:/Advanced_Hardware_Engineering/Vivado Projects/Microblaze_project_second_attempt/Microblaze_project_second_attempt.srcs/sources_1/bd/design_microblaze/design_microblaze.bd}
+close_project
+open_project D:/Advanced_Hardware_Engineering/FourBitBCD/FourBitBCD.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/Advanced_Hardware_Engineering/FourBitBCD/FourBitBCD.srcs/sources_1/bd/FourBitBCD/FourBitBCD.bd}
+open_bd_design {D:/Advanced_Hardware_Engineering/FourBitBCD/FourBitBCD.srcs/sources_1/bd/FourBitBCD/FourBitBCD.bd}
+open_bd_design {D:/Advanced_Hardware_Engineering/FourBitBCD/FourBitBCD.srcs/sources_1/bd/FourBitBCD/FourBitBCD.bd}
+open_bd_design {D:/Advanced_Hardware_Engineering/FourBitBCD/FourBitBCD.srcs/sources_1/bd/FourBitBCD/FourBitBCD.bd}
+open_bd_design {D:/Advanced_Hardware_Engineering/FourBitBCD/FourBitBCD.srcs/sources_1/bd/FourBitBCD/FourBitBCD.bd}
+close [ open D:/Advanced_Hardware_Engineering/FourBitBCD/FourBitBCD.srcs/sources_1/new/SevenSegmentDisplay.vhd w ]
+add_files D:/Advanced_Hardware_Engineering/FourBitBCD/FourBitBCD.srcs/sources_1/new/SevenSegmentDisplay.vhd
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference seven_segment_display_VHDL seven_segment_displa_0
+set_property location {3.5 1190 8} [get_bd_cells seven_segment_displa_0]
+set_property name SSegLed [get_bd_ports SSeg0]
+delete_bd_objs [get_bd_nets SevenSegDecoder_1_seg] [get_bd_ports SSeg1]
+delete_bd_objs [get_bd_nets SevenSegDecoder_2_seg] [get_bd_ports SSeg2]
+delete_bd_objs [get_bd_nets SevenSegDecoder_3_seg] [get_bd_ports SSeg3]
+delete_bd_objs [get_bd_nets SevenSegDecoder_0_seg]
+connect_bd_net [get_bd_ports SSegLed] [get_bd_pins seven_segment_displa_0/LED_out]
+set_property location {1452 17} [get_bd_ports SSegLed]
+create_bd_port -dir O -from 3 -to 0 Anode_Active
+connect_bd_net [get_bd_ports Anode_Active] [get_bd_pins seven_segment_displa_0/Anode_Activate]
+set_property location {1438 -9} [get_bd_ports Anode_Active]
+set_property location {1381 33} [get_bd_ports SSegLed]
+connect_bd_net [get_bd_pins SevenSegDecoder_0/seg] [get_bd_pins seven_segment_displa_0/Seg1]
+connect_bd_net [get_bd_pins SevenSegDecoder_1/seg] [get_bd_pins seven_segment_displa_0/Seg2]
+connect_bd_net [get_bd_pins SevenSegDecoder_2/seg] [get_bd_pins seven_segment_displa_0/Seg3]
+connect_bd_net [get_bd_pins SevenSegDecoder_3/seg] [get_bd_pins seven_segment_displa_0/Seg4]

@@ -1,0 +1,56 @@
+vhdl xpm  \
+"C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_VCOMP.vhd" \
+
+vhdl microblaze_v11_0_15  \
+"../../../../../../Microblaze_task/ipshared/75f6/hdl/microblaze_v11_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/Microblaze_task/ip/Microblaze_task_microblaze_0_0/sim/Microblaze_task_microblaze_0_0.vhd" \
+
+vhdl lmb_v10_v3_0_15  \
+"../../../../../../Microblaze_task/ipshared/b1c4/hdl/lmb_v10_v3_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/Microblaze_task/ip/Microblaze_task_dlmb_v10_0/sim/Microblaze_task_dlmb_v10_0.vhd" \
+"../../../bd/Microblaze_task/ip/Microblaze_task_ilmb_v10_0/sim/Microblaze_task_ilmb_v10_0.vhd" \
+
+vhdl lmb_bram_if_cntlr_v4_0_26  \
+"../../../../../../Microblaze_task/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/Microblaze_task/ip/Microblaze_task_dlmb_bram_if_cntlr_0/sim/Microblaze_task_dlmb_bram_if_cntlr_0.vhd" \
+"../../../bd/Microblaze_task/ip/Microblaze_task_ilmb_bram_if_cntlr_0/sim/Microblaze_task_ilmb_bram_if_cntlr_0.vhd" \
+
+vhdl fifo_generator_v13_2_13  \
+"../../../../../../Microblaze_task/ipshared/dc46/hdl/fifo_generator_v13_2_rfs.vhd" \
+
+vhdl axi_lite_ipif_v3_0_4  \
+"../../../../../../Microblaze_task/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd" \
+
+vhdl axi_intc_v4_1_21  \
+"../../../../../../Microblaze_task/ipshared/9eb6/hdl/axi_intc_v4_1_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/Microblaze_task/ip/Microblaze_task_microblaze_0_axi_intc_0/sim/Microblaze_task_microblaze_0_axi_intc_0.vhd" \
+
+vhdl mdm_v3_2_28  \
+"../../../../../../Microblaze_task/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/Microblaze_task/ip/Microblaze_task_mdm_1_0/sim/Microblaze_task_mdm_1_0.vhd" \
+
+vhdl proc_sys_reset_v5_0_17  \
+"../../../../../../Microblaze_task/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/Microblaze_task/ip/Microblaze_task_rst_clk_wiz_1_100M_0/sim/Microblaze_task_rst_clk_wiz_1_100M_0.vhd" \
+
+vhdl axi_uartlite_v2_0_39  \
+"../../../../../../Microblaze_task/ipshared/eab1/hdl/axi_uartlite_v2_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/Microblaze_task/ip/Microblaze_task_axi_uartlite_0_0/sim/Microblaze_task_axi_uartlite_0_0.vhd" \
+"../../../bd/Microblaze_task/sim/Microblaze_task.vhd" \
+
+# Do not sort compile order
+nosort

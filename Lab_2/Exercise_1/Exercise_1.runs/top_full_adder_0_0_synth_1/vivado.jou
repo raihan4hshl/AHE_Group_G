@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sun Oct 26 13:41:47 2025
+# Process ID         : 8920
+# Current directory  : C:/Users/User/Documents/GitHub/AHE_Group_G/Lab_2/Exercise_1/Exercise_1.runs/top_full_adder_0_0_synth_1
+# Command line       : vivado.exe -log top_full_adder_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_full_adder_0_0.tcl
+# Log file           : C:/Users/User/Documents/GitHub/AHE_Group_G/Lab_2/Exercise_1/Exercise_1.runs/top_full_adder_0_0_synth_1/top_full_adder_0_0.vds
+# Journal file       : C:/Users/User/Documents/GitHub/AHE_Group_G/Lab_2/Exercise_1/Exercise_1.runs/top_full_adder_0_0_synth_1\vivado.jou
+# Running On         : DESKTOP-QB50QQD
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) i7-10850H CPU @ 2.70GHz
+# CPU Frequency      : 2712 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 34040 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36187 MB
+# Available Virtual  : 25838 MB
+#-----------------------------------------------------------
+source top_full_adder_0_0.tcl -notrace

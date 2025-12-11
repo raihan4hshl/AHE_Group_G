@@ -1,46 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Oct 19 22:12:35 2025" VIVADOVERSION="2025.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Oct 27 11:59:18 2025" VIVADOVERSION="2025.1">
 
   <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="top" PACKAGE="csg324" SPEEDGRADE="-1"/>
 
   <EXTERNALPORTS>
-    <PORT DIR="I" LEFT="3" NAME="A0" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A0">
+    <PORT DIR="I" LEFT="3" NAME="A" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A">
       <CONNECTIONS>
         <CONNECTION INSTANCE="A_slice_0" PORT="Din"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="3" NAME="A1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A1">
-      <CONNECTIONS>
+        <CONNECTION INSTANCE="A_slice_3" PORT="Din"/>
         <CONNECTION INSTANCE="A_slice_1" PORT="Din"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="3" NAME="A2" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A2">
-      <CONNECTIONS>
         <CONNECTION INSTANCE="A_slice_2" PORT="Din"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" LEFT="3" NAME="A3" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A3">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="A_slice_3" PORT="Din"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="3" NAME="B0" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B0">
+    <PORT DIR="I" LEFT="3" NAME="B" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B">
       <CONNECTIONS>
         <CONNECTION INSTANCE="B_slice_0" PORT="Din"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="3" NAME="B1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B1">
-      <CONNECTIONS>
         <CONNECTION INSTANCE="B_slice_1" PORT="Din"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="3" NAME="B2" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B2">
-      <CONNECTIONS>
         <CONNECTION INSTANCE="B_slice_2" PORT="Din"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="3" NAME="B3" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B3">
-      <CONNECTIONS>
         <CONNECTION INSTANCE="B_slice_3" PORT="Din"/>
       </CONNECTIONS>
     </PORT>
@@ -65,9 +41,9 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A0">
+        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="A0"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="A"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="A_slice_0_Dout">
@@ -89,9 +65,9 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A1">
+        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="A1"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="A"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="A_slice_1_Dout">
@@ -113,9 +89,9 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A2">
+        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="A2"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="A"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="A_slice_2_Dout">
@@ -137,9 +113,9 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A3">
+        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="A3"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="A"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="A_slice_3_Dout">
@@ -161,9 +137,9 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B0">
+        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="B"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="B_slice_0_Dout">
@@ -185,9 +161,9 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B1">
+        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="B"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="B_slice_1_Dout">
@@ -209,9 +185,9 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B2">
+        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="B"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="B_slice_2_Dout">
@@ -233,9 +209,9 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B3">
+        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="B"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="B_slice_3_Dout">
@@ -416,6 +392,23 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
+    <MODULE COREREVISION="10" FULLNAME="/constant_0" HWVERSION="1.1" INSTANCE="constant_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x0"/>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="top_xlconstant_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="constant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_adder_0" PORT="Cin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
     <MODULE COREREVISION="1" FULLNAME="/full_adder_0" HWVERSION="1.0" INSTANCE="full_adder_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_adder" VLNV="xilinx.com:module_ref:full_adder:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
@@ -433,9 +426,9 @@
             <CONNECTION INSTANCE="B_slice_0" PORT="Dout"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="Cin" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+        <PORT DIR="I" NAME="Cin" SIGIS="undef" SIGNAME="constant_0_dout">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+            <CONNECTION INSTANCE="constant_0" PORT="dout"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="Cout" SIGIS="undef" SIGNAME="full_adder_0_Cout">
@@ -551,23 +544,6 @@
         <PORT DIR="O" NAME="Sum" SIGIS="undef" SIGNAME="full_adder_3_Sum">
           <CONNECTIONS>
             <CONNECTION INSTANCE="Concat_In0" PORT="In3"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="10" FULLNAME="/xlconstant_0" HWVERSION="1.1" INSTANCE="xlconstant_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="CONST_VAL" VALUE="0x1"/>
-        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="Component_Name" VALUE="top_xlconstant_0_0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_0_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="full_adder_0" PORT="Cin"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>

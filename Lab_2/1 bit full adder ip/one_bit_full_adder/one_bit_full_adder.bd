@@ -1,0 +1,131 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x594AC15E3FE916CD",
+      "device": "xc7vx485tffg1157-1",
+      "name": "one_bit_full_adder",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2025.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Half_Adder_0": "",
+      "Half_Adder_1": "",
+      "util_vector_logic_0": ""
+    },
+    "ports": {
+      "A": {
+        "direction": "I"
+      },
+      "B": {
+        "direction": "I"
+      },
+      "Cin": {
+        "direction": "I"
+      },
+      "Sum": {
+        "direction": "O"
+      },
+      "Cout": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "Half_Adder_0": {
+        "vlnv": "xilinx.com:user:Half_Adder:1.0",
+        "ip_revision": "4",
+        "xci_name": "one_bit_full_adder_Half_Adder_0_0",
+        "xci_path": "ip\\one_bit_full_adder_Half_Adder_0_0\\one_bit_full_adder_Half_Adder_0_0.xci",
+        "inst_hier_path": "Half_Adder_0",
+        "has_run_ip_tcl": "true"
+      },
+      "Half_Adder_1": {
+        "vlnv": "xilinx.com:user:Half_Adder:1.0",
+        "ip_revision": "4",
+        "xci_name": "one_bit_full_adder_Half_Adder_0_1",
+        "xci_path": "ip\\one_bit_full_adder_Half_Adder_0_1\\one_bit_full_adder_Half_Adder_0_1.xci",
+        "inst_hier_path": "Half_Adder_1",
+        "has_run_ip_tcl": "true"
+      },
+      "util_vector_logic_0": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "ip_revision": "5",
+        "xci_name": "one_bit_full_adder_util_vector_logic_0_0",
+        "xci_path": "ip\\one_bit_full_adder_util_vector_logic_0_0\\one_bit_full_adder_util_vector_logic_0_0.xci",
+        "inst_hier_path": "util_vector_logic_0",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "or"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      }
+    },
+    "nets": {
+      "A_1": {
+        "ports": [
+          "A",
+          "Half_Adder_0/A"
+        ]
+      },
+      "B_1": {
+        "ports": [
+          "B",
+          "Half_Adder_0/B"
+        ]
+      },
+      "Cin_1": {
+        "ports": [
+          "Cin",
+          "Half_Adder_1/B"
+        ]
+      },
+      "Half_Adder_0_Cout": {
+        "ports": [
+          "Half_Adder_0/Cout",
+          "util_vector_logic_0/Op2"
+        ]
+      },
+      "Half_Adder_0_SUM": {
+        "ports": [
+          "Half_Adder_0/SUM",
+          "Half_Adder_1/A"
+        ]
+      },
+      "Half_Adder_1_Cout": {
+        "ports": [
+          "Half_Adder_1/Cout",
+          "util_vector_logic_0/Op1"
+        ]
+      },
+      "Half_Adder_1_SUM": {
+        "ports": [
+          "Half_Adder_1/SUM",
+          "Sum"
+        ]
+      },
+      "util_vector_logic_0_Res": {
+        "ports": [
+          "util_vector_logic_0/Res",
+          "Cout"
+        ]
+      }
+    }
+  }
+}

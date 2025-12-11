@@ -1,0 +1,49 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.894609",
+   "Default View_TopLeft":"-277,-557",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace portBus A -pg 1 -lvl 0 -x 0 -y -330 -defaultsOSRD
+preplace portBus B -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace portBus Sum -pg 1 -lvl 5 -x 1130 -y -110 -defaultsOSRD
+preplace inst Full_Adder_oneBit_0 -pg 1 -lvl 3 -x 780 -y -350 -defaultsOSRD
+preplace inst A_0 -pg 1 -lvl 1 -x 320 -y -500 -defaultsOSRD
+preplace inst A_1 -pg 1 -lvl 1 -x 320 -y -390 -defaultsOSRD -resize 160 88
+preplace inst A_2 -pg 1 -lvl 1 -x 320 -y -280 -defaultsOSRD -resize 160 88
+preplace inst A_3 -pg 1 -lvl 1 -x 320 -y -170 -defaultsOSRD -resize 160 88
+preplace inst B_0 -pg 1 -lvl 1 -x 320 -y -60 -defaultsOSRD -resize 160 88
+preplace inst B_1 -pg 1 -lvl 1 -x 320 -y 50 -defaultsOSRD -resize 160 88
+preplace inst B_2 -pg 1 -lvl 1 -x 320 -y 160 -defaultsOSRD -resize 160 88
+preplace inst B_3 -pg 1 -lvl 1 -x 320 -y 270 -defaultsOSRD -resize 160 88
+preplace inst Full_Adder_oneBit_1 -pg 1 -lvl 3 -x 780 -y -170 -defaultsOSRD -resize 120 116
+preplace inst Full_Adder_oneBit_2 -pg 1 -lvl 3 -x 780 -y -10 -defaultsOSRD -resize 120 116
+preplace inst Full_Adder_oneBit_3 -pg 1 -lvl 3 -x 780 -y 170 -defaultsOSRD -resize 120 116
+preplace inst Cin -pg 1 -lvl 2 -x 530 -y -280 -defaultsOSRD
+preplace inst Sum -pg 1 -lvl 4 -x 1010 -y -110 -defaultsOSRD
+preplace netloc A_0_Dout 1 1 2 N -500 670
+preplace netloc A_1 1 0 1 220 -500n
+preplace netloc A_1_Dout 1 1 2 N -390 650
+preplace netloc A_2_Dout 1 1 2 430 -340 640
+preplace netloc A_3_Dout 1 1 2 N -170 630
+preplace netloc B_0_Dout 1 1 2 420 -350 N
+preplace netloc B_1_Dout 1 1 2 N 50 650
+preplace netloc B_2_Dout 1 1 2 N 160 660
+preplace netloc B_3_Dout 1 1 2 430 170 N
+preplace netloc B_4 1 0 1 220 -60n
+preplace netloc Cin_dout 1 2 1 630 -330n
+preplace netloc Full_Adder_oneBit_0_Cout 1 2 2 660 -260 880
+preplace netloc Full_Adder_oneBit_0_Sum 1 3 1 910 -340n
+preplace netloc Full_Adder_oneBit_1_Cout 1 2 2 670 -250 880
+preplace netloc Full_Adder_oneBit_1_Sum 1 3 1 880 -160n
+preplace netloc Full_Adder_oneBit_2_Cout 1 2 2 680 -90 880
+preplace netloc Full_Adder_oneBit_2_Sum 1 3 1 890 -110n
+preplace netloc Full_Adder_oneBit_3_Cout 1 3 1 910 -70n
+preplace netloc Full_Adder_oneBit_3_Sum 1 3 1 900 -90n
+preplace netloc Sum_dout 1 4 1 N -110
+levelinfo -pg 1 0 320 530 780 1010 1130
+pagesize -pg 1 -db -bbox -sgen -120 -640 1240 430
+"
+}
+0

@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sat Nov  1 11:19:18 2025
+# Process ID         : 1656
+# Current directory  : C:/Users/User/Documents/GitHub/AHE_Group_G/Lab_2/half adder ip
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent9268 C:\Users\User\Documents\GitHub\AHE_Group_G\Lab_2\half adder ip\half adder ip.xpr
+# Log file           : C:/Users/User/Documents/GitHub/AHE_Group_G/Lab_2/half adder ip/vivado.log
+# Journal file       : C:/Users/User/Documents/GitHub/AHE_Group_G/Lab_2/half adder ip\vivado.jou
+# Running On         : DESKTOP-QB50QQD
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) i7-10850H CPU @ 2.70GHz
+# CPU Frequency      : 2712 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 34040 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36187 MB
+# Available Virtual  : 25599 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/User/Documents/GitHub/AHE_Group_G/Lab_2/half adder ip/half adder ip.xpr}
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file {C:\Users\User\Documents\GitHub\AHE_Group_G\Lab_2\half adder ip\component.xml}
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {c:/Users/User/Documents/GitHub/AHE_Group_G/Lab_2/half adder ip}
+export_ip_user_files -of_objects  [get_files C:/Users/User/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/User/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {c:/Users/User/Documents/GitHub/AHE_Group_G/Lab_2/half adder ip}

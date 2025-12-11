@@ -1,0 +1,46 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "one_bit_full_adder_Half_Adder_0_0",
+    "cell_name": "Half_Adder_0",
+    "component_reference": "xilinx.com:user:Half_Adder:1.0",
+    "ip_revision": "4",
+    "gen_directory": "../../../../../../../../../../users/user/documents/github/ahe_group_g/lab_2/1 bit full adder ip/tmp_edit_project.gen/sources_1/ip/one_bit_full_adder_Half_Adder_0_0",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "one_bit_full_adder_Half_Adder_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "virtex7" } ],
+        "BASE_BOARD_PART": [ { "value": "" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7vx485t" } ],
+        "PACKAGE": [ { "value": "ffg1157" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "4" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../../../../../users/user/documents/github/ahe_group_g/lab_2/1 bit full adder ip/tmp_edit_project.gen/sources_1/ip/one_bit_full_adder_Half_Adder_0_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "." } ],
+        "SWVERSION": [ { "value": "2025.1" } ],
+        "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "A": [ { "direction": "in" } ],
+        "B": [ { "direction": "in" } ],
+        "SUM": [ { "direction": "out" } ],
+        "Cout": [ { "direction": "out" } ]
+      }
+    }
+  }
+}

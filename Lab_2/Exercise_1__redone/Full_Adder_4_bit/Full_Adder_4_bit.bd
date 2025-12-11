@@ -1,0 +1,380 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x1D5534CD06ACD806",
+      "device": "xc7vx485tffg1157-1",
+      "name": "Full_Adder_4_bit",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2025.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Full_Adder_oneBit_0": "",
+      "A_0": "",
+      "A_1": "",
+      "A_2": "",
+      "A_3": "",
+      "B_0": "",
+      "B_1": "",
+      "B_2": "",
+      "B_3": "",
+      "Full_Adder_oneBit_1": "",
+      "Full_Adder_oneBit_2": "",
+      "Full_Adder_oneBit_3": "",
+      "Cin": "",
+      "Sum": ""
+    },
+    "ports": {
+      "A": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "B": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "Sum": {
+        "direction": "O",
+        "left": "4",
+        "right": "0",
+        "parameters": {
+          "PortWidth": {
+            "value": "5",
+            "value_src": "ip_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "Full_Adder_oneBit_0": {
+        "vlnv": "xilinx.com:user:Full_Adder_oneBit:1.0",
+        "ip_revision": "1",
+        "xci_name": "Full_Adder_4_bit_Full_Adder_oneBit_0_0",
+        "xci_path": "ip\\Full_Adder_4_bit_Full_Adder_oneBit_0_0\\Full_Adder_4_bit_Full_Adder_oneBit_0_0.xci",
+        "inst_hier_path": "Full_Adder_oneBit_0",
+        "has_run_ip_tcl": "true"
+      },
+      "A_0": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "ip_revision": "5",
+        "xci_name": "Full_Adder_4_bit_xlslice_0_0",
+        "xci_path": "ip\\Full_Adder_4_bit_xlslice_0_0\\Full_Adder_4_bit_xlslice_0_0.xci",
+        "inst_hier_path": "A_0",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "A_1": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "ip_revision": "5",
+        "xci_name": "Full_Adder_4_bit_xlslice_0_1",
+        "xci_path": "ip\\Full_Adder_4_bit_xlslice_0_1\\Full_Adder_4_bit_xlslice_0_1.xci",
+        "inst_hier_path": "A_1",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "1"
+          },
+          "DIN_TO": {
+            "value": "1"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "A_2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "ip_revision": "5",
+        "xci_name": "Full_Adder_4_bit_xlslice_1_0",
+        "xci_path": "ip\\Full_Adder_4_bit_xlslice_1_0\\Full_Adder_4_bit_xlslice_1_0.xci",
+        "inst_hier_path": "A_2",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "2"
+          },
+          "DIN_TO": {
+            "value": "2"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "A_3": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "ip_revision": "5",
+        "xci_name": "Full_Adder_4_bit_xlslice_2_0",
+        "xci_path": "ip\\Full_Adder_4_bit_xlslice_2_0\\Full_Adder_4_bit_xlslice_2_0.xci",
+        "inst_hier_path": "A_3",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "3"
+          },
+          "DIN_TO": {
+            "value": "3"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "B_0": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "ip_revision": "5",
+        "xci_name": "Full_Adder_4_bit_A_0_0",
+        "xci_path": "ip\\Full_Adder_4_bit_A_0_0\\Full_Adder_4_bit_A_0_0.xci",
+        "inst_hier_path": "B_0",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "B_1": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "ip_revision": "5",
+        "xci_name": "Full_Adder_4_bit_B_0_0",
+        "xci_path": "ip\\Full_Adder_4_bit_B_0_0\\Full_Adder_4_bit_B_0_0.xci",
+        "inst_hier_path": "B_1",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "1"
+          },
+          "DIN_TO": {
+            "value": "1"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "B_2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "ip_revision": "5",
+        "xci_name": "Full_Adder_4_bit_B_1_0",
+        "xci_path": "ip\\Full_Adder_4_bit_B_1_0\\Full_Adder_4_bit_B_1_0.xci",
+        "inst_hier_path": "B_2",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "2"
+          },
+          "DIN_TO": {
+            "value": "2"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "B_3": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "ip_revision": "5",
+        "xci_name": "Full_Adder_4_bit_B_2_0",
+        "xci_path": "ip\\Full_Adder_4_bit_B_2_0\\Full_Adder_4_bit_B_2_0.xci",
+        "inst_hier_path": "B_3",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "3"
+          },
+          "DIN_TO": {
+            "value": "3"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "Full_Adder_oneBit_1": {
+        "vlnv": "xilinx.com:user:Full_Adder_oneBit:1.0",
+        "ip_revision": "1",
+        "xci_name": "Full_Adder_4_bit_Full_Adder_oneBit_0_1",
+        "xci_path": "ip\\Full_Adder_4_bit_Full_Adder_oneBit_0_1\\Full_Adder_4_bit_Full_Adder_oneBit_0_1.xci",
+        "inst_hier_path": "Full_Adder_oneBit_1",
+        "has_run_ip_tcl": "true"
+      },
+      "Full_Adder_oneBit_2": {
+        "vlnv": "xilinx.com:user:Full_Adder_oneBit:1.0",
+        "ip_revision": "1",
+        "xci_name": "Full_Adder_4_bit_Full_Adder_oneBit_1_0",
+        "xci_path": "ip\\Full_Adder_4_bit_Full_Adder_oneBit_1_0\\Full_Adder_4_bit_Full_Adder_oneBit_1_0.xci",
+        "inst_hier_path": "Full_Adder_oneBit_2",
+        "has_run_ip_tcl": "true"
+      },
+      "Full_Adder_oneBit_3": {
+        "vlnv": "xilinx.com:user:Full_Adder_oneBit:1.0",
+        "ip_revision": "1",
+        "xci_name": "Full_Adder_4_bit_Full_Adder_oneBit_2_0",
+        "xci_path": "ip\\Full_Adder_4_bit_Full_Adder_oneBit_2_0\\Full_Adder_4_bit_Full_Adder_oneBit_2_0.xci",
+        "inst_hier_path": "Full_Adder_oneBit_3",
+        "has_run_ip_tcl": "true"
+      },
+      "Cin": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "ip_revision": "10",
+        "xci_name": "Full_Adder_4_bit_xlconstant_0_0",
+        "xci_path": "ip\\Full_Adder_4_bit_xlconstant_0_0\\Full_Adder_4_bit_xlconstant_0_0.xci",
+        "inst_hier_path": "Cin",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          }
+        }
+      },
+      "Sum": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "ip_revision": "7",
+        "xci_name": "Full_Adder_4_bit_xlconcat_0_0",
+        "xci_path": "ip\\Full_Adder_4_bit_xlconcat_0_0\\Full_Adder_4_bit_xlconcat_0_0.xci",
+        "inst_hier_path": "Sum",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "5"
+          }
+        }
+      }
+    },
+    "nets": {
+      "A_0_Dout": {
+        "ports": [
+          "A_0/Dout",
+          "Full_Adder_oneBit_0/A"
+        ]
+      },
+      "A_1": {
+        "ports": [
+          "A",
+          "A_0/Din",
+          "A_1/Din",
+          "A_2/Din",
+          "A_3/Din"
+        ]
+      },
+      "A_1_Dout": {
+        "ports": [
+          "A_1/Dout",
+          "Full_Adder_oneBit_1/A"
+        ]
+      },
+      "A_2_Dout": {
+        "ports": [
+          "A_2/Dout",
+          "Full_Adder_oneBit_2/A"
+        ]
+      },
+      "A_3_Dout": {
+        "ports": [
+          "A_3/Dout",
+          "Full_Adder_oneBit_3/A"
+        ]
+      },
+      "B_0_Dout": {
+        "ports": [
+          "B_0/Dout",
+          "Full_Adder_oneBit_0/B"
+        ]
+      },
+      "B_1_Dout": {
+        "ports": [
+          "B_1/Dout",
+          "Full_Adder_oneBit_1/B"
+        ]
+      },
+      "B_2_Dout": {
+        "ports": [
+          "B_2/Dout",
+          "Full_Adder_oneBit_2/B"
+        ]
+      },
+      "B_3_Dout": {
+        "ports": [
+          "B_3/Dout",
+          "Full_Adder_oneBit_3/B"
+        ]
+      },
+      "B_4": {
+        "ports": [
+          "B",
+          "B_0/Din",
+          "B_1/Din",
+          "B_2/Din",
+          "B_3/Din"
+        ]
+      },
+      "Cin_dout": {
+        "ports": [
+          "Cin/dout",
+          "Full_Adder_oneBit_0/Cin"
+        ]
+      },
+      "Full_Adder_oneBit_0_Cout": {
+        "ports": [
+          "Full_Adder_oneBit_0/Cout",
+          "Full_Adder_oneBit_1/Cin"
+        ]
+      },
+      "Full_Adder_oneBit_0_Sum": {
+        "ports": [
+          "Full_Adder_oneBit_0/Sum",
+          "Sum/In0"
+        ]
+      },
+      "Full_Adder_oneBit_1_Cout": {
+        "ports": [
+          "Full_Adder_oneBit_1/Cout",
+          "Full_Adder_oneBit_2/Cin"
+        ]
+      },
+      "Full_Adder_oneBit_1_Sum": {
+        "ports": [
+          "Full_Adder_oneBit_1/Sum",
+          "Sum/In1"
+        ]
+      },
+      "Full_Adder_oneBit_2_Cout": {
+        "ports": [
+          "Full_Adder_oneBit_2/Cout",
+          "Full_Adder_oneBit_3/Cin"
+        ]
+      },
+      "Full_Adder_oneBit_2_Sum": {
+        "ports": [
+          "Full_Adder_oneBit_2/Sum",
+          "Sum/In2"
+        ]
+      },
+      "Full_Adder_oneBit_3_Cout": {
+        "ports": [
+          "Full_Adder_oneBit_3/Cout",
+          "Sum/In4"
+        ]
+      },
+      "Full_Adder_oneBit_3_Sum": {
+        "ports": [
+          "Full_Adder_oneBit_3/Sum",
+          "Sum/In3"
+        ]
+      },
+      "Sum_dout": {
+        "ports": [
+          "Sum/dout",
+          "Sum"
+        ]
+      }
+    }
+  }
+}

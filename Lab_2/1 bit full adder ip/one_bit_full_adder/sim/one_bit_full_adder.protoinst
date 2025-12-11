@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"one_bit_full_adder": {
+			"proto_instances": {
+			}
+		}
+	}
+}

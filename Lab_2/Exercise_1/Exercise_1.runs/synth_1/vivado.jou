@@ -3,11 +3,11 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Sun Oct 19 14:38:05 2025
-# Process ID         : 10052
+# Start of session at: Mon Oct 27 11:59:21 2025
+# Process ID         : 6724
 # Current directory  : C:/Users/User/Documents/GitHub/AHE_Group_G/Lab_2/Exercise_1/Exercise_1.runs/synth_1
-# Command line       : vivado.exe -log full_adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source full_adder.tcl
-# Log file           : C:/Users/User/Documents/GitHub/AHE_Group_G/Lab_2/Exercise_1/Exercise_1.runs/synth_1/full_adder.vds
+# Command line       : vivado.exe -log top_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_wrapper.tcl
+# Log file           : C:/Users/User/Documents/GitHub/AHE_Group_G/Lab_2/Exercise_1/Exercise_1.runs/synth_1/top_wrapper.vds
 # Journal file       : C:/Users/User/Documents/GitHub/AHE_Group_G/Lab_2/Exercise_1/Exercise_1.runs/synth_1\vivado.jou
 # Running On         : DESKTOP-QB50QQD
 # Platform           : Windows Server 2016 or Windows 10
@@ -17,8 +17,8 @@
 # CPU Physical cores : 6
 # CPU Logical cores  : 12
 # Host memory        : 34040 MB
-# Swap memory        : 5368 MB
-# Total Virtual      : 39409 MB
-# Available Virtual  : 28367 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36187 MB
+# Available Virtual  : 25625 MB
 #-----------------------------------------------------------
-source full_adder.tcl -notrace
+source top_wrapper.tcl -notrace

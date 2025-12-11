@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xF7BA32D8BBC33260",
+      "boundary_crc": "0xCF6B7A33496BF85A",
       "device": "xc7a100tcsg324-1",
       "gen_directory": "../../../../Exercise_1.gen/sources_1/bd/top",
       "name": "top",
@@ -23,46 +23,16 @@
       "B_slice_1": "",
       "B_slice_2": "",
       "B_slice_3": "",
-      "xlconstant_0": "",
+      "constant_0": "",
       "Concat_In0": ""
     },
     "ports": {
-      "A0": {
+      "A": {
         "direction": "I",
         "left": "3",
         "right": "0"
       },
-      "A1": {
-        "direction": "I",
-        "left": "3",
-        "right": "0"
-      },
-      "A2": {
-        "direction": "I",
-        "left": "3",
-        "right": "0"
-      },
-      "A3": {
-        "direction": "I",
-        "left": "3",
-        "right": "0"
-      },
-      "B0": {
-        "direction": "I",
-        "left": "3",
-        "right": "0"
-      },
-      "B1": {
-        "direction": "I",
-        "left": "3",
-        "right": "0"
-      },
-      "B2": {
-        "direction": "I",
-        "left": "3",
-        "right": "0"
-      },
-      "B3": {
+      "B": {
         "direction": "I",
         "left": "3",
         "right": "0"
@@ -340,13 +310,18 @@
           }
         }
       },
-      "xlconstant_0": {
+      "constant_0": {
         "vlnv": "xilinx.com:ip:xlconstant:1.1",
         "ip_revision": "10",
         "xci_name": "top_xlconstant_0_0",
         "xci_path": "ip\\top_xlconstant_0_0\\top_xlconstant_0_0.xci",
-        "inst_hier_path": "xlconstant_0",
-        "has_run_ip_tcl": "true"
+        "inst_hier_path": "constant_0",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          }
+        }
       },
       "Concat_In0": {
         "vlnv": "xilinx.com:ip:xlconcat:2.1",
@@ -365,26 +340,11 @@
     "nets": {
       "A0_1": {
         "ports": [
-          "A0",
-          "A_slice_0/Din"
-        ]
-      },
-      "A1_1": {
-        "ports": [
-          "A1",
-          "A_slice_1/Din"
-        ]
-      },
-      "A2_1": {
-        "ports": [
-          "A2",
+          "A",
+          "A_slice_0/Din",
+          "A_slice_3/Din",
+          "A_slice_1/Din",
           "A_slice_2/Din"
-        ]
-      },
-      "A3_1": {
-        "ports": [
-          "A3",
-          "A_slice_3/Din"
         ]
       },
       "A_slice_0_Dout": {
@@ -413,25 +373,10 @@
       },
       "B0_1": {
         "ports": [
-          "B0",
-          "B_slice_0/Din"
-        ]
-      },
-      "B1_1": {
-        "ports": [
-          "B1",
-          "B_slice_1/Din"
-        ]
-      },
-      "B2_1": {
-        "ports": [
-          "B2",
-          "B_slice_2/Din"
-        ]
-      },
-      "B3_1": {
-        "ports": [
-          "B3",
+          "B",
+          "B_slice_0/Din",
+          "B_slice_1/Din",
+          "B_slice_2/Din",
           "B_slice_3/Din"
         ]
       },
@@ -515,7 +460,7 @@
       },
       "xlconstant_0_dout": {
         "ports": [
-          "xlconstant_0/dout",
+          "constant_0/dout",
           "full_adder_0/Cin"
         ]
       }

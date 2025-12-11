@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Nov  6 15:16:25 2025
+# Process ID         : 15284
+# Current directory  : D:/Advanced_Hardware_Engineering/FourBitBCD
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent7272 D:\Advanced_Hardware_Engineering\FourBitBCD\FourBitBCD.xpr
+# Log file           : D:/Advanced_Hardware_Engineering/FourBitBCD/vivado.log
+# Journal file       : D:/Advanced_Hardware_Engineering/FourBitBCD\vivado.jou
+# Running On         : LAB50-07
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 18363
+# Processor Detail   : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+# CPU Frequency      : 3408 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 17069 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 22170 MB
+# Available Virtual  : 7229 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Advanced_Hardware_Engineering/FourBitBCD/FourBitBCD.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/Advanced_Hardware_Engineering/FourBitBCD/FourBitBCD.srcs/sources_1/bd/FourBitBCD/FourBitBCD.bd}
+create_bd_cell -type module -reference seven_segment_display_VHDL seven_segment_displa_0
+set_property name SSegLed [get_bd_ports SSeg0]
+delete_bd_objs [get_bd_nets SevenSegDecoder_0_seg]
+delete_bd_objs [get_bd_nets SevenSegDecoder_1_seg]
+delete_bd_objs [get_bd_ports SSeg1]
+delete_bd_objs [get_bd_nets SevenSegDecoder_3_seg] [get_bd_ports SSeg3]
+delete_bd_objs [get_bd_nets SevenSegDecoder_2_seg] [get_bd_ports SSeg2]
+set_property location {4.5 1094 44} [get_bd_cells seven_segment_displa_0]
+connect_bd_net [get_bd_ports SSegLed] [get_bd_pins seven_segment_displa_0/LED_out]
+set_property location {1773 79} [get_bd_ports SSegLed]
+create_bd_port -dir I -from 3 -to 0 Anode_Active
+delete_bd_objs [get_bd_ports Anode_Active]
+create_bd_port -dir I -from 3 -to 0 Anode_Active
+delete_bd_objs [get_bd_ports Anode_Active]
+create_bd_port -dir O -from 3 -to 0 Anode_Active
+startgroup
+connect_bd_net [get_bd_ports Anode_Active] [get_bd_pins seven_segment_displa_0/Anode_Activate]
+endgroup
+set_property location {1294 -2} [get_bd_ports Anode_Active]
+create_bd_port -dir I -type clk -freq_hz 100000000 clock_100Mhz
+delete_bd_objs [get_bd_ports clock_100Mhz]
+create_bd_port -dir I -type clk -freq_hz 100000000 sys_clock
+startgroup
+connect_bd_net [get_bd_pins SevenSegDecoder_3/seg] [get_bd_pins seven_segment_displa_0/Seg4]
+endgroup
+connect_bd_net [get_bd_pins SevenSegDecoder_2/seg] [get_bd_pins seven_segment_displa_0/Seg3]
+connect_bd_net [get_bd_pins SevenSegDecoder_1/seg] [get_bd_pins seven_segment_displa_0/Seg2]
+connect_bd_net [get_bd_pins SevenSegDecoder_0/seg] [get_bd_pins seven_segment_displa_0/Seg1]
+create_bd_port -dir I -type rst reset
+set_property CONFIG.POLARITY ACTIVE_HIGH [get_bd_ports reset]
+connect_bd_net [get_bd_ports reset] [get_bd_pins seven_segment_displa_0/reset]
+set_property location {-79 -116} [get_bd_ports sys_clock]
+set_property location {34 -106} [get_bd_ports sys_clock]
+connect_bd_net [get_bd_ports sys_clock] [get_bd_pins seven_segment_displa_0/clock_100Mhz]
+set_property location {-121 -134} [get_bd_ports sys_clock]
+set_property location {-106 -16} [get_bd_ports reset]
+set_property location {-108 19} [get_bd_ports sys_clock]
+set_property location {-106 -47} [get_bd_ports reset]
+set_property location {-110 -5} [get_bd_ports sys_clock]
+set_property location {-109 -9} [get_bd_ports sys_clock]
+set_property location {-118 -17} [get_bd_ports reset]
+set_property location {-99 26} [get_bd_ports reset]
+set_property location {-108 -12} [get_bd_ports sys_clock]
+set_property location {-106 19} [get_bd_ports reset]
+set_property location {-105 8} [get_bd_ports reset]
+save_bd_design

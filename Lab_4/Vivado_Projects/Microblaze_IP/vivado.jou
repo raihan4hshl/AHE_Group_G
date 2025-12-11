@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Nov  6 15:31:11 2025
+# Process ID         : 18924
+# Current directory  : D:/Advanced_Hardware_Engineering/Vivado_Projects/Microblaze_IP
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent11352 D:\Advanced_Hardware_Engineering\Vivado_Projects\Microblaze_IP\Microblaze_IP.xpr
+# Log file           : D:/Advanced_Hardware_Engineering/Vivado_Projects/Microblaze_IP/vivado.log
+# Journal file       : D:/Advanced_Hardware_Engineering/Vivado_Projects/Microblaze_IP\vivado.jou
+# Running On         : LAB50-07
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 18363
+# Processor Detail   : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+# CPU Frequency      : 3408 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 17069 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 22170 MB
+# Available Virtual  : 7189 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Advanced_Hardware_Engineering/Vivado_Projects/Microblaze_IP/Microblaze_IP.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/Advanced_Hardware_Engineering/Vivado_Projects/Microblaze_IP/Microblaze_task_wrapper.xsa

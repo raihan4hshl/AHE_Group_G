@@ -1,0 +1,442 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x642A6741273EC2B",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../FourBitBCD.gen/sources_1/bd/FourBitBCD",
+      "name": "FourBitBCD",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2025.1"
+    },
+    "design_tree": {
+      "BCD_With_Carry_0": "",
+      "SevenSegDecoder_0": "",
+      "Incrementor_0": "",
+      "Incrementor_1": "",
+      "SevenSegDecoder_1": "",
+      "Incrementor_2": "",
+      "SevenSegDecoder_2": "",
+      "SevenSegDecoder_3": "",
+      "seven_segment_displa_0": ""
+    },
+    "ports": {
+      "FourBit": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "SSegLed": {
+        "direction": "O",
+        "left": "6",
+        "right": "0"
+      },
+      "Anode_Active": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "sys_clock": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "100000000"
+          }
+        }
+      },
+      "reset": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      }
+    },
+    "components": {
+      "BCD_With_Carry_0": {
+        "vlnv": "xilinx.com:module_ref:BCD_With_Carry:1.0",
+        "ip_revision": "1",
+        "xci_name": "FourBitBCD_BCD_With_Carry_0_0",
+        "xci_path": "ip\\FourBitBCD_BCD_With_Carry_0_0\\FourBitBCD_BCD_With_Carry_0_0.xci",
+        "inst_hier_path": "BCD_With_Carry_0",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "BCD_With_Carry",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "bcd_in": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "bcd_out": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "carry": {
+            "direction": "O"
+          }
+        }
+      },
+      "SevenSegDecoder_0": {
+        "vlnv": "xilinx.com:module_ref:SevenSegDecoder:1.0",
+        "ip_revision": "1",
+        "xci_name": "FourBitBCD_SevenSegDecoder_0_0",
+        "xci_path": "ip\\FourBitBCD_SevenSegDecoder_0_0\\FourBitBCD_SevenSegDecoder_0_0.xci",
+        "inst_hier_path": "SevenSegDecoder_0",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "SevenSegDecoder",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "bcd_in": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "seg": {
+            "direction": "O",
+            "left": "6",
+            "right": "0"
+          }
+        }
+      },
+      "Incrementor_0": {
+        "vlnv": "xilinx.com:module_ref:Incrementor:1.0",
+        "ip_revision": "1",
+        "xci_name": "FourBitBCD_Incrementor_0_1",
+        "xci_path": "ip\\FourBitBCD_Incrementor_0_1\\FourBitBCD_Incrementor_0_1.xci",
+        "inst_hier_path": "Incrementor_0",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Incrementor",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "bcd_in": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "inc": {
+            "direction": "I"
+          },
+          "bcd_out": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "carry": {
+            "direction": "O"
+          }
+        }
+      },
+      "Incrementor_1": {
+        "vlnv": "xilinx.com:module_ref:Incrementor:1.0",
+        "ip_revision": "1",
+        "xci_name": "FourBitBCD_Incrementor_0_2",
+        "xci_path": "ip\\FourBitBCD_Incrementor_0_2\\FourBitBCD_Incrementor_0_2.xci",
+        "inst_hier_path": "Incrementor_1",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Incrementor",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "bcd_in": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "inc": {
+            "direction": "I"
+          },
+          "bcd_out": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "carry": {
+            "direction": "O"
+          }
+        }
+      },
+      "SevenSegDecoder_1": {
+        "vlnv": "xilinx.com:module_ref:SevenSegDecoder:1.0",
+        "ip_revision": "1",
+        "xci_name": "FourBitBCD_SevenSegDecoder_0_1",
+        "xci_path": "ip\\FourBitBCD_SevenSegDecoder_0_1\\FourBitBCD_SevenSegDecoder_0_1.xci",
+        "inst_hier_path": "SevenSegDecoder_1",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "SevenSegDecoder",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "bcd_in": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "seg": {
+            "direction": "O",
+            "left": "6",
+            "right": "0"
+          }
+        }
+      },
+      "Incrementor_2": {
+        "vlnv": "xilinx.com:module_ref:Incrementor:1.0",
+        "ip_revision": "1",
+        "xci_name": "FourBitBCD_Incrementor_1_0",
+        "xci_path": "ip\\FourBitBCD_Incrementor_1_0\\FourBitBCD_Incrementor_1_0.xci",
+        "inst_hier_path": "Incrementor_2",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Incrementor",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "bcd_in": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "inc": {
+            "direction": "I"
+          },
+          "bcd_out": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "carry": {
+            "direction": "O"
+          }
+        }
+      },
+      "SevenSegDecoder_2": {
+        "vlnv": "xilinx.com:module_ref:SevenSegDecoder:1.0",
+        "ip_revision": "1",
+        "xci_name": "FourBitBCD_SevenSegDecoder_1_0",
+        "xci_path": "ip\\FourBitBCD_SevenSegDecoder_1_0\\FourBitBCD_SevenSegDecoder_1_0.xci",
+        "inst_hier_path": "SevenSegDecoder_2",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "SevenSegDecoder",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "bcd_in": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "seg": {
+            "direction": "O",
+            "left": "6",
+            "right": "0"
+          }
+        }
+      },
+      "SevenSegDecoder_3": {
+        "vlnv": "xilinx.com:module_ref:SevenSegDecoder:1.0",
+        "ip_revision": "1",
+        "xci_name": "FourBitBCD_SevenSegDecoder_2_0",
+        "xci_path": "ip\\FourBitBCD_SevenSegDecoder_2_0\\FourBitBCD_SevenSegDecoder_2_0.xci",
+        "inst_hier_path": "SevenSegDecoder_3",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "SevenSegDecoder",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "bcd_in": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "seg": {
+            "direction": "O",
+            "left": "6",
+            "right": "0"
+          }
+        }
+      },
+      "seven_segment_displa_0": {
+        "vlnv": "xilinx.com:module_ref:seven_segment_display_VHDL:1.0",
+        "ip_revision": "1",
+        "xci_name": "FourBitBCD_seven_segment_displa_0_0",
+        "xci_path": "ip\\FourBitBCD_seven_segment_displa_0_0\\FourBitBCD_seven_segment_displa_0_0.xci",
+        "inst_hier_path": "seven_segment_displa_0",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "seven_segment_display_VHDL",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clock_100Mhz": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "Seg1": {
+            "direction": "I",
+            "left": "6",
+            "right": "0"
+          },
+          "Seg2": {
+            "direction": "I",
+            "left": "6",
+            "right": "0"
+          },
+          "Seg3": {
+            "direction": "I",
+            "left": "6",
+            "right": "0"
+          },
+          "Seg4": {
+            "direction": "I",
+            "left": "6",
+            "right": "0"
+          },
+          "Anode_Activate": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "LED_out": {
+            "direction": "O",
+            "left": "6",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "BCD_With_Carry_0_bcd_out": {
+        "ports": [
+          "BCD_With_Carry_0/bcd_out",
+          "SevenSegDecoder_0/bcd_in"
+        ]
+      },
+      "BCD_With_Carry_0_carry": {
+        "ports": [
+          "BCD_With_Carry_0/carry",
+          "Incrementor_0/inc"
+        ]
+      },
+      "FourBit_1": {
+        "ports": [
+          "FourBit",
+          "BCD_With_Carry_0/bcd_in"
+        ]
+      },
+      "Incrementor_0_bcd_out": {
+        "ports": [
+          "Incrementor_0/bcd_out",
+          "Incrementor_0/bcd_in",
+          "SevenSegDecoder_1/bcd_in"
+        ]
+      },
+      "Incrementor_0_carry": {
+        "ports": [
+          "Incrementor_0/carry",
+          "Incrementor_1/inc"
+        ]
+      },
+      "Incrementor_1_bcd_out": {
+        "ports": [
+          "Incrementor_1/bcd_out",
+          "Incrementor_1/bcd_in",
+          "SevenSegDecoder_2/bcd_in"
+        ]
+      },
+      "Incrementor_1_carry": {
+        "ports": [
+          "Incrementor_1/carry",
+          "Incrementor_2/inc"
+        ]
+      },
+      "Incrementor_2_bcd_out": {
+        "ports": [
+          "Incrementor_2/bcd_out",
+          "Incrementor_2/bcd_in",
+          "SevenSegDecoder_3/bcd_in"
+        ]
+      },
+      "SevenSegDecoder_0_seg": {
+        "ports": [
+          "SevenSegDecoder_0/seg",
+          "seven_segment_displa_0/Seg1"
+        ]
+      },
+      "SevenSegDecoder_1_seg": {
+        "ports": [
+          "SevenSegDecoder_1/seg",
+          "seven_segment_displa_0/Seg2"
+        ]
+      },
+      "SevenSegDecoder_2_seg": {
+        "ports": [
+          "SevenSegDecoder_2/seg",
+          "seven_segment_displa_0/Seg3"
+        ]
+      },
+      "SevenSegDecoder_3_seg": {
+        "ports": [
+          "SevenSegDecoder_3/seg",
+          "seven_segment_displa_0/Seg4"
+        ]
+      },
+      "reset_1": {
+        "ports": [
+          "reset",
+          "seven_segment_displa_0/reset"
+        ]
+      },
+      "seven_segment_displa_0_Anode_Activate": {
+        "ports": [
+          "seven_segment_displa_0/Anode_Activate",
+          "Anode_Active"
+        ]
+      },
+      "seven_segment_displa_0_LED_out": {
+        "ports": [
+          "seven_segment_displa_0/LED_out",
+          "SSegLed"
+        ]
+      },
+      "sys_clock_1": {
+        "ports": [
+          "sys_clock",
+          "seven_segment_displa_0/clock_100Mhz"
+        ]
+      }
+    }
+  }
+}

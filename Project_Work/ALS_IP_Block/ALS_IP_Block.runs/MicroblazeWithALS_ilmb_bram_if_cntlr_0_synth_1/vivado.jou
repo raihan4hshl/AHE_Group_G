@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Dec 11 14:27:37 2025
+# Process ID         : 15820
+# Current directory  : D:/Advanced_Hardware_Engineering/ALS_IP_Block/ALS_IP_Block.runs/MicroblazeWithALS_ilmb_bram_if_cntlr_0_synth_1
+# Command line       : vivado.exe -log MicroblazeWithALS_ilmb_bram_if_cntlr_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MicroblazeWithALS_ilmb_bram_if_cntlr_0.tcl
+# Log file           : D:/Advanced_Hardware_Engineering/ALS_IP_Block/ALS_IP_Block.runs/MicroblazeWithALS_ilmb_bram_if_cntlr_0_synth_1/MicroblazeWithALS_ilmb_bram_if_cntlr_0.vds
+# Journal file       : D:/Advanced_Hardware_Engineering/ALS_IP_Block/ALS_IP_Block.runs/MicroblazeWithALS_ilmb_bram_if_cntlr_0_synth_1\vivado.jou
+# Running On         : LAB50-01
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 18362
+# Processor Detail   : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+# CPU Frequency      : 3408 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 17069 MB
+# Swap memory        : 8044 MB
+# Total Virtual      : 25114 MB
+# Available Virtual  : 4772 MB
+#-----------------------------------------------------------
+source MicroblazeWithALS_ilmb_bram_if_cntlr_0.tcl -notrace

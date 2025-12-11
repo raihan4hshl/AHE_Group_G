@@ -1,0 +1,87 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Dec 11 16:22:39 2025
+# Process ID         : 18068
+# Current directory  : D:/Advanced_Hardware_Engineering/ALS_IP_Block/ALS_IP_Block.runs/impl_1
+# Command line       : vivado.exe -log MicroblazeWithALS_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source MicroblazeWithALS_wrapper.tcl -notrace
+# Log file           : D:/Advanced_Hardware_Engineering/ALS_IP_Block/ALS_IP_Block.runs/impl_1/MicroblazeWithALS_wrapper.vdi
+# Journal file       : D:/Advanced_Hardware_Engineering/ALS_IP_Block/ALS_IP_Block.runs/impl_1\vivado.jou
+# Running On         : LAB50-01
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 18362
+# Processor Detail   : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+# CPU Frequency      : 3408 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 17069 MB
+# Swap memory        : 2927 MB
+# Total Virtual      : 19997 MB
+# Available Virtual  : 5502 MB
+#-----------------------------------------------------------
+source MicroblazeWithALS_wrapper.tcl -notrace
+Command: open_checkpoint MicroblazeWithALS_wrapper_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 297.262 ; gain = 4.164
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.269 . Memory (MB): peak = 720.848 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 321 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2025.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 841.770 ; gain = 1.715
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1460.492 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1460.492 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.195 . Memory (MB): peak = 1460.492 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1460.492 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.067 . Memory (MB): peak = 1460.492 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.310 . Memory (MB): peak = 1460.492 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.378 . Memory (MB): peak = 1460.492 ; gain = 3.586
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1460.492 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 142 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 8 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 79 instances
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 32 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 18 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 4 instances
+  SRLC16E => SRL16E: 1 instance 
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2025.1 (64-bit) build 6140274
+WARNING: [Vivado 12-23575] Critical violations of the methodology design rules detected. Critical violations may contribute to timing failures or cause functional issues in hardware. Run report_methodology for more information.
+open_checkpoint: Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1460.492 ; gain = 1177.359
+INFO: [Memdata 28-167] Found XPM memory block MicroblazeWithALS_i/PmodALS_0/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MicroblazeWithALS_i/PmodALS_0/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block MicroblazeWithALS_i/PmodALS_0/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the MicroblazeWithALS_i/PmodALS_0/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+Command: write_bitstream -force MicroblazeWithALS_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC NSTD-1] Unspecified I/O Standard: 4 out of 12 logical ports use I/O standard (IOSTANDARD) value 'DEFAULT', instead of a user assigned specific value. This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all I/O standards. This design will fail to generate a bitstream unless all logical ports have a user specified I/O standard value defined. To allow bitstream creation with unspecified I/O standard values (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks NSTD-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run. Problem ports: ja_pin10_io, ja_pin7_io, ja_pin8_io, and ja_pin9_io.
+ERROR: [DRC UCIO-1] Unconstrained Logical Port: 4 out of 12 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: ja_pin10_io, ja_pin7_io, ja_pin8_io, and ja_pin9_io.
+INFO: [Vivado 12-3199] DRC finished with 2 Errors
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado 12-1345] Error(s) found during DRC. Bitgen not run.
+INFO: [Common 17-83] Releasing license: Implementation
+22 Infos, 1 Warnings, 0 Critical Warnings and 3 Errors encountered.
+write_bitstream failed
+write_bitstream: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1607.652 ; gain = 136.684
+ERROR: [Common 17-39] 'write_bitstream' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 11 16:23:16 2025...

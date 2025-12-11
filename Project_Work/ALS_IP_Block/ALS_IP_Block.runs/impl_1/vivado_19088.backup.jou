@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Dec 11 16:21:25 2025
+# Process ID         : 19088
+# Current directory  : D:/Advanced_Hardware_Engineering/ALS_IP_Block/ALS_IP_Block.runs/impl_1
+# Command line       : vivado.exe -log MicroblazeWithALS_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source MicroblazeWithALS_wrapper.tcl -notrace
+# Log file           : D:/Advanced_Hardware_Engineering/ALS_IP_Block/ALS_IP_Block.runs/impl_1/MicroblazeWithALS_wrapper.vdi
+# Journal file       : D:/Advanced_Hardware_Engineering/ALS_IP_Block/ALS_IP_Block.runs/impl_1\vivado.jou
+# Running On         : LAB50-01
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 18362
+# Processor Detail   : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+# CPU Frequency      : 3408 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 17069 MB
+# Swap memory        : 2927 MB
+# Total Virtual      : 19997 MB
+# Available Virtual  : 5521 MB
+#-----------------------------------------------------------
+source MicroblazeWithALS_wrapper.tcl -notrace

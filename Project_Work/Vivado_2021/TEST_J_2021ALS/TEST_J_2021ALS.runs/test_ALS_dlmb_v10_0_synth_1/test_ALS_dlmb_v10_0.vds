@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Dec 29 13:54:59 2025
+# Process ID: 2556
+# Current directory: F:/Advanced_Hardware_Engineering/Vivado_2021/TEST_J_2021ALS/TEST_J_2021ALS.runs/test_ALS_dlmb_v10_0_synth_1
+# Command line: vivado.exe -log test_ALS_dlmb_v10_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source test_ALS_dlmb_v10_0.tcl
+# Log file: F:/Advanced_Hardware_Engineering/Vivado_2021/TEST_J_2021ALS/TEST_J_2021ALS.runs/test_ALS_dlmb_v10_0_synth_1/test_ALS_dlmb_v10_0.vds
+# Journal file: F:/Advanced_Hardware_Engineering/Vivado_2021/TEST_J_2021ALS/TEST_J_2021ALS.runs/test_ALS_dlmb_v10_0_synth_1\vivado.jou
+# Running On: PILA, OS: Windows, CPU Frequency: 4200 MHz, CPU Physical cores: 16, Host memory: 67756 MB
+#-----------------------------------------------------------
+source test_ALS_dlmb_v10_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Advanced_Hardware_Engineering/vivado-library-master'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/2021.2/Vivado/2021.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is f:/Advanced_Hardware_Engineering/Vivado_2021/TEST_J_2021ALS/TEST_J_2021ALS.cache/ip 
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP test_ALS_dlmb_v10_0, cache-ID = 542b13907fdb1fe2.
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 29 13:55:03 2025...

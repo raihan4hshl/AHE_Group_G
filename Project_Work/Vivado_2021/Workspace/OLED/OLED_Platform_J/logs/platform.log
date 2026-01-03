@@ -1,0 +1,1381 @@
+TRACE::2026-01-02.22:22:08::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:08::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:08::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:08::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:08::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:08::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:08::SCWPlatform::Do not have an existing db opened. 
+TRACE::2026-01-02.22:22:09::SCWPlatform::Opened new HwDB with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:09::SCWWriter::formatted JSON is {
+	"platformName":	"OLED_Platform_J",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"OLED_Platform_J",
+	"platHandOff":	"F:/Advanced_Hardware_Engineering/Vivado_2021/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2026-01-02.22:22:09::SCWWriter::formatted JSON is {
+	"platformName":	"OLED_Platform_J",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"OLED_Platform_J",
+	"platHandOff":	"F:/Advanced_Hardware_Engineering/Vivado_2021/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"OLED_Platform_J",
+	"systems":	[{
+			"systemName":	"OLED_Platform_J",
+			"systemDesc":	"OLED_Platform_J",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"OLED_Platform_J"
+		}]
+}
+TRACE::2026-01-02.22:22:09::SCWPlatform::Boot application domains not present, creating them
+TRACE::2026-01-02.22:22:09::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2026-01-02.22:22:09::SCWWriter::formatted JSON is {
+	"platformName":	"OLED_Platform_J",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"OLED_Platform_J",
+	"platHandOff":	"F:/Advanced_Hardware_Engineering/Vivado_2021/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"OLED_Platform_J",
+	"systems":	[{
+			"systemName":	"OLED_Platform_J",
+			"systemDesc":	"OLED_Platform_J",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"OLED_Platform_J"
+		}]
+}
+TRACE::2026-01-02.22:22:09::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:09::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:09::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:09::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:09::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:09::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:09::SCWDomain::checking for install qemu data   : 
+TRACE::2026-01-02.22:22:09::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:09::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:09::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:09::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:09::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:09::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:09::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:09::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:09::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2026-01-02.22:22:09::SCWMssOS::No sw design opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:09::SCWMssOS::mss does not exists at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:09::SCWMssOS::Creating sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:09::SCWMssOS::Adding the swdes entry, created swdb F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss with des name F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:09::SCWMssOS::updating the scw layer changes to swdes at   F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:09::SCWMssOS::Writing mss at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:09::SCWMssOS::Completed writing the mss file at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp
+TRACE::2026-01-02.22:22:09::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2026-01-02.22:22:09::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2026-01-02.22:22:09::SCWMssOS::Completed writing the mss file at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp
+TRACE::2026-01-02.22:22:09::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2026-01-02.22:22:10::SCWMssOS::Saving the mss changes F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::Adding the swdes entry, mss present, able to open swdb F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2026-01-02.22:22:10::SCWMssOS::Writing the mss file completed F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::Commit changes completed.
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWWriter::formatted JSON is {
+	"platformName":	"OLED_Platform_J",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"OLED_Platform_J",
+	"platHandOff":	"F:/Advanced_Hardware_Engineering/Vivado_2021/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"OLED_Platform_J",
+	"systems":	[{
+			"systemName":	"OLED_Platform_J",
+			"systemDesc":	"OLED_Platform_J",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"OLED_Platform_J",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"24589e3aa69e19f447d51845642136eb",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2026-01-02.22:22:10::SCWPlatform::Started generating the artifacts platform OLED_Platform_J
+TRACE::2026-01-02.22:22:10::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-01-02.22:22:10::SCWPlatform::Started generating the artifacts for system configuration OLED_Platform_J
+LOG::2026-01-02.22:22:10::SCWSystem::Checking the domain standalone_domain
+LOG::2026-01-02.22:22:10::SCWSystem::Not a boot domain 
+LOG::2026-01-02.22:22:10::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2026-01-02.22:22:10::SCWDomain::Generating domain artifcats
+TRACE::2026-01-02.22:22:10::SCWMssOS::Generating standalone artifcats
+TRACE::2026-01-02.22:22:10::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::Completed writing the mss file at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp
+TRACE::2026-01-02.22:22:10::SCWMssOS::Mss edits present, copying mssfile into export location F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-01-02.22:22:10::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-01-02.22:22:10::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2026-01-02.22:22:10::SCWMssOS::skipping the bsp build ... 
+TRACE::2026-01-02.22:22:10::SCWMssOS::Copying to export directory.
+TRACE::2026-01-02.22:22:10::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-01-02.22:22:10::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2026-01-02.22:22:10::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2026-01-02.22:22:10::SCWSystem::Completed Processing the sysconfig OLED_Platform_J
+LOG::2026-01-02.22:22:10::SCWPlatform::Completed generating the artifacts for system configuration OLED_Platform_J
+TRACE::2026-01-02.22:22:10::SCWPlatform::Started preparing the platform 
+TRACE::2026-01-02.22:22:10::SCWSystem::Writing the bif file for system config OLED_Platform_J
+TRACE::2026-01-02.22:22:10::SCWSystem::dir created 
+TRACE::2026-01-02.22:22:10::SCWSystem::Writing the bif 
+TRACE::2026-01-02.22:22:10::SCWPlatform::Started writing the spfm file 
+TRACE::2026-01-02.22:22:10::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-01-02.22:22:10::SCWPlatform::Completed generating the platform
+TRACE::2026-01-02.22:22:10::SCWMssOS::Saving the mss changes F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-01-02.22:22:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-01-02.22:22:10::SCWMssOS::Commit changes completed.
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWWriter::formatted JSON is {
+	"platformName":	"OLED_Platform_J",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"OLED_Platform_J",
+	"platHandOff":	"F:/Advanced_Hardware_Engineering/Vivado_2021/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"OLED_Platform_J",
+	"systems":	[{
+			"systemName":	"OLED_Platform_J",
+			"systemDesc":	"OLED_Platform_J",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"OLED_Platform_J",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"24589e3aa69e19f447d51845642136eb",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-01-02.22:22:10::SCWPlatform::updated the xpfm file.
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::Saving the mss changes F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-01-02.22:22:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-01-02.22:22:10::SCWMssOS::Commit changes completed.
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWWriter::formatted JSON is {
+	"platformName":	"OLED_Platform_J",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"OLED_Platform_J",
+	"platHandOff":	"F:/Advanced_Hardware_Engineering/Vivado_2021/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"OLED_Platform_J",
+	"systems":	[{
+			"systemName":	"OLED_Platform_J",
+			"systemDesc":	"OLED_Platform_J",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"OLED_Platform_J",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"24589e3aa69e19f447d51845642136eb",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::Saving the mss changes F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-01-02.22:22:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-01-02.22:22:10::SCWMssOS::Commit changes completed.
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWWriter::formatted JSON is {
+	"platformName":	"OLED_Platform_J",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"OLED_Platform_J",
+	"platHandOff":	"F:/Advanced_Hardware_Engineering/Vivado_2021/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"OLED_Platform_J",
+	"systems":	[{
+			"systemName":	"OLED_Platform_J",
+			"systemDesc":	"OLED_Platform_J",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"OLED_Platform_J",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"24589e3aa69e19f447d51845642136eb",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2026-01-02.22:22:10::SCWMssOS::Saving the mss changes F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-01-02.22:22:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-01-02.22:22:10::SCWMssOS::Commit changes completed.
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWWriter::formatted JSON is {
+	"platformName":	"OLED_Platform_J",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"OLED_Platform_J",
+	"platHandOff":	"F:/Advanced_Hardware_Engineering/Vivado_2021/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"OLED_Platform_J",
+	"systems":	[{
+			"systemName":	"OLED_Platform_J",
+			"systemDesc":	"OLED_Platform_J",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"OLED_Platform_J",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"24589e3aa69e19f447d51845642136eb",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2026-01-02.22:22:10::SCWPlatform::Clearing the existing platform
+TRACE::2026-01-02.22:22:10::SCWSystem::Clearing the existing sysconfig
+TRACE::2026-01-02.22:22:10::SCWMssOS::Removing the swdes entry for  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWSystem::Clearing the domains completed.
+TRACE::2026-01-02.22:22:10::SCWPlatform::Clearing the opened hw db.
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform location is F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Removing the HwDB with name F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Do not have an existing db opened. 
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened new HwDB with name TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:22:10::SCWReader::Active system found as  OLED_Platform_J
+TRACE::2026-01-02.22:22:10::SCWReader::Handling sysconfig OLED_Platform_J
+TRACE::2026-01-02.22:22:10::SCWDomain::checking for install qemu data   : 
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2026-01-02.22:22:10::SCWMssOS::No sw design opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::mss exists loading the mss file  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::Opened the sw design from mss  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::Adding the swdes entry F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2026-01-02.22:22:10::SCWMssOS::updating the scw layer about changes
+TRACE::2026-01-02.22:22:10::SCWMssOS::Opened the sw design.  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::Saving the mss changes F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-01-02.22:22:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-01-02.22:22:10::SCWMssOS::Commit changes completed.
+TRACE::2026-01-02.22:22:10::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2026-01-02.22:22:10::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:10::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:22:10::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:22:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:10::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:10::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:10::SCWReader::No isolation master present  
+LOG::2026-01-02.22:22:18::SCWPlatform::Started generating the artifacts platform OLED_Platform_J
+TRACE::2026-01-02.22:22:18::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-01-02.22:22:18::SCWPlatform::Started generating the artifacts for system configuration OLED_Platform_J
+LOG::2026-01-02.22:22:18::SCWSystem::Checking the domain standalone_domain
+LOG::2026-01-02.22:22:18::SCWSystem::Not a boot domain 
+LOG::2026-01-02.22:22:18::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2026-01-02.22:22:18::SCWDomain::Generating domain artifcats
+TRACE::2026-01-02.22:22:18::SCWMssOS::Generating standalone artifcats
+TRACE::2026-01-02.22:22:18::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-01-02.22:22:18::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:18::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:18::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:18::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:18::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:18::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:18::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:22:18::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:22:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:18::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:18::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:18::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:18::SCWMssOS::Completed writing the mss file at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp
+TRACE::2026-01-02.22:22:18::SCWMssOS::Mss edits present, copying mssfile into export location F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:18::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-01-02.22:22:18::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-01-02.22:22:18::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2026-01-02.22:22:18::SCWMssOS::doing bsp build ... 
+TRACE::2026-01-02.22:22:18::SCWMssOS::System Command Ran  F: & cd  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp & make 
+TRACE::2026-01-02.22:22:18::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2026-01-02.22:22:18::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2026-01-02.22:22:18::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-01-02.22:22:18::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-01-02.22:22:18::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:18::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
+
+TRACE::2026-01-02.22:22:18::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-01-02.22:22:18::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-01-02.22:22:18::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:18::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_13/src"
+
+TRACE::2026-01-02.22:22:18::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2026-01-02.22:22:18::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2026-01-02.22:22:18::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:18::SCWMssOS::"Running Make include in microblaze_0/libsrc/PmodOLEDrgb_v1_0/src"
+
+TRACE::2026-01-02.22:22:18::SCWMssOS::make -C microblaze_0/libsrc/PmodOLEDrgb_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2026-01-02.22:22:18::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2026-01-02.22:22:18::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:18::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_6/src"
+
+TRACE::2026-01-02.22:22:18::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2026-01-02.22:22:18::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2026-01-02.22:22:18::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:18::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2026-01-02.22:22:18::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2026-01-02.22:22:18::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2026-01-02.22:22:18::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:18::SCWMssOS::"Running Make libs in microblaze_0/libsrc/PmodOLEDrgb_v1_0/src"
+
+TRACE::2026-01-02.22:22:18::SCWMssOS::make -C microblaze_0/libsrc/PmodOLEDrgb_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2026-01-02.22:22:18::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2026-01-02.22:22:18::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:18::SCWMssOS::"Compiling pmodOLEDrgb"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-01-02.22:22:19::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-01-02.22:22:19::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-01-02.22:22:19::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-01-02.22:22:19::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_13/src"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2026-01-02.22:22:19::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2026-01-02.22:22:19::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::"Running Make include in microblaze_0/libsrc/PmodOLEDrgb_v1_0/src"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::make -C microblaze_0/libsrc/PmodOLEDrgb_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2026-01-02.22:22:19::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2026-01-02.22:22:19::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_6/src"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2026-01-02.22:22:19::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2026-01-02.22:22:19::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2026-01-02.22:22:19::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2026-01-02.22:22:19::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2026-01-02.22:22:19::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2026-01-02.22:22:19::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_14/src"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_13/src"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2026-01-02.22:22:19::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2026-01-02.22:22:19::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2026-01-02.22:22:19::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2026-01-02.22:22:19::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_6/src"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2026-01-02.22:22:19::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2026-01-02.22:22:19::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2026-01-02.22:22:19::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2026-01-02.22:22:19::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:22:19::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2026-01-02.22:22:20::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2026-01-02.22:22:20::SCWMssOS::make --no-print-directory archive
+
+TRACE::2026-01-02.22:22:20::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2026-01-02.22:22:20::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/_exit.o microblaze_0/lib/xil_testio.o microblaze_0/lib/microblaz
+TRACE::2026-01-02.22:22:20::SCWMssOS::e_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/
+TRACE::2026-01-02.22:22:20::SCWMssOS::lib/xbram_sinit.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_util.o microblaze_0
+TRACE::2026-01-02.22:22:20::SCWMssOS::/lib/inbyte.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/microblaze_exception_handler.o mic
+TRACE::2026-01-02.22:22:20::SCWMssOS::roblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/microblaze_disable_interrupts
+TRACE::2026-01-02.22:22:20::SCWMssOS::.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_disable_icache
+TRACE::2026-01-02.22:22:20::SCWMssOS::.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_
+TRACE::2026-01-02.22:22:20::SCWMssOS::0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xintc_g.o microblaze_0/lib
+TRACE::2026-01-02.22:22:20::SCWMssOS::/xuartlite_g.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/outbyte.o microblaze_0/lib/microbl
+TRACE::2026-01-02.22:22:20::SCWMssOS::aze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/microblaze_sleep.o microblaze
+TRACE::2026-01-02.22:22:20::SCWMssOS::_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/microblaze_u
+TRACE::2026-01-02.22:22:20::SCWMssOS::pdate_dcache.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_interrupts_g
+TRACE::2026-01-02.22:22:20::SCWMssOS::.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xio.o microblaze_0/lib/microblaze_enable_dcache.o microblaz
+TRACE::2026-01-02.22:22:20::SCWMssOS::e_0/lib/xbram.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaz
+TRACE::2026-01-02.22:22:20::SCWMssOS::e_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xintc_options.o
+TRACE::2026-01-02.22:22:20::SCWMssOS:: microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/
+TRACE::2026-01-02.22:22:20::SCWMssOS::lib/xil_testmem.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/xil_c
+TRACE::2026-01-02.22:22:20::SCWMssOS::locking.o microblaze_0/lib/xil_assert.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_enable_icac
+TRACE::2026-01-02.22:22:20::SCWMssOS::he.o microblaze_0/lib/xintc.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/fcntl.o microblaze_0/lib/microblaze_init_icac
+TRACE::2026-01-02.22:22:20::SCWMssOS::he_range.o
+
+TRACE::2026-01-02.22:22:20::SCWMssOS::'Finished building libraries'
+
+TRACE::2026-01-02.22:22:20::SCWMssOS::Copying to export directory.
+TRACE::2026-01-02.22:22:20::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-01-02.22:22:20::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2026-01-02.22:22:20::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2026-01-02.22:22:20::SCWSystem::Completed Processing the sysconfig OLED_Platform_J
+LOG::2026-01-02.22:22:20::SCWPlatform::Completed generating the artifacts for system configuration OLED_Platform_J
+TRACE::2026-01-02.22:22:20::SCWPlatform::Started preparing the platform 
+TRACE::2026-01-02.22:22:20::SCWSystem::Writing the bif file for system config OLED_Platform_J
+TRACE::2026-01-02.22:22:20::SCWSystem::dir created 
+TRACE::2026-01-02.22:22:20::SCWSystem::Writing the bif 
+TRACE::2026-01-02.22:22:20::SCWPlatform::Started writing the spfm file 
+TRACE::2026-01-02.22:22:20::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-01-02.22:22:20::SCWPlatform::Completed generating the platform
+TRACE::2026-01-02.22:22:20::SCWMssOS::Saving the mss changes F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:20::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-01-02.22:22:20::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-01-02.22:22:20::SCWMssOS::Commit changes completed.
+TRACE::2026-01-02.22:22:20::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:20::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:20::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:20::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:20::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:20::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:20::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:22:20::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:22:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:20::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:20::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:20::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:20::SCWWriter::formatted JSON is {
+	"platformName":	"OLED_Platform_J",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"OLED_Platform_J",
+	"platHandOff":	"F:/Advanced_Hardware_Engineering/Vivado_2021/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"OLED_Platform_J",
+	"systems":	[{
+			"systemName":	"OLED_Platform_J",
+			"systemDesc":	"OLED_Platform_J",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"OLED_Platform_J",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"24589e3aa69e19f447d51845642136eb",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-01-02.22:22:20::SCWPlatform::updated the xpfm file.
+TRACE::2026-01-02.22:22:20::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:20::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:20::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:20::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:22:20::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:22:20::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:22:20::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:22:20::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:22:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:22:20::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:22:20::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:22:20::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:25:00::SCWMssOS::cleaning the bsp 
+TRACE::2026-01-02.22:25:00::SCWMssOS::System Command Ran  F: & cd  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp & make clean 
+TRACE::2026-01-02.22:25:00::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s clean 
+
+TRACE::2026-01-02.22:25:00::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s clean 
+
+TRACE::2026-01-02.22:25:00::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s clean 
+
+TRACE::2026-01-02.22:25:00::SCWMssOS::make -C microblaze_0/libsrc/PmodOLEDrgb_v1_0/src -s clean 
+
+TRACE::2026-01-02.22:25:00::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s clean 
+
+TRACE::2026-01-02.22:25:00::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s clean 
+
+TRACE::2026-01-02.22:25:00::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2026-01-02.22:25:04::SCWPlatform::Started generating the artifacts platform OLED_Platform_J
+TRACE::2026-01-02.22:25:04::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-01-02.22:25:04::SCWPlatform::Started generating the artifacts for system configuration OLED_Platform_J
+LOG::2026-01-02.22:25:04::SCWSystem::Checking the domain standalone_domain
+LOG::2026-01-02.22:25:04::SCWSystem::Not a boot domain 
+LOG::2026-01-02.22:25:04::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2026-01-02.22:25:04::SCWDomain::Generating domain artifcats
+TRACE::2026-01-02.22:25:04::SCWMssOS::Generating standalone artifcats
+TRACE::2026-01-02.22:25:04::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-01-02.22:25:04::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:25:04::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:25:04::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:25:04::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:25:04::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:25:04::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:25:04::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:25:04::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:25:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:25:04::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:25:04::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:25:04::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:25:04::SCWMssOS::Completed writing the mss file at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp
+TRACE::2026-01-02.22:25:04::SCWMssOS::Mss edits present, copying mssfile into export location F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:25:04::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-01-02.22:25:04::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-01-02.22:25:04::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2026-01-02.22:25:04::SCWMssOS::doing bsp build ... 
+TRACE::2026-01-02.22:25:04::SCWMssOS::System Command Ran  F: & cd  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp & make 
+TRACE::2026-01-02.22:25:04::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2026-01-02.22:25:04::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2026-01-02.22:25:04::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-01-02.22:25:04::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-01-02.22:25:04::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:04::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
+
+TRACE::2026-01-02.22:25:04::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-01-02.22:25:04::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-01-02.22:25:04::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:04::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_13/src"
+
+TRACE::2026-01-02.22:25:04::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2026-01-02.22:25:04::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2026-01-02.22:25:04::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:04::SCWMssOS::"Running Make include in microblaze_0/libsrc/PmodOLEDrgb_v1_0/src"
+
+TRACE::2026-01-02.22:25:04::SCWMssOS::make -C microblaze_0/libsrc/PmodOLEDrgb_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2026-01-02.22:25:04::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2026-01-02.22:25:04::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:04::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_6/src"
+
+TRACE::2026-01-02.22:25:04::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2026-01-02.22:25:04::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2026-01-02.22:25:04::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:04::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2026-01-02.22:25:04::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2026-01-02.22:25:04::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2026-01-02.22:25:04::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:04::SCWMssOS::"Running Make libs in microblaze_0/libsrc/PmodOLEDrgb_v1_0/src"
+
+TRACE::2026-01-02.22:25:04::SCWMssOS::make -C microblaze_0/libsrc/PmodOLEDrgb_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2026-01-02.22:25:04::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2026-01-02.22:25:04::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:04::SCWMssOS::"Compiling pmodOLEDrgb"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-01-02.22:25:05::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-01-02.22:25:05::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-01-02.22:25:05::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-01-02.22:25:05::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_13/src"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2026-01-02.22:25:05::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2026-01-02.22:25:05::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/PmodOLEDrgb_v1_0/src"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::make -C microblaze_0/libsrc/PmodOLEDrgb_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2026-01-02.22:25:05::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2026-01-02.22:25:05::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_6/src"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2026-01-02.22:25:05::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2026-01-02.22:25:05::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2026-01-02.22:25:05::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2026-01-02.22:25:05::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_14/src"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2026-01-02.22:25:05::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2026-01-02.22:25:05::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2026-01-02.22:25:05::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2026-01-02.22:25:05::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_13/src"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_6/src"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2026-01-02.22:25:05::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2026-01-02.22:25:05::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2026-01-02.22:25:05::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2026-01-02.22:25:05::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2026-01-02.22:25:05::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2026-01-02.22:25:05::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::make --no-print-directory archive
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2026-01-02.22:25:05::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/_exit.o microblaze_0/lib/xil_testio.o microblaze_0/lib/microblaz
+TRACE::2026-01-02.22:25:05::SCWMssOS::e_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/
+TRACE::2026-01-02.22:25:05::SCWMssOS::lib/xbram_sinit.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_util.o microblaze_0
+TRACE::2026-01-02.22:25:05::SCWMssOS::/lib/inbyte.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/microblaze_exception_handler.o mic
+TRACE::2026-01-02.22:25:05::SCWMssOS::roblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/microblaze_disable_interrupts
+TRACE::2026-01-02.22:25:05::SCWMssOS::.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_disable_icache
+TRACE::2026-01-02.22:25:05::SCWMssOS::.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_
+TRACE::2026-01-02.22:25:05::SCWMssOS::0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xintc_g.o microblaze_0/lib
+TRACE::2026-01-02.22:25:05::SCWMssOS::/xuartlite_g.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/outbyte.o microblaze_0/lib/microbl
+TRACE::2026-01-02.22:25:05::SCWMssOS::aze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/microblaze_sleep.o microblaze
+TRACE::2026-01-02.22:25:05::SCWMssOS::_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/microblaze_u
+TRACE::2026-01-02.22:25:05::SCWMssOS::pdate_dcache.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_interrupts_g
+TRACE::2026-01-02.22:25:05::SCWMssOS::.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xio.o microblaze_0/lib/microblaze_enable_dcache.o microblaz
+TRACE::2026-01-02.22:25:05::SCWMssOS::e_0/lib/xbram.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaz
+TRACE::2026-01-02.22:25:05::SCWMssOS::e_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xintc_options.o
+TRACE::2026-01-02.22:25:05::SCWMssOS:: microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/
+TRACE::2026-01-02.22:25:05::SCWMssOS::lib/xil_testmem.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/xil_c
+TRACE::2026-01-02.22:25:05::SCWMssOS::locking.o microblaze_0/lib/xil_assert.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_enable_icac
+TRACE::2026-01-02.22:25:05::SCWMssOS::he.o microblaze_0/lib/xintc.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/fcntl.o microblaze_0/lib/microblaze_init_icac
+TRACE::2026-01-02.22:25:05::SCWMssOS::he_range.o
+
+TRACE::2026-01-02.22:25:05::SCWMssOS::'Finished building libraries'
+
+TRACE::2026-01-02.22:25:06::SCWMssOS::Copying to export directory.
+TRACE::2026-01-02.22:25:06::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-01-02.22:25:06::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2026-01-02.22:25:06::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2026-01-02.22:25:06::SCWSystem::Completed Processing the sysconfig OLED_Platform_J
+LOG::2026-01-02.22:25:06::SCWPlatform::Completed generating the artifacts for system configuration OLED_Platform_J
+TRACE::2026-01-02.22:25:06::SCWPlatform::Started preparing the platform 
+TRACE::2026-01-02.22:25:06::SCWSystem::Writing the bif file for system config OLED_Platform_J
+TRACE::2026-01-02.22:25:06::SCWSystem::dir created 
+TRACE::2026-01-02.22:25:06::SCWSystem::Writing the bif 
+TRACE::2026-01-02.22:25:06::SCWPlatform::Started writing the spfm file 
+TRACE::2026-01-02.22:25:06::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-01-02.22:25:06::SCWPlatform::Completed generating the platform
+TRACE::2026-01-02.22:25:06::SCWMssOS::Saving the mss changes F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:25:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-01-02.22:25:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-01-02.22:25:06::SCWMssOS::Commit changes completed.
+TRACE::2026-01-02.22:25:06::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:25:06::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:25:06::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:25:06::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:25:06::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:25:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:25:06::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:25:06::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:25:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:25:06::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:25:06::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:25:06::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:25:06::SCWWriter::formatted JSON is {
+	"platformName":	"OLED_Platform_J",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"OLED_Platform_J",
+	"platHandOff":	"F:/Advanced_Hardware_Engineering/Vivado_2021/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TEST_J_2021OLEDONLY_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"OLED_Platform_J",
+	"systems":	[{
+			"systemName":	"OLED_Platform_J",
+			"systemDesc":	"OLED_Platform_J",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"OLED_Platform_J",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"24589e3aa69e19f447d51845642136eb",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-01-02.22:25:06::SCWPlatform::updated the xpfm file.
+TRACE::2026-01-02.22:25:06::SCWPlatform::Trying to open the hw design at F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:25:06::SCWPlatform::DSA given F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:25:06::SCWPlatform::DSA absoulate path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:25:06::SCWPlatform::DSA directory F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw
+TRACE::2026-01-02.22:25:06::SCWPlatform:: Platform Path F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/hw/TEST_J_2021OLEDONLY_wrapper.xsa
+TRACE::2026-01-02.22:25:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2026-01-02.22:25:06::SCWPlatform::Trying to set the existing hwdb with name TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:25:06::SCWPlatform::Opened existing hwdb TEST_J_2021OLEDONLY_wrapper_1
+TRACE::2026-01-02.22:25:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-01-02.22:25:06::SCWMssOS::Checking the sw design at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2026-01-02.22:25:06::SCWMssOS::DEBUG:  swdes dump  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2026-01-02.22:25:06::SCWMssOS::Sw design exists and opened at  F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/OLED/OLED_Platform_J/microblaze_0/standalone_domain/bsp/system.mss

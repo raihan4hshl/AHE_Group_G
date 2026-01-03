@@ -1,0 +1,20 @@
+Nothing to build in platform 'ALS_Platform_J'
+
+22:35:24 **** Build of configuration Debug for project ALS_comp ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IF:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/ALS/ALS_Platform_J/export/ALS_Platform_J/sw/ALS_Platform_J/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ALS_comp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LF:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/ALS/ALS_Platform_J/export/ALS_Platform_J/sw/ALS_Platform_J/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ALS_comp.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ALS_comp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size ALS_comp.elf  |tee "ALS_comp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9480	    352	   3208	  13040	   32f0	ALS_comp.elf
+'Finished building: ALS_comp.elf.size'
+' '

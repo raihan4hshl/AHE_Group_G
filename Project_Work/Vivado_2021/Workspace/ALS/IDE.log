@@ -1,0 +1,13 @@
+22:30:29 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\Advanced_Hardware_Engineering\Vivado_2021\Workspace\ALS\temp_xsdb_launch_script.tcl
+22:30:29 INFO  : Platform repository initialization has completed.
+22:30:29 INFO  : Registering command handlers for Vitis TCF services
+22:30:31 INFO  : XSCT server has started successfully.
+22:30:31 INFO  : Successfully done setting XSCT server connection channel  
+22:30:31 INFO  : plnx-install-location is set to ''
+22:30:31 INFO  : Successfully done query RDI_DATADIR 
+22:30:31 INFO  : Successfully done setting workspace for the tool. 
+22:31:14 INFO  : Result from executing command 'getProjects': ALS_Platform_J
+22:31:14 INFO  : Result from executing command 'getPlatforms': 
+22:31:22 INFO  : Result from executing command 'getProjects': ALS_Platform_J
+22:31:22 INFO  : Result from executing command 'getPlatforms': ALS_Platform_J|F:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/ALS/ALS_Platform_J/export/ALS_Platform_J/ALS_Platform_J.xpfm
+22:35:24 INFO  : Checking for BSP changes to sync application flags for project 'ALS_comp'...

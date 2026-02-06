@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Ejkflipflop
+Z0 w1764285144
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 97
+Z3 dC:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/upDownDecadeCounter
+Z4 8C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/jkFF/jkFF.vhdl
+Z5 FC:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/jkFF/jkFF.vhdl
+l0
+L4 1
+Vi;EgJVl[P@aQ?KHb?KomJ1
+!s100 aN3Xic;ToL2<MzZIjA3j?1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1765277604
+!i10b 1
+Z8 !s108 1765277604.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/jkFF/jkFF.vhdl|
+Z10 !s107 C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/jkFF/jkFF.vhdl|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+DEx4 work 10 jkflipflop 0 22 i;EgJVl[P@aQ?KHb?KomJ1
+!i122 97
+l18
+L16 28
+V=V4c@7G`@^HWJK6?LPWCN2
+!s100 MRgf_=ATkEPjJHGEUnlNh0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eupdncntr
+Z13 w1765119276
+R1
+R2
+!i122 96
+R3
+Z14 8C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/upDownDecadeCounter/upDnCount.vhdl
+Z15 FC:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/upDownDecadeCounter/upDnCount.vhdl
+l0
+L4 1
+Vi3P;;_;=j8g0bFS<<95n[2
+!s100 1aj<Gb;9[05GW??gbD8Dh1
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/upDownDecadeCounter/upDnCount.vhdl|
+Z17 !s107 C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/upDownDecadeCounter/upDnCount.vhdl|
+!i113 1
+R11
+R12
+Alogicoperation
+R1
+R2
+DEx4 work 8 updncntr 0 22 i3P;;_;=j8g0bFS<<95n[2
+!i122 96
+l46
+L17 108
+V@07]G;b<eI?>GQj9ThKEC1
+!s100 2IEmOjH<[bPi?NnI3Tjn:3
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Eupdncntr_tb
+Z18 w1765143789
+R1
+R2
+!i122 98
+R3
+Z19 8C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/upDownDecadeCounter/upDnCount_tb.vhdl
+Z20 FC:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/upDownDecadeCounter/upDnCount_tb.vhdl
+l0
+L4 1
+V>g@7lKi77A4FAXKnI<F]01
+!s100 09dbzWbi0B>a^F3LcfYDd2
+R6
+32
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/upDownDecadeCounter/upDnCount_tb.vhdl|
+Z22 !s107 C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/upDownDecadeCounter/upDnCount_tb.vhdl|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+Z23 DEx4 work 11 updncntr_tb 0 22 >g@7lKi77A4FAXKnI<F]01
+!i122 98
+l32
+L7 90
+V[Y[@cgCUf?aKfz82>R6a;2
+!s100 RXGXSLU=<Y<]Qgg9Q]fkA0
+R6
+32
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12

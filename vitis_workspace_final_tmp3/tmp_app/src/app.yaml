@@ -1,0 +1,4 @@
+domain_path: C:\Users\User\Desktop\workspace_project_final\platform_temp3\export\platform_temp3\sw\standalone_microblaze_0
+app_src_dir: C:\Xilinx\2025.1\Vitis\data\embeddedsw\lib\sw_apps\hello_world
+template: hello_world
+lang: c

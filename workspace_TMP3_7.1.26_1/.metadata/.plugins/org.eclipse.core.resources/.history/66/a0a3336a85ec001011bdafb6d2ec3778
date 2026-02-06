@@ -1,0 +1,10 @@
+#include "xil_printf.h"
+#include "sleep.h"
+
+int main()
+{
+    while (1) {
+        xil_printf("HELLO UART\r\n");
+        sleep(1);
+    }
+}

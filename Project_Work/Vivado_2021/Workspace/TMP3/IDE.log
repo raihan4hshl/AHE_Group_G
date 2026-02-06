@@ -14,3 +14,747 @@
 22:15:55 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
 22:15:55 INFO  : Result from executing command 'getPlatforms': 
 22:15:55 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+13:43:22 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\temp_xsdb_launch_script.tcl
+13:43:25 ERROR : Error encountered while initializing user repository paths
+Reason: No Platforms Found.
+
+
+13:43:25 INFO  : Platform repository initialization has completed.
+13:43:26 INFO  : Registering command handlers for Vitis TCF services
+13:43:28 INFO  : XSCT server has started successfully.
+13:43:34 INFO  : plnx-install-location is set to ''
+13:43:34 INFO  : Successfully done setting XSCT server connection channel  
+13:43:34 INFO  : Successfully done query RDI_DATADIR 
+13:43:34 INFO  : Successfully done setting workspace for the tool. 
+13:45:45 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+13:46:00 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+13:46:00 INFO  : Result from executing command 'getPlatforms': 
+13:46:21 INFO  : Result from executing command 'removePlatformRepo': 
+13:46:33 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+13:46:33 INFO  : Result from executing command 'getPlatforms': 
+13:46:33 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+15:43:37 INFO  : Build configuration of 'TMP3_comp_system' is updated to 'Release'
+15:43:37 INFO  : Build configuration of system project is automatically updated to 'Release'.
+15:43:41 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+15:43:41 INFO  : Result from executing command 'getPlatforms': TMP3_Platform_J|C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/TMP3_Platform_J.xpfm
+15:43:41 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+15:45:57 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+15:46:33 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+15:47:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:47:06 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61CF5A' is selected.
+15:47:07 INFO  : 'jtag frequency' command is executed.
+15:47:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}' command is executed.
+15:47:12 INFO  : Device configured successfully with "C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit"
+15:47:14 INFO  : Context for processor 'microblaze_0' is selected.
+15:47:14 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa'.
+15:47:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:47:14 INFO  : Context for processor 'microblaze_0' is selected.
+15:47:14 INFO  : System reset is completed.
+15:47:17 INFO  : 'after 3000' command is executed.
+15:47:17 INFO  : Context for processor 'microblaze_0' is selected.
+15:47:18 INFO  : The application 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf' is downloaded to processor 'microblaze_0'.
+15:47:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}
+fpga -file C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf
+----------------End of Script----------------
+
+15:47:20 INFO  : Context for processor 'microblaze_0' is selected.
+15:47:20 INFO  : 'con' command is executed.
+15:47:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:47:20 INFO  : Launch script is exported to file 'C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\TMP3_comp_system\_ide\scripts\systemdebugger_tmp3_comp_system_standalone.tcl'
+16:53:45 INFO  : Disconnected from the channel tcfchan#6.
+16:53:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:53:46 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61CF5A' is selected.
+16:53:46 INFO  : 'jtag frequency' command is executed.
+16:53:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}' command is executed.
+16:53:49 INFO  : Device configured successfully with "C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit"
+16:53:49 INFO  : Context for processor 'microblaze_0' is selected.
+16:53:49 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa'.
+16:53:49 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:53:49 INFO  : Context for processor 'microblaze_0' is selected.
+16:53:50 INFO  : System reset is completed.
+16:53:53 INFO  : 'after 3000' command is executed.
+16:53:53 INFO  : Context for processor 'microblaze_0' is selected.
+16:53:54 INFO  : The application 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf' is downloaded to processor 'microblaze_0'.
+16:53:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}
+fpga -file C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf
+----------------End of Script----------------
+
+16:53:56 INFO  : Context for processor 'microblaze_0' is selected.
+16:53:56 INFO  : 'con' command is executed.
+16:53:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:53:56 INFO  : Launch script is exported to file 'C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\TMP3_comp_system\_ide\scripts\debugger_tmp3_comp-default.tcl'
+16:56:23 INFO  : Disconnected from the channel tcfchan#7.
+16:56:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:56:25 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61CF5A' is selected.
+16:56:25 INFO  : 'jtag frequency' command is executed.
+16:56:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}' command is executed.
+16:56:28 INFO  : Device configured successfully with "C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit"
+16:56:29 INFO  : Context for processor 'microblaze_0' is selected.
+16:56:29 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa'.
+16:56:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:56:29 INFO  : Context for processor 'microblaze_0' is selected.
+16:56:30 INFO  : System reset is completed.
+16:56:33 INFO  : 'after 3000' command is executed.
+16:56:33 INFO  : Context for processor 'microblaze_0' is selected.
+16:56:34 INFO  : The application 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf' is downloaded to processor 'microblaze_0'.
+16:56:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}
+fpga -file C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf
+----------------End of Script----------------
+
+16:56:35 INFO  : Context for processor 'microblaze_0' is selected.
+16:56:36 INFO  : 'con' command is executed.
+16:56:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:56:36 INFO  : Launch script is exported to file 'C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\TMP3_comp_system\_ide\scripts\systemdebugger_tmp3_comp_system_standalone.tcl'
+16:56:46 INFO  : Result from executing command 'removePlatformRepo': 
+16:57:02 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+16:57:02 INFO  : Result from executing command 'getPlatforms': 
+16:57:02 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+16:57:14 INFO  : Disconnected from the channel tcfchan#8.
+16:57:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:57:14 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61CF5A' is selected.
+16:57:15 INFO  : 'jtag frequency' command is executed.
+16:57:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}' command is executed.
+16:57:18 INFO  : Device configured successfully with "C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit"
+16:57:18 INFO  : Context for processor 'microblaze_0' is selected.
+16:57:19 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa'.
+16:57:19 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:57:19 INFO  : Context for processor 'microblaze_0' is selected.
+16:57:19 INFO  : System reset is completed.
+16:57:22 INFO  : 'after 3000' command is executed.
+16:57:22 INFO  : Context for processor 'microblaze_0' is selected.
+16:57:23 INFO  : The application 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf' is downloaded to processor 'microblaze_0'.
+16:57:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}
+fpga -file C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf
+----------------End of Script----------------
+
+16:57:24 INFO  : Context for processor 'microblaze_0' is selected.
+16:57:25 INFO  : 'con' command is executed.
+16:57:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:57:25 INFO  : Launch script is exported to file 'C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\TMP3_comp_system\_ide\scripts\systemdebugger_tmp3_comp_system_standalone.tcl'
+17:03:15 INFO  : Result from executing command 'removePlatformRepo': 
+17:03:31 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:03:31 INFO  : Result from executing command 'getPlatforms': 
+17:03:31 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+17:04:42 INFO  : Disconnected from the channel tcfchan#11.
+17:04:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:04:42 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61CF5A' is selected.
+17:04:43 INFO  : 'jtag frequency' command is executed.
+17:04:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}' command is executed.
+17:04:46 INFO  : Device configured successfully with "C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit"
+17:04:47 INFO  : Context for processor 'microblaze_0' is selected.
+17:04:47 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa'.
+17:04:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:04:47 INFO  : Context for processor 'microblaze_0' is selected.
+17:04:48 INFO  : System reset is completed.
+17:04:51 INFO  : 'after 3000' command is executed.
+17:04:51 INFO  : Context for processor 'microblaze_0' is selected.
+17:04:52 INFO  : The application 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf' is downloaded to processor 'microblaze_0'.
+17:04:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}
+fpga -file C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf
+----------------End of Script----------------
+
+17:04:53 INFO  : Context for processor 'microblaze_0' is selected.
+17:04:54 INFO  : 'con' command is executed.
+17:04:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:04:54 INFO  : Launch script is exported to file 'C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\TMP3_comp_system\_ide\scripts\systemdebugger_tmp3_comp_system_standalone.tcl'
+17:08:12 INFO  : Result from executing command 'removePlatformRepo': 
+17:08:24 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:08:24 INFO  : Result from executing command 'getPlatforms': 
+17:08:24 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+17:08:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:08:44 INFO  : Disconnected from the channel tcfchan#14.
+17:08:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+17:08:44 ERROR : 
+17:08:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:08:54 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61CF5A' is selected.
+17:08:54 INFO  : 'jtag frequency' command is executed.
+17:08:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}' command is executed.
+17:08:57 INFO  : Device configured successfully with "C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit"
+17:08:58 INFO  : Context for processor 'microblaze_0' is selected.
+17:08:58 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa'.
+17:08:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:08:58 INFO  : Context for processor 'microblaze_0' is selected.
+17:08:58 INFO  : System reset is completed.
+17:09:01 INFO  : 'after 3000' command is executed.
+17:09:02 INFO  : Context for processor 'microblaze_0' is selected.
+17:09:03 INFO  : The application 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf' is downloaded to processor 'microblaze_0'.
+17:09:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}
+fpga -file C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf
+----------------End of Script----------------
+
+17:09:04 INFO  : Context for processor 'microblaze_0' is selected.
+17:09:05 INFO  : 'con' command is executed.
+17:09:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:09:05 INFO  : Launch script is exported to file 'C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\TMP3_comp_system\_ide\scripts\systemdebugger_tmp3_comp_system_standalone.tcl'
+17:13:34 INFO  : Result from executing command 'removePlatformRepo': 
+17:13:47 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:13:47 INFO  : Result from executing command 'getPlatforms': 
+17:13:56 INFO  : Result from executing command 'removePlatformRepo': 
+17:14:09 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:14:09 INFO  : Result from executing command 'getPlatforms': 
+17:14:09 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+17:14:20 INFO  : Disconnected from the channel tcfchan#17.
+17:14:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:14:21 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61CF5A' is selected.
+17:14:22 INFO  : 'jtag frequency' command is executed.
+17:14:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}' command is executed.
+17:14:25 INFO  : Device configured successfully with "C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit"
+17:14:25 INFO  : Context for processor 'microblaze_0' is selected.
+17:14:25 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa'.
+17:14:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:14:25 INFO  : Context for processor 'microblaze_0' is selected.
+17:14:26 INFO  : System reset is completed.
+17:14:29 INFO  : 'after 3000' command is executed.
+17:14:29 INFO  : Context for processor 'microblaze_0' is selected.
+17:14:30 INFO  : The application 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf' is downloaded to processor 'microblaze_0'.
+17:14:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}
+fpga -file C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf
+----------------End of Script----------------
+
+17:14:32 INFO  : Context for processor 'microblaze_0' is selected.
+17:14:32 INFO  : 'con' command is executed.
+17:14:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:14:32 INFO  : Launch script is exported to file 'C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\TMP3_comp_system\_ide\scripts\systemdebugger_tmp3_comp_system_standalone.tcl'
+17:15:48 INFO  : Result from executing command 'removePlatformRepo': 
+17:16:08 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:16:08 INFO  : Result from executing command 'getPlatforms': 
+17:16:19 INFO  : Result from executing command 'removePlatformRepo': 
+17:16:32 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:16:32 INFO  : Result from executing command 'getPlatforms': 
+17:16:33 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+17:16:40 INFO  : Result from executing command 'removePlatformRepo': 
+17:16:52 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:16:52 INFO  : Result from executing command 'getPlatforms': 
+17:16:53 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+17:17:06 INFO  : Disconnected from the channel tcfchan#22.
+17:17:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:17:06 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61CF5A' is selected.
+17:17:07 INFO  : 'jtag frequency' command is executed.
+17:17:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}' command is executed.
+17:17:10 INFO  : Device configured successfully with "C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit"
+17:17:11 INFO  : Context for processor 'microblaze_0' is selected.
+17:17:11 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa'.
+17:17:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:17:11 INFO  : Context for processor 'microblaze_0' is selected.
+17:17:11 INFO  : System reset is completed.
+17:17:14 INFO  : 'after 3000' command is executed.
+17:17:14 INFO  : Context for processor 'microblaze_0' is selected.
+17:17:15 INFO  : The application 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf' is downloaded to processor 'microblaze_0'.
+17:17:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}
+fpga -file C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf
+----------------End of Script----------------
+
+17:17:17 INFO  : Context for processor 'microblaze_0' is selected.
+17:17:17 INFO  : 'con' command is executed.
+17:17:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:17:17 INFO  : Launch script is exported to file 'C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\TMP3_comp_system\_ide\scripts\systemdebugger_tmp3_comp_system_standalone.tcl'
+17:18:45 INFO  : Result from executing command 'removePlatformRepo': 
+17:18:56 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:18:56 INFO  : Result from executing command 'getPlatforms': 
+17:19:02 INFO  : Result from executing command 'removePlatformRepo': 
+17:19:14 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:19:14 INFO  : Result from executing command 'getPlatforms': 
+17:19:14 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+17:19:21 INFO  : Disconnected from the channel tcfchan#29.
+17:19:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:19:22 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61CF5A' is selected.
+17:19:22 INFO  : 'jtag frequency' command is executed.
+17:19:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}' command is executed.
+17:19:25 INFO  : Device configured successfully with "C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit"
+17:19:26 INFO  : Context for processor 'microblaze_0' is selected.
+17:19:26 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa'.
+17:19:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:19:26 INFO  : Context for processor 'microblaze_0' is selected.
+17:19:27 INFO  : System reset is completed.
+17:19:30 INFO  : 'after 3000' command is executed.
+17:19:30 INFO  : Context for processor 'microblaze_0' is selected.
+17:19:31 INFO  : The application 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf' is downloaded to processor 'microblaze_0'.
+17:19:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}
+fpga -file C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf
+----------------End of Script----------------
+
+17:19:33 INFO  : Context for processor 'microblaze_0' is selected.
+17:19:34 INFO  : 'con' command is executed.
+17:19:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:19:34 INFO  : Launch script is exported to file 'C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\TMP3_comp_system\_ide\scripts\systemdebugger_tmp3_comp_system_standalone.tcl'
+17:19:56 INFO  : Result from executing command 'removePlatformRepo': 
+17:20:16 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:20:16 INFO  : Result from executing command 'getPlatforms': 
+17:20:31 INFO  : Result from executing command 'removePlatformRepo': 
+17:20:47 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:20:47 INFO  : Result from executing command 'getPlatforms': 
+17:20:47 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+17:20:57 INFO  : Disconnected from the channel tcfchan#34.
+17:20:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:20:58 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61CF5A' is selected.
+17:20:58 INFO  : 'jtag frequency' command is executed.
+17:20:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}' command is executed.
+17:21:02 INFO  : Device configured successfully with "C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit"
+17:21:02 INFO  : Context for processor 'microblaze_0' is selected.
+17:21:02 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa'.
+17:21:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:21:02 INFO  : Context for processor 'microblaze_0' is selected.
+17:21:03 INFO  : System reset is completed.
+17:21:06 INFO  : 'after 3000' command is executed.
+17:21:06 INFO  : Context for processor 'microblaze_0' is selected.
+17:21:08 INFO  : The application 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf' is downloaded to processor 'microblaze_0'.
+17:21:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}
+fpga -file C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf
+----------------End of Script----------------
+
+17:21:09 INFO  : Context for processor 'microblaze_0' is selected.
+17:21:09 INFO  : 'con' command is executed.
+17:21:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:21:09 INFO  : Launch script is exported to file 'C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\TMP3_comp_system\_ide\scripts\systemdebugger_tmp3_comp_system_standalone.tcl'
+17:21:51 INFO  : Result from executing command 'removePlatformRepo': 
+17:22:09 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:22:09 INFO  : Result from executing command 'getPlatforms': 
+17:22:16 INFO  : Result from executing command 'removePlatformRepo': 
+17:22:30 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:22:30 INFO  : Result from executing command 'getPlatforms': 
+17:22:30 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+17:22:41 INFO  : Disconnected from the channel tcfchan#39.
+17:22:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:22:42 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61CF5A' is selected.
+17:22:42 INFO  : 'jtag frequency' command is executed.
+17:22:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}' command is executed.
+17:22:46 INFO  : Device configured successfully with "C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit"
+17:22:47 INFO  : Context for processor 'microblaze_0' is selected.
+17:22:47 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa'.
+17:22:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:22:47 INFO  : Context for processor 'microblaze_0' is selected.
+17:22:47 INFO  : System reset is completed.
+17:22:50 INFO  : 'after 3000' command is executed.
+17:22:51 INFO  : Context for processor 'microblaze_0' is selected.
+17:22:52 INFO  : The application 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf' is downloaded to processor 'microblaze_0'.
+17:22:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}
+fpga -file C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf
+----------------End of Script----------------
+
+17:22:54 INFO  : Context for processor 'microblaze_0' is selected.
+17:22:55 INFO  : 'con' command is executed.
+17:22:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:22:55 INFO  : Launch script is exported to file 'C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\TMP3_comp_system\_ide\scripts\systemdebugger_tmp3_comp_system_standalone.tcl'
+17:23:30 INFO  : Result from executing command 'removePlatformRepo': 
+17:23:42 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:23:42 INFO  : Result from executing command 'getPlatforms': 
+17:23:50 INFO  : Result from executing command 'removePlatformRepo': 
+17:24:03 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:24:03 INFO  : Result from executing command 'getPlatforms': 
+17:24:04 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+17:24:14 INFO  : Disconnected from the channel tcfchan#44.
+17:24:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:24:14 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61CF5A' is selected.
+17:24:15 INFO  : 'jtag frequency' command is executed.
+17:24:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}' command is executed.
+17:24:18 INFO  : Device configured successfully with "C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit"
+17:24:19 INFO  : Context for processor 'microblaze_0' is selected.
+17:24:19 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa'.
+17:24:19 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:24:19 INFO  : Context for processor 'microblaze_0' is selected.
+17:24:19 INFO  : System reset is completed.
+17:24:22 INFO  : 'after 3000' command is executed.
+17:24:23 INFO  : Context for processor 'microblaze_0' is selected.
+17:24:24 INFO  : The application 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf' is downloaded to processor 'microblaze_0'.
+17:24:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}
+fpga -file C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf
+----------------End of Script----------------
+
+17:24:25 INFO  : Context for processor 'microblaze_0' is selected.
+17:24:26 INFO  : 'con' command is executed.
+17:24:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:24:26 INFO  : Launch script is exported to file 'C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\TMP3_comp_system\_ide\scripts\systemdebugger_tmp3_comp_system_standalone.tcl'
+17:25:04 INFO  : Result from executing command 'removePlatformRepo': 
+17:25:19 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:25:19 INFO  : Result from executing command 'getPlatforms': 
+17:25:28 INFO  : Result from executing command 'removePlatformRepo': 
+17:25:40 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:25:40 INFO  : Result from executing command 'getPlatforms': 
+17:25:40 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+17:26:04 INFO  : Result from executing command 'removePlatformRepo': 
+17:26:18 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:26:18 INFO  : Result from executing command 'getPlatforms': 
+17:26:32 INFO  : Result from executing command 'removePlatformRepo': 
+17:26:49 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:26:49 INFO  : Result from executing command 'getPlatforms': 
+17:26:49 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+17:26:58 INFO  : Disconnected from the channel tcfchan#49.
+17:26:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:26:59 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61CF5A' is selected.
+17:26:59 INFO  : 'jtag frequency' command is executed.
+17:27:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}' command is executed.
+17:27:03 INFO  : Device configured successfully with "C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit"
+17:27:03 INFO  : Context for processor 'microblaze_0' is selected.
+17:27:03 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa'.
+17:27:03 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:27:03 INFO  : Context for processor 'microblaze_0' is selected.
+17:27:04 INFO  : System reset is completed.
+17:27:07 INFO  : 'after 3000' command is executed.
+17:27:07 INFO  : Context for processor 'microblaze_0' is selected.
+17:27:08 INFO  : The application 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf' is downloaded to processor 'microblaze_0'.
+17:27:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}
+fpga -file C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf
+----------------End of Script----------------
+
+17:27:08 INFO  : Context for processor 'microblaze_0' is selected.
+17:27:10 INFO  : 'con' command is executed.
+17:27:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:27:10 INFO  : Launch script is exported to file 'C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\TMP3_comp_system\_ide\scripts\systemdebugger_tmp3_comp_system_standalone.tcl'
+17:27:37 INFO  : Result from executing command 'removePlatformRepo': 
+17:27:52 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:27:52 INFO  : Result from executing command 'getPlatforms': 
+17:28:00 INFO  : Result from executing command 'removePlatformRepo': 
+17:28:12 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:28:12 INFO  : Result from executing command 'getPlatforms': 
+17:28:12 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+17:28:21 INFO  : Disconnected from the channel tcfchan#58.
+17:28:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:28:21 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61CF5A' is selected.
+17:28:22 INFO  : 'jtag frequency' command is executed.
+17:28:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}' command is executed.
+17:28:25 INFO  : Device configured successfully with "C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit"
+17:28:26 INFO  : Context for processor 'microblaze_0' is selected.
+17:28:26 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa'.
+17:28:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:28:26 INFO  : Context for processor 'microblaze_0' is selected.
+17:28:27 INFO  : System reset is completed.
+17:28:30 INFO  : 'after 3000' command is executed.
+17:28:30 INFO  : Context for processor 'microblaze_0' is selected.
+17:28:31 INFO  : The application 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf' is downloaded to processor 'microblaze_0'.
+17:28:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}
+fpga -file C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf
+----------------End of Script----------------
+
+17:28:32 INFO  : Context for processor 'microblaze_0' is selected.
+17:28:33 INFO  : 'con' command is executed.
+17:28:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:28:33 INFO  : Launch script is exported to file 'C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\TMP3_comp_system\_ide\scripts\systemdebugger_tmp3_comp_system_standalone.tcl'
+17:28:59 INFO  : Result from executing command 'removePlatformRepo': 
+17:29:09 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:29:09 INFO  : Result from executing command 'getPlatforms': 
+17:29:17 INFO  : Result from executing command 'removePlatformRepo': 
+17:29:31 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:29:31 INFO  : Result from executing command 'getPlatforms': 
+17:29:32 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+17:29:44 INFO  : Disconnected from the channel tcfchan#63.
+17:29:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:29:45 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61CF5A' is selected.
+17:29:46 INFO  : 'jtag frequency' command is executed.
+17:29:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}' command is executed.
+17:29:49 INFO  : Device configured successfully with "C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit"
+17:29:49 INFO  : Context for processor 'microblaze_0' is selected.
+17:29:50 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa'.
+17:29:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:29:50 INFO  : Context for processor 'microblaze_0' is selected.
+17:29:50 INFO  : System reset is completed.
+17:29:53 INFO  : 'after 3000' command is executed.
+17:29:54 INFO  : Context for processor 'microblaze_0' is selected.
+17:29:54 INFO  : The application 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf' is downloaded to processor 'microblaze_0'.
+17:29:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}
+fpga -file C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf
+----------------End of Script----------------
+
+17:29:56 INFO  : Context for processor 'microblaze_0' is selected.
+17:29:57 INFO  : 'con' command is executed.
+17:29:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:29:57 INFO  : Launch script is exported to file 'C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\TMP3_comp_system\_ide\scripts\systemdebugger_tmp3_comp_system_standalone.tcl'
+17:30:26 INFO  : Result from executing command 'removePlatformRepo': 
+17:30:38 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:30:38 INFO  : Result from executing command 'getPlatforms': 
+17:30:44 INFO  : Result from executing command 'removePlatformRepo': 
+17:30:58 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:30:58 INFO  : Result from executing command 'getPlatforms': 
+17:30:58 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+17:31:10 INFO  : Disconnected from the channel tcfchan#68.
+17:31:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:31:11 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61CF5A' is selected.
+17:31:12 INFO  : 'jtag frequency' command is executed.
+17:31:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}' command is executed.
+17:31:15 INFO  : Device configured successfully with "C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit"
+17:31:16 INFO  : Context for processor 'microblaze_0' is selected.
+17:31:16 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa'.
+17:31:16 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:31:16 INFO  : Context for processor 'microblaze_0' is selected.
+17:31:16 INFO  : System reset is completed.
+17:31:19 INFO  : 'after 3000' command is executed.
+17:31:20 INFO  : Context for processor 'microblaze_0' is selected.
+17:31:21 INFO  : The application 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf' is downloaded to processor 'microblaze_0'.
+17:31:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}
+fpga -file C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf
+----------------End of Script----------------
+
+17:31:22 INFO  : Context for processor 'microblaze_0' is selected.
+17:31:23 INFO  : 'con' command is executed.
+17:31:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:31:23 INFO  : Launch script is exported to file 'C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\TMP3_comp_system\_ide\scripts\systemdebugger_tmp3_comp_system_standalone.tcl'
+17:32:07 INFO  : Result from executing command 'removePlatformRepo': 
+17:32:23 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:32:23 INFO  : Result from executing command 'getPlatforms': 
+17:32:34 INFO  : Result from executing command 'removePlatformRepo': 
+17:32:48 INFO  : Result from executing command 'getProjects': TMP3_Platform_J
+17:32:48 INFO  : Result from executing command 'getPlatforms': 
+17:32:49 INFO  : Checking for BSP changes to sync application flags for project 'TMP3_comp'...
+17:32:58 INFO  : Disconnected from the channel tcfchan#73.
+17:32:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:32:58 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61CF5A' is selected.
+17:32:59 INFO  : 'jtag frequency' command is executed.
+17:33:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}' command is executed.
+17:33:02 INFO  : Device configured successfully with "C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit"
+17:33:03 INFO  : Context for processor 'microblaze_0' is selected.
+17:33:03 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa'.
+17:33:03 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:33:03 INFO  : Context for processor 'microblaze_0' is selected.
+17:33:04 INFO  : System reset is completed.
+17:33:07 INFO  : 'after 3000' command is executed.
+17:33:07 INFO  : Context for processor 'microblaze_0' is selected.
+17:33:08 INFO  : The application 'C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf' is downloaded to processor 'microblaze_0'.
+17:33:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61CF5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61CF5A-13631093-0"}
+fpga -file C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/_ide/bitstream/TEST_J_2021TMP3_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/hw/TEST_J_2021TMP3_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_comp/Release/TMP3_comp.elf
+----------------End of Script----------------
+
+17:33:09 INFO  : Context for processor 'microblaze_0' is selected.
+17:33:11 INFO  : 'con' command is executed.
+17:33:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:33:11 INFO  : Launch script is exported to file 'C:\Users\User\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\TMP3\TMP3_comp_system\_ide\scripts\systemdebugger_tmp3_comp_system_standalone.tcl'
+20:52:26 INFO  : Disconnected from the channel tcfchan#78.

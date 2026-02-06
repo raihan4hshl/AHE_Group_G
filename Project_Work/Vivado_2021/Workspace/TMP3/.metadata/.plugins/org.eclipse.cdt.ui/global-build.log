@@ -1,6 +1,6 @@
-22:15:51 **** Build of project TMP3_Platform_J ****
-buildplatform.bat 64412 TMP3_Platform_J  
-XSDB Server Channel: tcfchan#3
+17:32:43 **** Build of project TMP3_Platform_J ****
+buildplatform.bat 59920 TMP3_Platform_J  
+XSDB Server Channel: tcfchan#77
 Building the BSP Library for domain  - standalone_domain on processor microblaze_0
 make --no-print-directory seq_libs
 
@@ -77,11 +77,11 @@ make -j 14 --no-print-directory par_libs
 
 "Running Make include in microblaze_0/libsrc/bram_v4_7/src"
 
-"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
-
 make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
 R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
 -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
 
 make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
 R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
@@ -89,11 +89,11 @@ R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAG
 
 "Running Make include in microblaze_0/libsrc/intc_v3_13/src"
 
-"Running Make include in microblaze_0/libsrc/PmodTMP3_v1_0/src"
-
 make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
 ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
  -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/PmodTMP3_v1_0/src"
 
 make -C microblaze_0/libsrc/PmodTMP3_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
 PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
@@ -174,24 +174,24 @@ he_range.o
 
 'Finished building libraries'
 
-22:15:55 **** Build of configuration Debug for project TMP3_comp ****
+17:32:49 **** Build of configuration Release for project TMP3_comp ****
 make all 
 'Building file: ../src/main.c'
 'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IF:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/sw/TMP3_Platform_J/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+mb-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/sw/TMP3_Platform_J/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
 'Finished building: ../src/main.c'
 ' '
 'Building target: TMP3_comp.elf'
 'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LF:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/sw/TMP3_Platform_J/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "TMP3_comp.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/User/Documents/GitHub/AHE_Group_G/Project_Work/Vivado_2021/Workspace/TMP3/TMP3_Platform_J/export/TMP3_Platform_J/sw/TMP3_Platform_J/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "TMP3_comp.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 'Finished building target: TMP3_comp.elf'
 ' '
 'Invoking: MicroBlaze Print Size'
 mb-size TMP3_comp.elf  |tee "TMP3_comp.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  17604	    348	   3224	  21176	   52b8	TMP3_comp.elf
+  17052	    348	   3224	  20624	   5090	TMP3_comp.elf
 'Finished building: TMP3_comp.elf.size'
 ' '
-22:15:58 **** Build of configuration Debug for project TMP3_comp_system ****
+17:32:50 **** Build of configuration Release for project TMP3_comp_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

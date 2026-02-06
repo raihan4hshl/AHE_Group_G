@@ -1,0 +1,6 @@
+12:41:59 **** Build of configuration Debug for project tmp3_monitor_app_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+12:41:59 Build Finished (took 111ms)
+

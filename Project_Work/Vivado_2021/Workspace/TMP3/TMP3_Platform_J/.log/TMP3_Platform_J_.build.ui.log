@@ -1,6 +1,6 @@
-2026-01-02T22:15:51.979402800255-22:15:51 **** Build of project TMP3_Platform_J ****
-000-buildplatform.bat 64412 TMP3_Platform_J  
-000-XSDB Server Channel: tcfchan#3
+2026-01-07T17:32:43.373818100255-17:32:43 **** Build of project TMP3_Platform_J ****
+000-buildplatform.bat 59920 TMP3_Platform_J  
+000-XSDB Server Channel: tcfchan#77
 000-Building the BSP Library for domain  - standalone_domain on processor microblaze_0
 000-make --no-print-directory seq_libs
 000-
@@ -77,11 +77,11 @@
 000-
 000-"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
 000-
-000-"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
-000-
 000-make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
 000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
 000--Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
 000-
 000-make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
 000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
@@ -89,11 +89,11 @@
 000-
 000-"Running Make include in microblaze_0/libsrc/intc_v3_13/src"
 000-
-000-"Running Make include in microblaze_0/libsrc/PmodTMP3_v1_0/src"
-000-
 000-make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
 000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
 000- -Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make include in microblaze_0/libsrc/PmodTMP3_v1_0/src"
 000-
 000-make -C microblaze_0/libsrc/PmodTMP3_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
 000-PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
@@ -175,5 +175,5 @@
 000-'Finished building libraries'
 000-
 00255-
-22:15:55 Build Finished (took 3s.438ms)
+17:32:48 Build Finished (took 5s.585ms)
 

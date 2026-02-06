@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_printf.h"
+#include "sleep.h"
+#include "PmodTMP3.h"
+
+PmodTMP3 myTMP3;
+
+int main()
+{
+    float temp;
+
+    xil_printf("PMOD TMP3 test\r\n");
+
+    TMP3_begin(
+        &myTMP3,
+        XPAR_PMODTMP3_0_AXI_LITE_IIC_BASEADDR,
+        TMP3_ADDR
+    );
+
+    while (1) {
+        temp = TMP3_getTemp(&myTMP3);
+
+        xil_printf("Temperature: %d.%02d C\r\n",
+                   (int)temp,
+                   (int)((temp - (int)temp) * 100));
+
+        sleep(1);
+    }
+}

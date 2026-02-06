@@ -1,0 +1,68 @@
+timestamp=[2026-01-07 22:59:53], mode=WORKBENCH_START, duration=0:00:04.863, duration_ms=4863, data={}
+timestamp=[2026-01-07 22:59:54], mode=WORKBENCH_UI_INIT, duration=0:00:00.537, duration_ms=537, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-01-07 22:59:54], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.096, duration_ms=96, data={}
+timestamp=[2026-01-07 23:02:22], mode=PLATFORM_CREATION, duration=0:00:03.433, duration_ms=3433, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2026-01-07 23:02:52], mode=PLATFORM_GENERATION, duration=0:00:06.920, duration_ms=6920, data={name=TMP3_Platform}
+timestamp=[2026-01-07 23:04:48], mode=APP_CREATION, duration=0:00:01.473, duration_ms=1473, data={name=tmp3_monitor_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=TMP3_Platform, application_type=application}
+timestamp=[2026-01-07 23:05:09], mode=BUILD, duration=0:00:01.159, duration_ms=1159, data={name=tmp3_monitor_app, configuration=Debug, clean_build=false}
+timestamp=[2026-01-07 23:05:09], mode=BUILD, duration=0:00:00.194, duration_ms=194, data={name=tmp3_monitor_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-01-07 23:11:47], mode=BUILD, duration=0:00:00.306, duration_ms=306, data={name=tmp3_monitor_app, configuration=Debug, clean_build=false}
+timestamp=[2026-01-07 23:22:40], mode=BUILD, duration=0:00:00.317, duration_ms=317, data={name=tmp3_monitor_app, configuration=Debug, clean_build=false}
+timestamp=[2026-01-07 23:22:49], mode=PLATFORM_GENERATION, duration=0:00:02.501, duration_ms=2501, data={name=TMP3_Platform}
+timestamp=[2026-01-07 23:22:49], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=tmp3_monitor_app, configuration=Debug, clean_build=true}
+timestamp=[2026-01-07 23:22:49], mode=BUILD, duration=0:00:00.185, duration_ms=185, data={name=tmp3_monitor_app_system, configuration=Debug, clean_build=true}
+timestamp=[2026-01-07 23:22:58], mode=PLATFORM_GENERATION, duration=0:00:05.762, duration_ms=5762, data={name=TMP3_Platform}
+timestamp=[2026-01-07 23:22:58], mode=BUILD, duration=0:00:00.390, duration_ms=390, data={name=tmp3_monitor_app, configuration=Debug, clean_build=false}
+timestamp=[2026-01-08 11:09:39], mode=PLATFORM_GENERATION, duration=0:00:05.994, duration_ms=5994, data={name=TMP3_Platform}
+timestamp=[2026-01-08 11:09:39], mode=BUILD, duration=0:00:00.258, duration_ms=258, data={name=tmp3_monitor_app, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 11:09:39], mode=BUILD, duration=0:00:00.189, duration_ms=189, data={name=tmp3_monitor_app_system, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 11:09:54], mode=PLATFORM_GENERATION, duration=0:00:07.899, duration_ms=7899, data={name=TMP3_Platform}
+timestamp=[2026-01-08 11:09:54], mode=BUILD, duration=0:00:00.368, duration_ms=368, data={name=tmp3_monitor_app, configuration=Debug, clean_build=false}
+timestamp=[2026-01-08 11:12:32], mode=BUILD, duration=0:00:00.331, duration_ms=331, data={name=tmp3_monitor_app, configuration=Debug, clean_build=false}
+timestamp=[2026-01-08 11:16:31], mode=PLATFORM_GENERATION, duration=0:00:02.454, duration_ms=2454, data={name=TMP3_Platform}
+timestamp=[2026-01-08 11:16:31], mode=BUILD, duration=0:00:00.179, duration_ms=179, data={name=tmp3_monitor_app, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 11:16:32], mode=BUILD, duration=0:00:00.184, duration_ms=184, data={name=tmp3_monitor_app_system, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 11:16:43], mode=PLATFORM_GENERATION, duration=0:00:05.696, duration_ms=5696, data={name=TMP3_Platform}
+timestamp=[2026-01-08 11:16:44], mode=BUILD, duration=0:00:01.459, duration_ms=1459, data={name=tmp3_monitor_app, configuration=Debug, clean_build=false}
+timestamp=[2026-01-08 11:31:46], mode=PLATFORM_GENERATION, duration=0:00:02.536, duration_ms=2536, data={name=TMP3_Platform}
+timestamp=[2026-01-08 11:31:46], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=tmp3_monitor_app, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 11:31:46], mode=BUILD, duration=0:00:00.184, duration_ms=184, data={name=tmp3_monitor_app_system, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 11:31:58], mode=PLATFORM_GENERATION, duration=0:00:05.610, duration_ms=5610, data={name=TMP3_Platform}
+timestamp=[2026-01-08 11:31:58], mode=BUILD, duration=0:00:00.364, duration_ms=364, data={name=tmp3_monitor_app, configuration=Debug, clean_build=false}
+timestamp=[2026-01-08 11:35:43], mode=PLATFORM_GENERATION, duration=0:00:02.470, duration_ms=2470, data={name=TMP3_Platform}
+timestamp=[2026-01-08 11:35:43], mode=BUILD, duration=0:00:00.191, duration_ms=191, data={name=tmp3_monitor_app, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 11:35:44], mode=BUILD, duration=0:00:00.178, duration_ms=178, data={name=tmp3_monitor_app_system, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 11:35:56], mode=PLATFORM_GENERATION, duration=0:00:05.677, duration_ms=5677, data={name=TMP3_Platform}
+timestamp=[2026-01-08 11:35:57], mode=BUILD, duration=0:00:00.380, duration_ms=380, data={name=tmp3_monitor_app, configuration=Debug, clean_build=false}
+timestamp=[2026-01-08 11:37:50], mode=PLATFORM_GENERATION, duration=0:00:02.587, duration_ms=2587, data={name=TMP3_Platform}
+timestamp=[2026-01-08 11:37:50], mode=BUILD, duration=0:00:00.190, duration_ms=190, data={name=tmp3_monitor_app, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 11:37:50], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=tmp3_monitor_app_system, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 11:38:01], mode=PLATFORM_GENERATION, duration=0:00:05.786, duration_ms=5786, data={name=TMP3_Platform}
+timestamp=[2026-01-08 11:38:02], mode=BUILD, duration=0:00:01.331, duration_ms=1331, data={name=tmp3_monitor_app, configuration=Debug, clean_build=false}
+timestamp=[2026-01-08 11:38:03], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=tmp3_monitor_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-01-08 11:44:39], mode=PLATFORM_GENERATION, duration=0:00:02.539, duration_ms=2539, data={name=TMP3_Platform}
+timestamp=[2026-01-08 11:44:39], mode=BUILD, duration=0:00:00.177, duration_ms=177, data={name=tmp3_monitor_app, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 11:44:39], mode=BUILD, duration=0:00:00.188, duration_ms=188, data={name=tmp3_monitor_app_system, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 11:44:55], mode=PLATFORM_GENERATION, duration=0:00:05.748, duration_ms=5748, data={name=TMP3_Platform}
+timestamp=[2026-01-08 11:44:56], mode=BUILD, duration=0:00:01.131, duration_ms=1131, data={name=tmp3_monitor_app, configuration=Debug, clean_build=false}
+timestamp=[2026-01-08 11:44:57], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=tmp3_monitor_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-01-08 12:02:01], mode=PLATFORM_GENERATION, duration=0:00:02.620, duration_ms=2620, data={name=TMP3_Platform}
+timestamp=[2026-01-08 12:02:02], mode=BUILD, duration=0:00:00.191, duration_ms=191, data={name=tmp3_monitor_app, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 12:02:02], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=tmp3_monitor_app_system, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 12:02:14], mode=PLATFORM_GENERATION, duration=0:00:05.755, duration_ms=5755, data={name=TMP3_Platform}
+timestamp=[2026-01-08 12:02:15], mode=BUILD, duration=0:00:01.199, duration_ms=1199, data={name=tmp3_monitor_app, configuration=Debug, clean_build=false}
+timestamp=[2026-01-08 12:02:15], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=tmp3_monitor_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-01-08 12:22:04], mode=PLATFORM_GENERATION, duration=0:00:02.582, duration_ms=2582, data={name=TMP3_Platform}
+timestamp=[2026-01-08 12:22:15], mode=PLATFORM_GENERATION, duration=0:00:06.157, duration_ms=6157, data={name=TMP3_Platform}
+timestamp=[2026-01-08 12:22:29], mode=PLATFORM_GENERATION, duration=0:00:02.575, duration_ms=2575, data={name=TMP3_Platform}
+timestamp=[2026-01-08 12:22:29], mode=BUILD, duration=0:00:00.193, duration_ms=193, data={name=tmp3_monitor_app, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 12:22:29], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=tmp3_monitor_app_system, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 12:22:38], mode=PLATFORM_GENERATION, duration=0:00:05.815, duration_ms=5815, data={name=TMP3_Platform}
+timestamp=[2026-01-08 12:22:39], mode=BUILD, duration=0:00:01.144, duration_ms=1144, data={name=tmp3_monitor_app, configuration=Debug, clean_build=false}
+timestamp=[2026-01-08 12:22:39], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=tmp3_monitor_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-01-08 12:41:47], mode=PLATFORM_GENERATION, duration=0:00:02.670, duration_ms=2670, data={name=TMP3_Platform}
+timestamp=[2026-01-08 12:41:48], mode=BUILD, duration=0:00:00.192, duration_ms=192, data={name=tmp3_monitor_app, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 12:41:48], mode=BUILD, duration=0:00:00.194, duration_ms=194, data={name=tmp3_monitor_app_system, configuration=Debug, clean_build=true}
+timestamp=[2026-01-08 12:41:58], mode=PLATFORM_GENERATION, duration=0:00:05.801, duration_ms=5801, data={name=TMP3_Platform}
+timestamp=[2026-01-08 12:41:59], mode=BUILD, duration=0:00:01.209, duration_ms=1209, data={name=tmp3_monitor_app, configuration=Debug, clean_build=false}
+timestamp=[2026-01-08 12:41:59], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=tmp3_monitor_app_system, configuration=Debug, clean_build=false}

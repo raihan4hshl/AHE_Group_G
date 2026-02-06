@@ -1,0 +1,21 @@
+22:09:20 **** Build of configuration Debug for project All_Comps ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IF:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/ALL_PMODS/All_PMods_Platform/export/All_PMods_Platform/sw/All_PMods_Platform/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: All_Comps.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LF:/Advanced_Hardware_Engineering/Vivado_2021/Workspace/ALL_PMODS/All_PMods_Platform/export/All_PMods_Platform/sw/All_PMods_Platform/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "All_Comps.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: All_Comps.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size All_Comps.elf  |tee "All_Comps.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  91144	   1792	   3664	  96600	  17958	All_Comps.elf
+'Finished building: All_Comps.elf.size'
+' '
+
+22:09:21 Build Finished (took 444ms)
+

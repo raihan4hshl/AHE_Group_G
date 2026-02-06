@@ -1,0 +1,28 @@
+timestamp=[2026-01-04 21:57:05], mode=WORKBENCH_START, duration=0:00:02.976, duration_ms=2976, data={}
+timestamp=[2026-01-04 21:57:05], mode=WORKBENCH_UI_INIT, duration=0:00:00.254, duration_ms=254, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-01-04 21:57:06], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.055, duration_ms=55, data={}
+timestamp=[2026-01-04 21:58:19], mode=PLATFORM_CREATION, duration=0:00:03.076, duration_ms=3076, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2026-01-04 21:58:25], mode=PLATFORM_GENERATION, duration=0:00:01.412, duration_ms=1412, data={name=All_PMods_Platform}
+timestamp=[2026-01-04 21:58:32], mode=PLATFORM_GENERATION, duration=0:00:05.855, duration_ms=5855, data={name=All_PMods_Platform}
+timestamp=[2026-01-04 21:59:00], mode=APP_CREATION, duration=0:00:01.083, duration_ms=1083, data={name=All_Comps, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=All_PMods_Platform, application_type=application}
+timestamp=[2026-01-04 22:00:08], mode=PLATFORM_GENERATION, duration=0:00:01.745, duration_ms=1745, data={name=All_PMods_Platform}
+timestamp=[2026-01-04 22:00:17], mode=PLATFORM_GENERATION, duration=0:00:05.275, duration_ms=5275, data={name=All_PMods_Platform}
+timestamp=[2026-01-04 22:00:17], mode=BUILD, duration=0:00:00.283, duration_ms=283, data={name=All_Comps, configuration=Debug, clean_build=false}
+timestamp=[2026-01-04 22:00:39], mode=PLATFORM_GENERATION, duration=0:00:01.683, duration_ms=1683, data={name=All_PMods_Platform}
+timestamp=[2026-01-04 22:00:49], mode=PLATFORM_GENERATION, duration=0:00:05.320, duration_ms=5320, data={name=All_PMods_Platform}
+timestamp=[2026-01-04 22:00:53], mode=BUILD, duration=0:00:00.279, duration_ms=279, data={name=All_Comps, configuration=Debug, clean_build=false}
+timestamp=[2026-01-04 22:00:59], mode=PLATFORM_GENERATION, duration=0:00:01.729, duration_ms=1729, data={name=All_PMods_Platform}
+timestamp=[2026-01-04 22:00:59], mode=BUILD, duration=0:00:00.093, duration_ms=93, data={name=All_Comps, configuration=Debug, clean_build=true}
+timestamp=[2026-01-04 22:01:09], mode=PLATFORM_GENERATION, duration=0:00:05.189, duration_ms=5189, data={name=All_PMods_Platform}
+timestamp=[2026-01-04 22:01:09], mode=BUILD, duration=0:00:00.288, duration_ms=288, data={name=All_Comps, configuration=Debug, clean_build=false}
+timestamp=[2026-01-04 22:04:14], mode=PLATFORM_GENERATION, duration=0:00:01.739, duration_ms=1739, data={name=All_PMods_Platform}
+timestamp=[2026-01-04 22:04:14], mode=BUILD, duration=0:00:00.095, duration_ms=95, data={name=All_Comps, configuration=Debug, clean_build=true}
+timestamp=[2026-01-04 22:04:23], mode=PLATFORM_GENERATION, duration=0:00:05.307, duration_ms=5307, data={name=All_PMods_Platform}
+timestamp=[2026-01-04 22:04:23], mode=BUILD, duration=0:00:00.398, duration_ms=398, data={name=All_Comps, configuration=Debug, clean_build=false}
+timestamp=[2026-01-04 22:09:13], mode=PLATFORM_GENERATION, duration=0:00:01.669, duration_ms=1669, data={name=All_PMods_Platform}
+timestamp=[2026-01-04 22:09:13], mode=BUILD, duration=0:00:00.085, duration_ms=85, data={name=All_Comps, configuration=Debug, clean_build=true}
+timestamp=[2026-01-04 22:09:20], mode=PLATFORM_GENERATION, duration=0:00:05.140, duration_ms=5140, data={name=All_PMods_Platform}
+timestamp=[2026-01-04 22:09:21], mode=BUILD, duration=0:00:00.448, duration_ms=448, data={name=All_Comps, configuration=Debug, clean_build=false}
+timestamp=[2026-01-04 22:16:49], mode=WORKBENCH_START, duration=0:00:04.170, duration_ms=4170, data={}
+timestamp=[2026-01-04 22:16:50], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.035, duration_ms=35, data={}
+timestamp=[2026-01-04 22:16:50], mode=WORKBENCH_UI_INIT, duration=0:00:00.509, duration_ms=509, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=All_Comps,All_Comps_system,All_PMods_Platform,RemoteSystemsTempFiles}

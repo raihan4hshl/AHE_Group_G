@@ -1,6 +1,6 @@
-22:15:51 **** Build of project TMP3_Platform_J ****
-buildplatform.bat 64412 TMP3_Platform_J  
-XSDB Server Channel: tcfchan#3
+17:32:43 **** Build of project TMP3_Platform_J ****
+buildplatform.bat 59920 TMP3_Platform_J  
+XSDB Server Channel: tcfchan#77
 Building the BSP Library for domain  - standalone_domain on processor microblaze_0
 make --no-print-directory seq_libs
 
@@ -77,11 +77,11 @@ make -j 14 --no-print-directory par_libs
 
 "Running Make include in microblaze_0/libsrc/bram_v4_7/src"
 
-"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
-
 make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
 R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
 -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
 
 make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
 R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
@@ -89,11 +89,11 @@ R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAG
 
 "Running Make include in microblaze_0/libsrc/intc_v3_13/src"
 
-"Running Make include in microblaze_0/libsrc/PmodTMP3_v1_0/src"
-
 make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
 ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
  -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/PmodTMP3_v1_0/src"
 
 make -C microblaze_0/libsrc/PmodTMP3_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
 PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
@@ -175,5 +175,5 @@ he_range.o
 'Finished building libraries'
 
 
-22:15:55 Build Finished (took 3s.438ms)
+17:32:48 Build Finished (took 5s.585ms)
 

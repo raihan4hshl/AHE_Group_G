@@ -1,0 +1,10 @@
+-------------------------------------
+| Tool Version : Vivado v.2025.1
+| Date         : Tue Jan 13 13:45:23 2026
+| Host         : DESKTOP-QB50QQD
+| Design       : checkpoint_tmp3_system_wrapper
+| Device       : xc7a100t-csg324-1--
+-------------------------------------
+
+For more information on clockInfo.txt clock routing debug file see https://support.xilinx.com/s/article/000035660?language=en_US
+

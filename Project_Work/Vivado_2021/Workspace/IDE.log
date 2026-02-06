@@ -1,0 +1,50 @@
+18:32:22 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\exone\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\temp_xsdb_launch_script.tcl
+18:32:24 INFO  : Platform repository initialization has completed.
+18:32:25 INFO  : Registering command handlers for Vitis TCF services
+18:32:35 INFO  : XSCT server has started successfully.
+18:32:35 INFO  : plnx-install-location is set to ''
+18:32:49 INFO  : Successfully done setting XSCT server connection channel  
+18:32:49 INFO  : Successfully done query RDI_DATADIR 
+18:32:49 INFO  : Successfully done setting workspace for the tool. 
+20:07:34 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\exone\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\temp_xsdb_launch_script.tcl
+20:07:35 INFO  : Platform repository initialization has completed.
+20:07:36 INFO  : Registering command handlers for Vitis TCF services
+20:07:40 INFO  : XSCT server has started successfully.
+20:07:40 INFO  : plnx-install-location is set to ''
+20:07:40 INFO  : Successfully done setting XSCT server connection channel  
+20:07:40 INFO  : Successfully done query RDI_DATADIR 
+20:07:40 INFO  : Successfully done setting workspace for the tool. 
+20:09:33 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\exone\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\temp_xsdb_launch_script.tcl
+20:09:34 INFO  : Platform repository initialization has completed.
+20:09:36 INFO  : Registering command handlers for Vitis TCF services
+20:09:39 INFO  : XSCT server has started successfully.
+20:09:39 INFO  : Successfully done setting XSCT server connection channel  
+20:09:40 INFO  : plnx-install-location is set to ''
+20:09:40 INFO  : Successfully done setting workspace for the tool. 
+20:09:40 INFO  : Successfully done query RDI_DATADIR 
+20:16:49 ERROR : Hardware specification file is not configured properly in the launch configuration 'Debugger_OLED_comp-Default'. 
+Make sure that the application 'OLED_comp' is built properly for configuration 'Debug' before launching.
+20:19:33 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\exone\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\temp_xsdb_launch_script.tcl
+20:19:38 INFO  : Platform repository initialization has completed.
+20:19:39 INFO  : XSCT server has started successfully.
+20:19:39 INFO  : plnx-install-location is set to ''
+20:19:39 INFO  : Successfully done setting XSCT server connection channel  
+20:19:39 INFO  : Successfully done setting workspace for the tool. 
+20:19:43 INFO  : Successfully done query RDI_DATADIR 
+20:19:43 INFO  : Registering command handlers for Vitis TCF services
+20:24:21 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\exone\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\temp_xsdb_launch_script.tcl
+20:24:25 INFO  : Platform repository initialization has completed.
+20:24:29 INFO  : XSCT server has started successfully.
+20:24:29 INFO  : plnx-install-location is set to ''
+20:24:29 INFO  : Successfully done setting XSCT server connection channel  
+20:24:29 INFO  : Successfully done setting workspace for the tool. 
+20:24:30 INFO  : Successfully done query RDI_DATADIR 
+20:24:31 INFO  : Registering command handlers for Vitis TCF services
+13:39:55 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\exone\Documents\GitHub\AHE_Group_G\Project_Work\Vivado_2021\Workspace\temp_xsdb_launch_script.tcl
+13:40:00 INFO  : Platform repository initialization has completed.
+13:40:01 INFO  : XSCT server has started successfully.
+13:40:01 INFO  : plnx-install-location is set to ''
+13:40:01 INFO  : Successfully done setting XSCT server connection channel  
+13:40:01 INFO  : Successfully done setting workspace for the tool. 
+13:40:05 INFO  : Successfully done query RDI_DATADIR 
+13:40:05 INFO  : Registering command handlers for Vitis TCF services

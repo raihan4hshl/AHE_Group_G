@@ -1,0 +1,18 @@
+timestamp=[2026-01-04 18:32:20], mode=WORKBENCH_START, duration=0:00:22.766, duration_ms=22766, data={}
+timestamp=[2026-01-04 18:32:22], mode=WORKBENCH_UI_INIT, duration=0:00:02.330, duration_ms=2330, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-01-04 18:32:24], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.280, duration_ms=280, data={}
+timestamp=[2026-01-04 20:07:32], mode=WORKBENCH_START, duration=0:00:16.672, duration_ms=16672, data={}
+timestamp=[2026-01-04 20:07:34], mode=WORKBENCH_UI_INIT, duration=0:00:01.600, duration_ms=1600, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2026-01-04 20:07:35], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.120, duration_ms=120, data={}
+timestamp=[2026-01-04 20:09:31], mode=WORKBENCH_START, duration=0:00:16.616, duration_ms=16616, data={}
+timestamp=[2026-01-04 20:09:33], mode=WORKBENCH_UI_INIT, duration=0:00:01.931, duration_ms=1931, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2026-01-04 20:09:34], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.090, duration_ms=90, data={}
+timestamp=[2026-01-04 20:19:38], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.040, duration_ms=40, data={}
+timestamp=[2026-01-04 20:19:42], mode=WORKBENCH_START, duration=0:00:26.278, duration_ms=26278, data={}
+timestamp=[2026-01-04 20:19:46], mode=WORKBENCH_UI_INIT, duration=0:00:03.621, duration_ms=3621, data={editors_count=1, platform_editors_count=0, projects_count=13, platform_projects_count=4, active_platform_editor=false, projects=ALS_Platform_J,ALS_comp,ALS_comp_system,MAXSONAR_Platform_J,MAXSONAR_comp,MAXSONAR_comp_system,OLED_Platform_J,OLED_comp,OLED_comp_system,RemoteSystemsTempFiles,TMP3_Platform_J,TMP3_comp,TMP3_comp_system}
+timestamp=[2026-01-04 20:24:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.027, duration_ms=27, data={}
+timestamp=[2026-01-04 20:24:29], mode=WORKBENCH_START, duration=0:00:26.168, duration_ms=26168, data={}
+timestamp=[2026-01-04 20:24:33], mode=WORKBENCH_UI_INIT, duration=0:00:03.959, duration_ms=3959, data={editors_count=1, platform_editors_count=0, projects_count=13, platform_projects_count=4, active_platform_editor=false, projects=ALS_Platform_J,ALS_comp,ALS_comp_system,MAXSONAR_Platform_J,MAXSONAR_comp,MAXSONAR_comp_system,OLED_Platform_J,OLED_comp,OLED_comp_system,RemoteSystemsTempFiles,TMP3_Platform_J,TMP3_comp,TMP3_comp_system}
+timestamp=[2026-01-07 13:40:00], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.041, duration_ms=41, data={}
+timestamp=[2026-01-07 13:40:04], mode=WORKBENCH_START, duration=0:00:25.645, duration_ms=25645, data={}
+timestamp=[2026-01-07 13:40:07], mode=WORKBENCH_UI_INIT, duration=0:00:02.894, duration_ms=2894, data={editors_count=1, platform_editors_count=0, projects_count=13, platform_projects_count=3, active_platform_editor=false, projects=ALS_Platform_J,ALS_comp,ALS_comp_system,MAXSONAR_Platform_J,MAXSONAR_comp,MAXSONAR_comp_system,OLED_Platform_J,OLED_comp,OLED_comp_system,RemoteSystemsTempFiles,TMP3_Platform_J,TMP3_comp,TMP3_comp_system}

@@ -1,0 +1,17 @@
+# ninja log v5
+29	781	0	CMakeFiles/bram_example	d74789a56e2d276
+29	781	0	xbram_exlist.yaml	d74789a56e2d276
+29	781	0	C:/Users/User/Documents/GitHub/AHE_Group_G/project_workspace_4.1_1/pmod_TMP3_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/bram_example	d74789a56e2d276
+29	781	0	C:/Users/User/Documents/GitHub/AHE_Group_G/project_workspace_4.1_1/pmod_TMP3_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/xbram_exlist.yaml	d74789a56e2d276
+4	784	0	CMakeFiles/iic_example	3daaffd73df307a
+4	784	0	xiic_exlist.yaml	3daaffd73df307a
+4	784	0	C:/Users/User/Documents/GitHub/AHE_Group_G/project_workspace_4.1_1/pmod_TMP3_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/iic_example	3daaffd73df307a
+4	784	0	C:/Users/User/Documents/GitHub/AHE_Group_G/project_workspace_4.1_1/pmod_TMP3_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/xiic_exlist.yaml	3daaffd73df307a
+12	789	0	CMakeFiles/uartlite_example	3ff367cd9b09beb4
+12	789	0	xuartlite_exlist.yaml	3ff367cd9b09beb4
+12	789	0	C:/Users/User/Documents/GitHub/AHE_Group_G/project_workspace_4.1_1/pmod_TMP3_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/uartlite_example	3ff367cd9b09beb4
+12	789	0	C:/Users/User/Documents/GitHub/AHE_Group_G/project_workspace_4.1_1/pmod_TMP3_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/xuartlite_exlist.yaml	3ff367cd9b09beb4
+20	792	0	CMakeFiles/intc_example	390143d1715e0da8
+20	792	0	xintc_exlist.yaml	390143d1715e0da8
+20	792	0	C:/Users/User/Documents/GitHub/AHE_Group_G/project_workspace_4.1_1/pmod_TMP3_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/intc_example	390143d1715e0da8
+20	792	0	C:/Users/User/Documents/GitHub/AHE_Group_G/project_workspace_4.1_1/pmod_TMP3_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/xintc_exlist.yaml	390143d1715e0da8

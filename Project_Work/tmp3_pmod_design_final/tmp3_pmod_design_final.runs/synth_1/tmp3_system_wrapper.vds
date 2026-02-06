@@ -1,0 +1,1422 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Tue Jan 13 13:39:37 2026
+# Process ID         : 7488
+# Current directory  : C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.runs/synth_1
+# Command line       : vivado.exe -log tmp3_system_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tmp3_system_wrapper.tcl
+# Log file           : C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.runs/synth_1/tmp3_system_wrapper.vds
+# Journal file       : C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-QB50QQD
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) i7-10850H CPU @ 2.70GHz
+# CPU Frequency      : 2712 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 34040 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36187 MB
+# Available Virtual  : 22868 MB
+#-----------------------------------------------------------
+source tmp3_system_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 529.027 ; gain = 247.371
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'.
+INFO: [Project 1-5698] Found the below utility IPs instantiated in block design C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.srcs/sources_1/bd/tmp3_system/tmp3_system.bd which have equivalent inline hdl with improved performance and reduced diskspace.
+It is recommended to migrate these utility IPs to inline hdl  using the command upgrade_project -migrate_to_inline_hdl.  The utility IPs may be deprecated in future releases.
+More information on inline hdl is available in UG994.
+Utility IP Component Instances:
+ tmp3_system_util_vector_logic_0_0
+Command: read_checkpoint -auto_incremental -incremental C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.srcs/utils_1/imports/synth_1/tmp3_system_wrapper.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.srcs/utils_1/imports/synth_1/tmp3_system_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top tmp3_system_wrapper -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11296
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1285.352 ; gain = 496.301
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_7/synth/bd_67c5_aroutsw_0.sv:94]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_8/synth/bd_67c5_routsw_0.sv:83]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_8/synth/bd_67c5_routsw_0.sv:84]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_9/synth/bd_67c5_awoutsw_0.sv:94]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_10/synth/bd_67c5_woutsw_0.sv:94]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_11/synth/bd_67c5_boutsw_0.sv:83]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_11/synth/bd_67c5_boutsw_0.sv:84]
+INFO: [Synth 8-638] synthesizing module 'tmp3_system_wrapper' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/hdl/tmp3_system_wrapper.vhd:26]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:81434' bound to instance 'TMP3_scl_tri_iobuf_0' of component 'IOBUF' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/hdl/tmp3_system_wrapper.vhd:82]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:81434]
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (0#1) [C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:81434]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:81434' bound to instance 'TMP3_scl_tri_iobuf_1' of component 'IOBUF' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/hdl/tmp3_system_wrapper.vhd:89]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:81434' bound to instance 'TMP3_scl_tri_iobuf_2' of component 'IOBUF' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/hdl/tmp3_system_wrapper.vhd:96]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:81434' bound to instance 'TMP3_scl_tri_iobuf_3' of component 'IOBUF' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/hdl/tmp3_system_wrapper.vhd:103]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:81434' bound to instance 'TMP3_sda_tri_iobuf_0' of component 'IOBUF' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/hdl/tmp3_system_wrapper.vhd:110]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:81434' bound to instance 'TMP3_sda_tri_iobuf_1' of component 'IOBUF' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/hdl/tmp3_system_wrapper.vhd:117]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:81434' bound to instance 'TMP3_sda_tri_iobuf_2' of component 'IOBUF' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/hdl/tmp3_system_wrapper.vhd:124]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:81434' bound to instance 'TMP3_sda_tri_iobuf_3' of component 'IOBUF' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/hdl/tmp3_system_wrapper.vhd:131]
+INFO: [Synth 8-3491] module 'tmp3_system' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:531' bound to instance 'tmp3_system_i' of component 'tmp3_system' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/hdl/tmp3_system_wrapper.vhd:138]
+INFO: [Synth 8-638] synthesizing module 'tmp3_system' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:550]
+INFO: [Synth 8-3491] module 'tmp3_system_axi_gpio_0_0' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_axi_gpio_0_0/synth/tmp3_system_axi_gpio_0_0.vhd:59' bound to instance 'axi_gpio_0' of component 'tmp3_system_axi_gpio_0_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:886]
+INFO: [Synth 8-638] synthesizing module 'tmp3_system_axi_gpio_0_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_axi_gpio_0_0/synth/tmp3_system_axi_gpio_0_0.vhd:89]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_GPIO_WIDTH bound to: 4 - type: integer 
+	Parameter C_GPIO2_WIDTH bound to: 4 - type: integer 
+	Parameter C_ALL_INPUTS bound to: 0 - type: integer 
+	Parameter C_ALL_INPUTS_2 bound to: 0 - type: integer 
+	Parameter C_ALL_OUTPUTS bound to: 0 - type: integer 
+	Parameter C_ALL_OUTPUTS_2 bound to: 0 - type: integer 
+	Parameter C_INTERRUPT_PRESENT bound to: 0 - type: integer 
+	Parameter C_DOUT_DEFAULT bound to: 32'b00000000000000000000000000000000 
+	Parameter C_TRI_DEFAULT bound to: 32'b11111111111111111111111111111111 
+	Parameter C_IS_DUAL bound to: 1 - type: integer 
+	Parameter C_DOUT_DEFAULT_2 bound to: 32'b00000000000000000000000000000000 
+	Parameter C_TRI_DEFAULT_2 bound to: 32'b11111111111111111111111111111111 
+INFO: [Synth 8-3491] module 'axi_gpio' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:1255' bound to instance 'U0' of component 'axi_gpio' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_axi_gpio_0_0/synth/tmp3_system_axi_gpio_0_0.vhd:185]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:1341]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-226] default block is never used [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2550]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:182]
+INFO: [Synth 8-226] default block is never used [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:833]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_array_single' declared at 'C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:903' bound to instance 'INPUT_DOUBLE_REGS4' of component 'xpm_cdc_array_single' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:851]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_array_single' [C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:903]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_array_single' (0#1) [C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:903]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_array_single' declared at 'C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:903' bound to instance 'INPUT_DOUBLE_REGS5' of component 'xpm_cdc_array_single' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:880]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:182]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:1341]
+INFO: [Synth 8-256] done synthesizing module 'tmp3_system_axi_gpio_0_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_axi_gpio_0_0/synth/tmp3_system_axi_gpio_0_0.vhd:89]
+INFO: [Synth 8-3491] module 'tmp3_system_axi_uartlite_0_0' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_axi_uartlite_0_0/synth/tmp3_system_axi_uartlite_0_0.vhd:59' bound to instance 'axi_uartlite_0' of component 'tmp3_system_axi_uartlite_0_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:914]
+INFO: [Synth 8-638] synthesizing module 'tmp3_system_axi_uartlite_0_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_axi_uartlite_0_0/synth/tmp3_system_axi_uartlite_0_0.vhd:86]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_S_AXI_ACLK_FREQ_HZ bound to: 100000000 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_BAUDRATE bound to: 9600 - type: integer 
+	Parameter C_DATA_BITS bound to: 8 - type: integer 
+	Parameter C_USE_PARITY bound to: 0 - type: integer 
+	Parameter C_ODD_PARITY bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'axi_uartlite' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/eab1/hdl/axi_uartlite_v2_0_vh_rfs.vhd:1951' bound to instance 'U0' of component 'axi_uartlite' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_axi_uartlite_0_0/synth/tmp3_system_axi_uartlite_0_0.vhd:168]
+INFO: [Synth 8-638] synthesizing module 'axi_uartlite' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/eab1/hdl/axi_uartlite_v2_0_vh_rfs.vhd:2013]
+INFO: [Synth 8-638] synthesizing module 'uartlite_core' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/eab1/hdl/axi_uartlite_v2_0_vh_rfs.vhd:1479]
+INFO: [Synth 8-638] synthesizing module 'baudrate' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/eab1/hdl/axi_uartlite_v2_0_vh_rfs.vhd:1288]
+INFO: [Synth 8-256] done synthesizing module 'baudrate' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/eab1/hdl/axi_uartlite_v2_0_vh_rfs.vhd:1288]
+INFO: [Synth 8-638] synthesizing module 'uartlite_rx' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/eab1/hdl/axi_uartlite_v2_0_vh_rfs.vhd:794]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_single' declared at 'C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152' bound to instance 'INPUT_DOUBLE_REGS3' of component 'xpm_cdc_single' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/eab1/hdl/axi_uartlite_v2_0_vh_rfs.vhd:854]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single' [C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single' (0#1) [C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+INFO: [Synth 8-638] synthesizing module 'axi_uartlite_v2_0_39_srl_fifo' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/eab1/hdl/axi_uartlite_v2_0_vh_rfs.vhd:68]
+INFO: [Synth 8-256] done synthesizing module 'axi_uartlite_v2_0_39_srl_fifo' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/eab1/hdl/axi_uartlite_v2_0_vh_rfs.vhd:68]
+INFO: [Synth 8-256] done synthesizing module 'uartlite_rx' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/eab1/hdl/axi_uartlite_v2_0_vh_rfs.vhd:794]
+INFO: [Synth 8-638] synthesizing module 'uartlite_tx' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/eab1/hdl/axi_uartlite_v2_0_vh_rfs.vhd:306]
+INFO: [Synth 8-256] done synthesizing module 'uartlite_tx' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/eab1/hdl/axi_uartlite_v2_0_vh_rfs.vhd:306]
+INFO: [Synth 8-256] done synthesizing module 'uartlite_core' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/eab1/hdl/axi_uartlite_v2_0_vh_rfs.vhd:1479]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif__parameterized0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment__parameterized0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder__parameterized0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder__parameterized0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-226] default block is never used [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2550]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment__parameterized0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif__parameterized0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-256] done synthesizing module 'axi_uartlite' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/eab1/hdl/axi_uartlite_v2_0_vh_rfs.vhd:2013]
+INFO: [Synth 8-256] done synthesizing module 'tmp3_system_axi_uartlite_0_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_axi_uartlite_0_0/synth/tmp3_system_axi_uartlite_0_0.vhd:86]
+INFO: [Synth 8-3491] module 'tmp3_system_clk_wiz_1_0' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_clk_wiz_1_0/tmp3_system_clk_wiz_1_0.v:65' bound to instance 'clk_wiz_1' of component 'tmp3_system_clk_wiz_1_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:939]
+INFO: [Synth 8-6157] synthesizing module 'tmp3_system_clk_wiz_1_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_clk_wiz_1_0/tmp3_system_clk_wiz_1_0.v:65]
+INFO: [Synth 8-6157] synthesizing module 'tmp3_system_clk_wiz_1_0_clk_wiz' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_clk_wiz_1_0/tmp3_system_clk_wiz_1_0_clk_wiz.v:65]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:76868]
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (0#1) [C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:76868]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:89421]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 10.000000 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (0#1) [C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:89421]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:2678]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:2678]
+INFO: [Synth 8-6155] done synthesizing module 'tmp3_system_clk_wiz_1_0_clk_wiz' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_clk_wiz_1_0/tmp3_system_clk_wiz_1_0_clk_wiz.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'tmp3_system_clk_wiz_1_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_clk_wiz_1_0/tmp3_system_clk_wiz_1_0.v:65]
+INFO: [Synth 8-3491] module 'tmp3_system_mdm_1_0' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_mdm_1_0/synth/tmp3_system_mdm_1_0.vhd:59' bound to instance 'mdm_1' of component 'tmp3_system_mdm_1_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:946]
+INFO: [Synth 8-638] synthesizing module 'tmp3_system_mdm_1_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_mdm_1_0/synth/tmp3_system_mdm_1_0.vhd:74]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_DEVICE bound to: xc7a100t - type: string 
+	Parameter C_JTAG_CHAIN bound to: 2 - type: integer 
+	Parameter C_USE_BSCAN bound to: 0 - type: integer 
+	Parameter C_BSCANID bound to: 76547328 - type: integer 
+	Parameter C_DEBUG_INTERFACE bound to: 0 - type: integer 
+	Parameter C_USE_CONFIG_RESET bound to: 0 - type: integer 
+	Parameter C_AVOID_PRIMITIVES bound to: 0 - type: integer 
+	Parameter C_INTERCONNECT bound to: 2 - type: integer 
+	Parameter C_MB_DBG_PORTS bound to: 1 - type: integer 
+	Parameter C_USE_UART bound to: 0 - type: integer 
+	Parameter C_DBG_REG_ACCESS bound to: 0 - type: integer 
+	Parameter C_DBG_MEM_ACCESS bound to: 0 - type: integer 
+	Parameter C_USE_CROSS_TRIGGER bound to: 0 - type: integer 
+	Parameter C_EXT_TRIG_RESET_VALUE bound to: 20'b11110001001000110100 
+	Parameter C_TRACE_OUTPUT bound to: 0 - type: integer 
+	Parameter C_TRACE_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_TRACE_CLK_FREQ_HZ bound to: 200000000 - type: integer 
+	Parameter C_TRACE_CLK_OUT_PHASE bound to: 90 - type: integer 
+	Parameter C_TRACE_ASYNC_RESET bound to: 0 - type: integer 
+	Parameter C_TRACE_PROTOCOL bound to: 1 - type: integer 
+	Parameter C_TRACE_ID bound to: 110 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ACLK_FREQ_HZ bound to: 100000000 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_THREAD_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_ADDR_SIZE bound to: 32 - type: integer 
+	Parameter C_DATA_SIZE bound to: 32 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_M_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXIS_ID_WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-3491] module 'MDM' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:12684' bound to instance 'U0' of component 'MDM' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_mdm_1_0/synth/tmp3_system_mdm_1_0.vhd:1659]
+INFO: [Synth 8-638] synthesizing module 'MDM' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:14367]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter DISABLE_JTAG bound to: FALSE - type: string 
+	Parameter JTAG_CHAIN bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'MB_BSCANE2' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:330' bound to instance 'BSCAN_I' of component 'MB_BSCANE2' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:15983]
+INFO: [Synth 8-638] synthesizing module 'MB_BSCANE2' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:354]
+	Parameter DISABLE_JTAG bound to: FALSE - type: string 
+	Parameter JTAG_CHAIN bound to: 2 - type: integer 
+INFO: [Synth 8-113] binding component instance 'BSCANE2_I' to cell 'BSCANE2' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:364]
+INFO: [Synth 8-256] done synthesizing module 'MB_BSCANE2' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:354]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter INIT bound to: 2'b10 
+INFO: [Synth 8-3491] module 'MB_LUT1' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:1543' bound to instance 'LUT1_I' of component 'MB_LUT1' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:16001]
+INFO: [Synth 8-638] synthesizing module 'mdm_v3_2_28_MB_LUT1' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:1557]
+	Parameter INIT bound to: 2'b10 
+INFO: [Synth 8-113] binding component instance 'Native' to cell 'LUT1' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:1579]
+INFO: [Synth 8-256] done synthesizing module 'mdm_v3_2_28_MB_LUT1' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:1557]
+	Parameter C_TARGET bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'MB_BUFG' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:392' bound to instance 'BUFG_DRCK' of component 'MB_BUFG' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:16260]
+INFO: [Synth 8-638] synthesizing module 'MB_BUFG' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:405]
+INFO: [Synth 8-113] binding component instance 'Native' to cell 'BUFG' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:415]
+INFO: [Synth 8-256] done synthesizing module 'MB_BUFG' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:405]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter C_JTAG_CHAIN bound to: 2 - type: integer 
+	Parameter C_USE_BSCAN bound to: 0 - type: integer 
+	Parameter C_USE_CONFIG_RESET bound to: 0 - type: integer 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter C_DEBUG_INTERFACE bound to: 0 - type: integer 
+	Parameter C_MB_DBG_PORTS bound to: 1 - type: integer 
+	Parameter C_EN_WIDTH bound to: 1 - type: integer 
+	Parameter C_DBG_REG_ACCESS bound to: 0 - type: integer 
+	Parameter C_REG_NUM_CE bound to: 4 - type: integer 
+	Parameter C_REG_DATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_DBG_MEM_ACCESS bound to: 0 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_ACLK_FREQ_HZ bound to: 100000000 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_USE_CROSS_TRIGGER bound to: 0 - type: integer 
+	Parameter C_EXT_TRIG_RESET_VALUE bound to: 20'b11110001001000110100 
+	Parameter C_USE_UART bound to: 0 - type: integer 
+	Parameter C_UART_WIDTH bound to: 8 - type: integer 
+	Parameter C_TRACE_OUTPUT bound to: 0 - type: integer 
+	Parameter C_TRACE_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_TRACE_ASYNC_RESET bound to: 0 - type: integer 
+	Parameter C_TRACE_CLK_FREQ_HZ bound to: 200000000 - type: integer 
+	Parameter C_TRACE_CLK_OUT_PHASE bound to: 90 - type: integer 
+	Parameter C_TRACE_PROTOCOL bound to: 1 - type: integer 
+	Parameter C_TRACE_ID bound to: 110 - type: integer 
+	Parameter C_M_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXIS_ID_WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-3491] module 'MDM_Core' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:5803' bound to instance 'MDM_Core_I1' of component 'MDM_Core' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:16358]
+INFO: [Synth 8-638] synthesizing module 'MDM_Core' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:7040]
+INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:306' bound to instance 'config_scan_reset_i' of component 'xil_scan_reset_control' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:7723]
+INFO: [Synth 8-638] synthesizing module 'mdm_v3_2_28_xil_scan_reset_control' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:315]
+INFO: [Synth 8-256] done synthesizing module 'mdm_v3_2_28_xil_scan_reset_control' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:315]
+INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:306' bound to instance 'sel_n_reset_i' of component 'xil_scan_reset_control' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:7733]
+INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:306' bound to instance 'shift_n_reset_i' of component 'xil_scan_reset_control' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:7743]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter C_USE_BSCAN bound to: 0 - type: integer 
+	Parameter C_MB_DBG_PORTS bound to: 1 - type: integer 
+	Parameter C_USE_CONFIG_RESET bound to: 0 - type: integer 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter C_DEBUG_INTERFACE bound to: 0 - type: integer 
+	Parameter C_DBG_REG_ACCESS bound to: 0 - type: integer 
+	Parameter C_DBG_MEM_ACCESS bound to: 0 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_USE_CROSS_TRIGGER bound to: 0 - type: integer 
+	Parameter C_EXT_TRIG_RESET_VALUE bound to: 20'b11110001001000110100 
+	Parameter C_USE_UART bound to: 0 - type: integer 
+	Parameter C_UART_WIDTH bound to: 8 - type: integer 
+	Parameter C_TRACE_OUTPUT bound to: 0 - type: integer 
+	Parameter C_TRACE_PROTOCOL bound to: 1 - type: integer 
+	Parameter C_EN_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'JTAG_CONTROL' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:3087' bound to instance 'JTAG_CONTROL_I' of component 'JTAG_CONTROL' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:10434]
+INFO: [Synth 8-638] synthesizing module 'JTAG_CONTROL' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:3360]
+INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:306' bound to instance 'config_with_scan_reset_i' of component 'xil_scan_reset_control' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:3669]
+INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:306' bound to instance 'sel_with_scan_reset_i' of component 'xil_scan_reset_control' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:3677]
+	Parameter C_TARGET bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'MB_FDC_1' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:756' bound to instance 'FDC_I' of component 'MB_FDC_1' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:3734]
+INFO: [Synth 8-638] synthesizing module 'MB_FDC_1' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'Native' to cell 'FDC_1' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:793]
+INFO: [Synth 8-256] done synthesizing module 'MB_FDC_1' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:772]
+	Parameter C_TARGET bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'MB_FDRE_1' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:815' bound to instance 'SYNC_FDRE' of component 'MB_FDRE_1' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:3744]
+INFO: [Synth 8-638] synthesizing module 'MB_FDRE_1' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:832]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'Native' to cell 'FDRE_1' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:855]
+INFO: [Synth 8-256] done synthesizing module 'MB_FDRE_1' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:832]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter C_STATIC bound to: 1 - type: bool 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter INIT bound to: 16'b0000000101100111 
+INFO: [Synth 8-3491] module 'MB_SRL16E' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:878' bound to instance 'SRL16E_1' of component 'MB_SRL16E' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:3938]
+INFO: [Synth 8-638] synthesizing module 'mdm_v3_2_28_MB_SRL16E' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:902]
+	Parameter INIT bound to: 16'b0000000101100111 
+INFO: [Synth 8-113] binding component instance 'MB_SRL16E_I1' to cell 'SRL16E' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:906]
+INFO: [Synth 8-256] done synthesizing module 'mdm_v3_2_28_MB_SRL16E' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:902]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter C_STATIC bound to: 1 - type: bool 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter INIT bound to: 16'b0100001010000111 
+INFO: [Synth 8-3491] module 'MB_SRL16E' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:878' bound to instance 'SRL16E_2' of component 'MB_SRL16E' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:3956]
+INFO: [Synth 8-638] synthesizing module 'mdm_v3_2_28_MB_SRL16E__parameterized0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:902]
+	Parameter INIT bound to: 16'b0100001010000111 
+INFO: [Synth 8-113] binding component instance 'MB_SRL16E_I1' to cell 'SRL16E' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:906]
+INFO: [Synth 8-256] done synthesizing module 'mdm_v3_2_28_MB_SRL16E__parameterized0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:902]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter C_STATIC bound to: 1 - type: bool 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter INIT bound to: 16'b0100010001000011 
+INFO: [Synth 8-3491] module 'MB_SRL16E' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:878' bound to instance 'SRL16E_ID_1' of component 'MB_SRL16E' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:4027]
+INFO: [Synth 8-638] synthesizing module 'mdm_v3_2_28_MB_SRL16E__parameterized1' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:902]
+	Parameter INIT bound to: 16'b0100010001000011 
+INFO: [Synth 8-113] binding component instance 'MB_SRL16E_I1' to cell 'SRL16E' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:906]
+INFO: [Synth 8-256] done synthesizing module 'mdm_v3_2_28_MB_SRL16E__parameterized1' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:902]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter C_STATIC bound to: 1 - type: bool 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter INIT bound to: 16'b0101100001001101 
+INFO: [Synth 8-3491] module 'MB_SRL16E' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:878' bound to instance 'SRL16E_ID_2' of component 'MB_SRL16E' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:4045]
+INFO: [Synth 8-638] synthesizing module 'mdm_v3_2_28_MB_SRL16E__parameterized2' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:902]
+	Parameter INIT bound to: 16'b0101100001001101 
+INFO: [Synth 8-113] binding component instance 'MB_SRL16E_I1' to cell 'SRL16E' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:906]
+INFO: [Synth 8-256] done synthesizing module 'mdm_v3_2_28_MB_SRL16E__parameterized2' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:902]
+INFO: [Synth 8-256] done synthesizing module 'JTAG_CONTROL' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:3360]
+INFO: [Synth 8-256] done synthesizing module 'MDM_Core' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:7040]
+INFO: [Synth 8-256] done synthesizing module 'MDM' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:14367]
+INFO: [Synth 8-256] done synthesizing module 'tmp3_system_mdm_1_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_mdm_1_0/synth/tmp3_system_mdm_1_0.vhd:74]
+INFO: [Synth 8-3491] module 'tmp3_system_microblaze_0_0' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_microblaze_0_0/synth/tmp3_system_microblaze_0_0.vhd:59' bound to instance 'microblaze_0' of component 'tmp3_system_microblaze_0_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:959]
+INFO: [Synth 8-638] synthesizing module 'tmp3_system_microblaze_0_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_microblaze_0_0/synth/tmp3_system_microblaze_0_0.vhd:116]
+	Parameter C_SCO bound to: 0 - type: integer 
+	Parameter C_FREQ bound to: 100000000 - type: integer 
+	Parameter C_USE_CONFIG_RESET bound to: 0 - type: integer 
+	Parameter C_NUM_SYNC_FF_CLK bound to: 2 - type: integer 
+	Parameter C_NUM_SYNC_FF_CLK_IRQ bound to: 1 - type: integer 
+	Parameter C_NUM_SYNC_FF_CLK_DEBUG bound to: 2 - type: integer 
+	Parameter C_NUM_SYNC_FF_DBG_CLK bound to: 1 - type: integer 
+	Parameter C_NUM_SYNC_FF_DBG_TRACE_CLK bound to: 2 - type: integer 
+	Parameter C_FAULT_TOLERANT bound to: 0 - type: integer 
+	Parameter C_ECC_USE_CE_EXCEPTION bound to: 0 - type: integer 
+	Parameter C_LOCKSTEP_SLAVE bound to: 0 - type: integer 
+	Parameter C_LOCKSTEP_MASTER bound to: 0 - type: integer 
+	Parameter C_TEMPORAL_DEPTH bound to: 0 - type: integer 
+	Parameter C_ENDIANNESS bound to: 1 - type: integer 
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_PART bound to: xc7a100tcsg324-1 - type: string 
+	Parameter C_DATA_SIZE bound to: 32 - type: integer 
+	Parameter C_LMB_DATA_SIZE bound to: 32 - type: integer 
+	Parameter C_INSTR_SIZE bound to: 32 - type: integer 
+	Parameter C_IADDR_SIZE bound to: 32 - type: integer 
+	Parameter C_PIADDR_SIZE bound to: 32 - type: integer 
+	Parameter C_DADDR_SIZE bound to: 32 - type: integer 
+	Parameter C_INSTANCE bound to: tmp3_system_microblaze_0_0 - type: string 
+	Parameter C_AVOID_PRIMITIVES bound to: 0 - type: integer 
+	Parameter C_AREA_OPTIMIZED bound to: 0 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 0 - type: integer 
+	Parameter C_INTERCONNECT bound to: 2 - type: integer 
+	Parameter C_BASE_VECTORS bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_M_AXI_DP_THREAD_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DP_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DP_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DP_EXCLUSIVE_ACCESS bound to: 0 - type: integer 
+	Parameter C_M_AXI_D_BUS_EXCEPTION bound to: 0 - type: integer 
+	Parameter C_M_AXI_IP_THREAD_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_IP_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_IP_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_I_BUS_EXCEPTION bound to: 0 - type: integer 
+	Parameter C_D_LMB bound to: 1 - type: integer 
+	Parameter C_D_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_D_AXI bound to: 1 - type: integer 
+	Parameter C_I_LMB bound to: 1 - type: integer 
+	Parameter C_I_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_I_AXI bound to: 0 - type: integer 
+	Parameter G_TEMPLATE_LIST bound to: 0 - type: integer 
+	Parameter C_USE_MSR_INSTR bound to: 0 - type: integer 
+	Parameter C_USE_PCMP_INSTR bound to: 0 - type: integer 
+	Parameter C_USE_BARREL bound to: 0 - type: integer 
+	Parameter C_USE_DIV bound to: 0 - type: integer 
+	Parameter C_USE_HW_MUL bound to: 0 - type: integer 
+	Parameter C_USE_FPU bound to: 0 - type: integer 
+	Parameter C_USE_REORDER_INSTR bound to: 1 - type: integer 
+	Parameter C_UNALIGNED_EXCEPTIONS bound to: 0 - type: integer 
+	Parameter C_ILL_OPCODE_EXCEPTION bound to: 0 - type: integer 
+	Parameter C_DIV_ZERO_EXCEPTION bound to: 0 - type: integer 
+	Parameter C_FPU_EXCEPTION bound to: 0 - type: integer 
+	Parameter C_FSL_LINKS bound to: 0 - type: integer 
+	Parameter C_USE_EXTENDED_FSL_INSTR bound to: 0 - type: integer 
+	Parameter C_FSL_EXCEPTION bound to: 0 - type: integer 
+	Parameter C_USE_STACK_PROTECTION bound to: 0 - type: integer 
+	Parameter C_IMPRECISE_EXCEPTIONS bound to: 0 - type: integer 
+	Parameter C_USE_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_EXT_BRK bound to: 0 - type: integer 
+	Parameter C_USE_EXT_NM_BRK bound to: 0 - type: integer 
+	Parameter C_USE_NON_SECURE bound to: 0 - type: integer 
+	Parameter C_USE_MMU bound to: 0 - type: integer 
+	Parameter C_MMU_DTLB_SIZE bound to: 4 - type: integer 
+	Parameter C_MMU_ITLB_SIZE bound to: 2 - type: integer 
+	Parameter C_MMU_TLB_ACCESS bound to: 3 - type: integer 
+	Parameter C_MMU_ZONES bound to: 16 - type: integer 
+	Parameter C_MMU_PRIVILEGED_INSTR bound to: 0 - type: integer 
+	Parameter C_USE_BRANCH_TARGET_CACHE bound to: 0 - type: integer 
+	Parameter C_BRANCH_TARGET_CACHE_SIZE bound to: 0 - type: integer 
+	Parameter C_PC_WIDTH bound to: 32 - type: integer 
+	Parameter C_PVR bound to: 0 - type: integer 
+	Parameter C_PVR_USER1 bound to: 8'b00000000 
+	Parameter C_PVR_USER2 bound to: 32'b00000000000000000000000000000000 
+	Parameter C_DYNAMIC_BUS_SIZING bound to: 0 - type: integer 
+	Parameter C_RESET_MSR bound to: 32'b00000000000000000000000000000000 
+	Parameter C_OPCODE_0x0_ILLEGAL bound to: 0 - type: integer 
+	Parameter C_DEBUG_ENABLED bound to: 1 - type: integer 
+	Parameter C_DEBUG_INTERFACE bound to: 0 - type: integer 
+	Parameter C_NUMBER_OF_PC_BRK bound to: 1 - type: integer 
+	Parameter C_NUMBER_OF_RD_ADDR_BRK bound to: 0 - type: integer 
+	Parameter C_NUMBER_OF_WR_ADDR_BRK bound to: 0 - type: integer 
+	Parameter C_DEBUG_EVENT_COUNTERS bound to: 5 - type: integer 
+	Parameter C_DEBUG_LATENCY_COUNTERS bound to: 1 - type: integer 
+	Parameter C_DEBUG_COUNTER_WIDTH bound to: 32 - type: integer 
+	Parameter C_DEBUG_TRACE_SIZE bound to: 8192 - type: integer 
+	Parameter C_DEBUG_EXTERNAL_TRACE bound to: 0 - type: integer 
+	Parameter C_DEBUG_TRACE_ASYNC_RESET bound to: 0 - type: integer 
+	Parameter C_DEBUG_PROFILE_SIZE bound to: 0 - type: integer 
+	Parameter C_INTERRUPT_IS_EDGE bound to: 0 - type: integer 
+	Parameter C_EDGE_IS_POSITIVE bound to: 1 - type: integer 
+	Parameter C_ASYNC_INTERRUPT bound to: 1 - type: integer 
+	Parameter C_ASYNC_WAKEUP bound to: 3 - type: integer 
+	Parameter C_M0_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S0_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M1_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S1_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M2_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S2_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M3_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S3_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M4_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S4_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M5_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S5_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M6_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S6_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M7_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S7_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M8_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S8_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M9_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S9_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M10_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S10_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M11_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S11_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M12_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S12_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M13_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S13_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M14_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S14_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M15_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S15_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_ICACHE_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_ICACHE_HIGHADDR bound to: 64'b0000000000000000000000000000000000111111111111111111111111111111 
+	Parameter C_USE_ICACHE bound to: 0 - type: integer 
+	Parameter C_ALLOW_ICACHE_WR bound to: 1 - type: integer 
+	Parameter C_ADDR_TAG_BITS bound to: 0 - type: integer 
+	Parameter C_CACHE_BYTE_SIZE bound to: 8192 - type: integer 
+	Parameter C_ICACHE_LINE_LEN bound to: 4 - type: integer 
+	Parameter C_ICACHE_ALWAYS_USED bound to: 1 - type: integer 
+	Parameter C_ICACHE_STREAMS bound to: 0 - type: integer 
+	Parameter C_ICACHE_VICTIMS bound to: 0 - type: integer 
+	Parameter C_ICACHE_FORCE_TAG_LUTRAM bound to: 0 - type: integer 
+	Parameter C_ICACHE_DATA_WIDTH bound to: 0 - type: integer 
+	Parameter C_M_AXI_IC_THREAD_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_IC_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_IC_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_IC_USER_VALUE bound to: 31 - type: integer 
+	Parameter C_M_AXI_IC_AWUSER_WIDTH bound to: 5 - type: integer 
+	Parameter C_M_AXI_IC_ARUSER_WIDTH bound to: 5 - type: integer 
+	Parameter C_M_AXI_IC_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_IC_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_IC_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_DCACHE_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_DCACHE_HIGHADDR bound to: 64'b0000000000000000000000000000000000111111111111111111111111111111 
+	Parameter C_USE_DCACHE bound to: 0 - type: integer 
+	Parameter C_ALLOW_DCACHE_WR bound to: 1 - type: integer 
+	Parameter C_DCACHE_ADDR_TAG bound to: 0 - type: integer 
+	Parameter C_DCACHE_BYTE_SIZE bound to: 8192 - type: integer 
+	Parameter C_DCACHE_LINE_LEN bound to: 4 - type: integer 
+	Parameter C_DCACHE_ALWAYS_USED bound to: 1 - type: integer 
+	Parameter C_DCACHE_USE_WRITEBACK bound to: 0 - type: integer 
+	Parameter C_DCACHE_VICTIMS bound to: 0 - type: integer 
+	Parameter C_DCACHE_FORCE_TAG_LUTRAM bound to: 0 - type: integer 
+	Parameter C_DCACHE_DATA_WIDTH bound to: 0 - type: integer 
+	Parameter C_M_AXI_DC_THREAD_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DC_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DC_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DC_EXCLUSIVE_ACCESS bound to: 0 - type: integer 
+	Parameter C_M_AXI_DC_USER_VALUE bound to: 31 - type: integer 
+	Parameter C_M_AXI_DC_AWUSER_WIDTH bound to: 5 - type: integer 
+	Parameter C_M_AXI_DC_ARUSER_WIDTH bound to: 5 - type: integer 
+	Parameter C_M_AXI_DC_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DC_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DC_BUSER_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'MicroBlaze' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/75f6/hdl/microblaze_v11_0_vh_rfs.vhd:165076' bound to instance 'U0' of component 'MicroBlaze' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_microblaze_0_0/synth/tmp3_system_microblaze_0_0.vhd:828]
+INFO: [Synth 8-256] done synthesizing module 'tmp3_system_microblaze_0_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_microblaze_0_0/synth/tmp3_system_microblaze_0_0.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'microblaze_0_local_memory_imp_7IMUXG' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:41]
+INFO: [Synth 8-3491] module 'tmp3_system_dlmb_bram_if_cntlr_0' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_dlmb_bram_if_cntlr_0/synth/tmp3_system_dlmb_bram_if_cntlr_0.vhd:59' bound to instance 'dlmb_bram_if_cntlr' of component 'tmp3_system_dlmb_bram_if_cntlr_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:213]
+INFO: [Synth 8-638] synthesizing module 'tmp3_system_dlmb_bram_if_cntlr_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_dlmb_bram_if_cntlr_0/synth/tmp3_system_dlmb_bram_if_cntlr_0.vhd:84]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_HIGHADDR bound to: 64'b0000000000000000000000000000000000000000000000011111111111111111 
+	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_NUM_LMB bound to: 1 - type: integer 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000001000000000000000000000000000000 
+	Parameter C_MASK1 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK2 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK3 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK4 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK5 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK6 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK7 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_ARBITRATION bound to: 0 - type: integer 
+	Parameter C_ECC bound to: 0 - type: integer 
+	Parameter C_INTERCONNECT bound to: 0 - type: integer 
+	Parameter C_FAULT_INJECT bound to: 0 - type: integer 
+	Parameter C_CE_FAILING_REGISTERS bound to: 0 - type: integer 
+	Parameter C_UE_FAILING_REGISTERS bound to: 0 - type: integer 
+	Parameter C_ECC_STATUS_REGISTERS bound to: 0 - type: integer 
+	Parameter C_ECC_ONOFF_REGISTER bound to: 0 - type: integer 
+	Parameter C_ECC_ONOFF_RESET_VALUE bound to: 1 - type: integer 
+	Parameter C_CE_COUNTER_WIDTH bound to: 0 - type: integer 
+	Parameter C_WRITE_ACCESS bound to: 2 - type: integer 
+	Parameter C_BRAM_AWIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_CTRL_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_CTRL_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_bram_if_cntlr' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:5040' bound to instance 'U0' of component 'lmb_bram_if_cntlr' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_dlmb_bram_if_cntlr_0/synth/tmp3_system_dlmb_bram_if_cntlr_0.vhd:280]
+INFO: [Synth 8-638] synthesizing module 'lmb_bram_if_cntlr' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:5222]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000001000000000000000000000000000000 
+	Parameter C_MASK1 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK2 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK3 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK4 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK5 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK6 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK7 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_ECC_WIDTH bound to: 7 - type: integer 
+	Parameter C_ECC bound to: 0 - type: integer 
+	Parameter C_NUM_LMB bound to: 1 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_ARBITRATION bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_mux' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4146' bound to instance 'lmb_mux_I' of component 'lmb_mux' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:5548]
+INFO: [Synth 8-638] synthesizing module 'lmb_mux' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4291]
+	Parameter C_AW bound to: 32 - type: integer 
+	Parameter C_BAR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000001000000000000000000000000000000 
+INFO: [Synth 8-3491] module 'pselect_mask' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3470' bound to instance 'pselect_mask_lmb' of component 'pselect_mask' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4404]
+INFO: [Synth 8-638] synthesizing module 'pselect_mask' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3485]
+INFO: [Synth 8-256] done synthesizing module 'pselect_mask' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3485]
+INFO: [Synth 8-256] done synthesizing module 'lmb_mux' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4291]
+INFO: [Synth 8-256] done synthesizing module 'lmb_bram_if_cntlr' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:5222]
+INFO: [Synth 8-256] done synthesizing module 'tmp3_system_dlmb_bram_if_cntlr_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_dlmb_bram_if_cntlr_0/synth/tmp3_system_dlmb_bram_if_cntlr_0.vhd:84]
+INFO: [Synth 8-3491] module 'tmp3_system_dlmb_v10_0' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_dlmb_v10_0/synth/tmp3_system_dlmb_v10_0.vhd:59' bound to instance 'dlmb_v10' of component 'tmp3_system_dlmb_v10_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:267]
+INFO: [Synth 8-638] synthesizing module 'tmp3_system_dlmb_v10_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_dlmb_v10_0/synth/tmp3_system_dlmb_v10_0.vhd:89]
+	Parameter C_LMB_NUM_SLAVES bound to: 1 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_v10' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/b1c4/hdl/lmb_v10_v3_0_vh_rfs.vhd:91' bound to instance 'U0' of component 'lmb_v10' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_dlmb_v10_0/synth/tmp3_system_dlmb_v10_0.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'lmb_v10' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/b1c4/hdl/lmb_v10_v3_0_vh_rfs.vhd:140]
+INFO: [Synth 8-3491] module 'FDS' declared at 'C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:44354' bound to instance 'POR_FF_I' of component 'FDS' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/b1c4/hdl/lmb_v10_v3_0_vh_rfs.vhd:170]
+INFO: [Synth 8-6157] synthesizing module 'FDS' [C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:44354]
+INFO: [Synth 8-6155] done synthesizing module 'FDS' (0#1) [C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:44354]
+INFO: [Synth 8-256] done synthesizing module 'lmb_v10' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/b1c4/hdl/lmb_v10_v3_0_vh_rfs.vhd:140]
+INFO: [Synth 8-256] done synthesizing module 'tmp3_system_dlmb_v10_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_dlmb_v10_0/synth/tmp3_system_dlmb_v10_0.vhd:89]
+INFO: [Synth 8-3491] module 'tmp3_system_ilmb_bram_if_cntlr_0' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_ilmb_bram_if_cntlr_0/synth/tmp3_system_ilmb_bram_if_cntlr_0.vhd:59' bound to instance 'ilmb_bram_if_cntlr' of component 'tmp3_system_ilmb_bram_if_cntlr_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:295]
+INFO: [Synth 8-638] synthesizing module 'tmp3_system_ilmb_bram_if_cntlr_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_ilmb_bram_if_cntlr_0/synth/tmp3_system_ilmb_bram_if_cntlr_0.vhd:84]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_HIGHADDR bound to: 64'b0000000000000000000000000000000000000000000000011111111111111111 
+	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_NUM_LMB bound to: 1 - type: integer 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_MASK1 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK2 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK3 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK4 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK5 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK6 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK7 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_ARBITRATION bound to: 0 - type: integer 
+	Parameter C_ECC bound to: 0 - type: integer 
+	Parameter C_INTERCONNECT bound to: 0 - type: integer 
+	Parameter C_FAULT_INJECT bound to: 0 - type: integer 
+	Parameter C_CE_FAILING_REGISTERS bound to: 0 - type: integer 
+	Parameter C_UE_FAILING_REGISTERS bound to: 0 - type: integer 
+	Parameter C_ECC_STATUS_REGISTERS bound to: 0 - type: integer 
+	Parameter C_ECC_ONOFF_REGISTER bound to: 0 - type: integer 
+	Parameter C_ECC_ONOFF_RESET_VALUE bound to: 1 - type: integer 
+	Parameter C_CE_COUNTER_WIDTH bound to: 0 - type: integer 
+	Parameter C_WRITE_ACCESS bound to: 2 - type: integer 
+	Parameter C_BRAM_AWIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_CTRL_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_CTRL_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_bram_if_cntlr' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:5040' bound to instance 'U0' of component 'lmb_bram_if_cntlr' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_ilmb_bram_if_cntlr_0/synth/tmp3_system_ilmb_bram_if_cntlr_0.vhd:280]
+INFO: [Synth 8-638] synthesizing module 'lmb_bram_if_cntlr__parameterized1' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:5222]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_MASK1 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK2 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK3 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK4 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK5 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK6 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK7 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_ECC_WIDTH bound to: 7 - type: integer 
+	Parameter C_ECC bound to: 0 - type: integer 
+	Parameter C_NUM_LMB bound to: 1 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_ARBITRATION bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_mux' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4146' bound to instance 'lmb_mux_I' of component 'lmb_mux' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:5548]
+INFO: [Synth 8-638] synthesizing module 'lmb_mux__parameterized1' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4291]
+	Parameter C_AW bound to: 32 - type: integer 
+	Parameter C_BAR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-3491] module 'pselect_mask' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3470' bound to instance 'pselect_mask_lmb' of component 'pselect_mask' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4404]
+INFO: [Synth 8-638] synthesizing module 'pselect_mask__parameterized1' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3485]
+INFO: [Synth 8-256] done synthesizing module 'pselect_mask__parameterized1' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3485]
+INFO: [Synth 8-256] done synthesizing module 'lmb_mux__parameterized1' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4291]
+INFO: [Synth 8-256] done synthesizing module 'lmb_bram_if_cntlr__parameterized1' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0e64/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:5222]
+INFO: [Synth 8-256] done synthesizing module 'tmp3_system_ilmb_bram_if_cntlr_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_ilmb_bram_if_cntlr_0/synth/tmp3_system_ilmb_bram_if_cntlr_0.vhd:84]
+INFO: [Synth 8-3491] module 'tmp3_system_ilmb_v10_0' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_ilmb_v10_0/synth/tmp3_system_ilmb_v10_0.vhd:59' bound to instance 'ilmb_v10' of component 'tmp3_system_ilmb_v10_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:349]
+INFO: [Synth 8-638] synthesizing module 'tmp3_system_ilmb_v10_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_ilmb_v10_0/synth/tmp3_system_ilmb_v10_0.vhd:89]
+	Parameter C_LMB_NUM_SLAVES bound to: 1 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_v10' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/b1c4/hdl/lmb_v10_v3_0_vh_rfs.vhd:91' bound to instance 'U0' of component 'lmb_v10' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_ilmb_v10_0/synth/tmp3_system_ilmb_v10_0.vhd:169]
+INFO: [Synth 8-256] done synthesizing module 'tmp3_system_ilmb_v10_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_ilmb_v10_0/synth/tmp3_system_ilmb_v10_0.vhd:89]
+INFO: [Synth 8-3491] module 'tmp3_system_lmb_bram_0' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_lmb_bram_0/synth/tmp3_system_lmb_bram_0.vhd:59' bound to instance 'lmb_bram' of component 'tmp3_system_lmb_bram_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:377]
+INFO: [Synth 8-638] synthesizing module 'tmp3_system_lmb_bram_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_lmb_bram_0/synth/tmp3_system_lmb_bram_0.vhd:80]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 1 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 1 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: tmp3_system_lmb_bram_0.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 1 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 1 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 4 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 32 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 32 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 32768 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 32768 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 32 - type: integer 
+	Parameter C_HAS_RSTB bound to: 1 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 1 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 4 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 32 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 32 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 32768 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 32768 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 32 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 1 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 32 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     20.388 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_11' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/a32c/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195209' bound to instance 'U0' of component 'blk_mem_gen_v8_4_11' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_lmb_bram_0/synth/tmp3_system_lmb_bram_0.vhd:258]
+INFO: [Synth 8-256] done synthesizing module 'tmp3_system_lmb_bram_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_lmb_bram_0/synth/tmp3_system_lmb_bram_0.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_0_local_memory_imp_7IMUXG' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:41]
+INFO: [Synth 8-3491] module 'tmp3_system_rst_clk_wiz_1_100M_0' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_rst_clk_wiz_1_100M_0/synth/tmp3_system_rst_clk_wiz_1_100M_0.vhd:59' bound to instance 'rst_clk_wiz_1_100M' of component 'tmp3_system_rst_clk_wiz_1_100M_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:1038]
+INFO: [Synth 8-638] synthesizing module 'tmp3_system_rst_clk_wiz_1_100M_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_rst_clk_wiz_1_100M_0/synth/tmp3_system_rst_clk_wiz_1_100M_0.vhd:74]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1243' bound to instance 'U0' of component 'proc_sys_reset' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_rst_clk_wiz_1_100M_0/synth/tmp3_system_rst_clk_wiz_1_100M_0.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1302]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1371]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1387]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1413]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1436]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1460]
+INFO: [Synth 8-638] synthesizing module 'lpf' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
+INFO: [Synth 8-3491] module 'SRL16' declared at 'C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:158596' bound to instance 'POR_SRL_I' of component 'SRL16' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:873]
+INFO: [Synth 8-6157] synthesizing module 'SRL16' [C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:158596]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16' (0#1) [C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:158596]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_single' declared at 'C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152' bound to instance 'ACT_LO_EXT' of component 'xpm_cdc_single' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:968]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_single' declared at 'C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152' bound to instance 'ACT_LO_AUX' of component 'xpm_cdc_single' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1015]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:304]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:126]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:126]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:304]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1302]
+INFO: [Synth 8-256] done synthesizing module 'tmp3_system_rst_clk_wiz_1_100M_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_rst_clk_wiz_1_100M_0/synth/tmp3_system_rst_clk_wiz_1_100M_0.vhd:74]
+INFO: [Synth 8-3491] module 'tmp3_system_smartconnect_0_0' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/synth/tmp3_system_smartconnect_0_0.v:53' bound to instance 'smartconnect_0' of component 'tmp3_system_smartconnect_0_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:1051]
+INFO: [Synth 8-6157] synthesizing module 'tmp3_system_smartconnect_0_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/synth/tmp3_system_smartconnect_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:10]
+INFO: [Synth 8-6157] synthesizing module 'clk_map_imp_1JET2S5' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:1098]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_one_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_0/synth/bd_67c5_one_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_10_xlconstant' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/a165/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_10_xlconstant' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/a165/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_one_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_0/synth/bd_67c5_one_0.v:53]
+INFO: [Synth 8-638] synthesizing module 'bd_67c5_psr_aclk_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_1/synth/bd_67c5_psr_aclk_0.vhd:74]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1243' bound to instance 'U0' of component 'proc_sys_reset' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_1/synth/bd_67c5_psr_aclk_0.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset__parameterized1' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1302]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1371]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1387]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1413]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1436]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1460]
+INFO: [Synth 8-638] synthesizing module 'lpf__parameterized0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
+INFO: [Synth 8-3491] module 'SRL16' declared at 'C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:158596' bound to instance 'POR_SRL_I' of component 'SRL16' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:873]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_single' declared at 'C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152' bound to instance 'ACT_LO_EXT' of component 'xpm_cdc_single' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:968]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_single' declared at 'C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152' bound to instance 'ACT_LO_AUX' of component 'xpm_cdc_single' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1015]
+INFO: [Synth 8-256] done synthesizing module 'lpf__parameterized0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset__parameterized1' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1302]
+INFO: [Synth 8-256] done synthesizing module 'bd_67c5_psr_aclk_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_1/synth/bd_67c5_psr_aclk_0.vhd:74]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'bd_67c5_psr_aclk_0' is unconnected for instance 'psr_aclk' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:1136]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'bd_67c5_psr_aclk_0' is unconnected for instance 'psr_aclk' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:1136]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'bd_67c5_psr_aclk_0' is unconnected for instance 'psr_aclk' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:1136]
+WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'bd_67c5_psr_aclk_0' is unconnected for instance 'psr_aclk' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:1136]
+WARNING: [Synth 8-7023] instance 'psr_aclk' of module 'bd_67c5_psr_aclk_0' has 10 connections declared, but only 6 given [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:1136]
+INFO: [Synth 8-6155] done synthesizing module 'clk_map_imp_1JET2S5' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:1098]
+INFO: [Synth 8-6157] synthesizing module 'm00_exit_pipeline_imp_HID66M' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:1387]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_m00e_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_32/synth/bd_67c5_m00e_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_async_rst' [C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_async_rst' (0#1) [C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_m00e_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_32/synth/bd_67c5_m00e_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'm00_exit_pipeline_imp_HID66M' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:1387]
+INFO: [Synth 8-6157] synthesizing module 'm00_nodes_imp_UUKVQA' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:1629]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_m00arn_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_27/synth/bd_67c5_m00arn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_m00arn_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_27/synth/bd_67c5_m00arn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_m00awn_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_29/synth/bd_67c5_m00awn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_m00awn_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_29/synth/bd_67c5_m00awn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_m00bn_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_31/synth/bd_67c5_m00bn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_m00bn_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_31/synth/bd_67c5_m00bn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_m00rn_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_28/synth/bd_67c5_m00rn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_m00rn_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_28/synth/bd_67c5_m00rn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_m00wn_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_30/synth/bd_67c5_m00wn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_m00wn_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_30/synth/bd_67c5_m00wn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'm00_nodes_imp_UUKVQA' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:1629]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_m00s2a_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_26/synth/bd_67c5_m00s2a_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_m00s2a_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_26/synth/bd_67c5_m00s2a_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'm01_exit_pipeline_imp_B5KQ4U' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:1871]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_m01e_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_39/synth/bd_67c5_m01e_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_m01e_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_39/synth/bd_67c5_m01e_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'm01_exit_pipeline_imp_B5KQ4U' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:1871]
+INFO: [Synth 8-6157] synthesizing module 'm01_nodes_imp_1V6K72S' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:2113]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_m01arn_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_34/synth/bd_67c5_m01arn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_m01arn_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_34/synth/bd_67c5_m01arn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_m01awn_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_36/synth/bd_67c5_m01awn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_m01awn_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_36/synth/bd_67c5_m01awn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_m01bn_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_38/synth/bd_67c5_m01bn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_m01bn_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_38/synth/bd_67c5_m01bn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_m01rn_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_35/synth/bd_67c5_m01rn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_m01rn_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_35/synth/bd_67c5_m01rn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_m01wn_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_37/synth/bd_67c5_m01wn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_m01wn_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_37/synth/bd_67c5_m01wn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'm01_nodes_imp_1V6K72S' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:2113]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_m01s2a_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_33/synth/bd_67c5_m01s2a_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_m01s2a_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_33/synth/bd_67c5_m01s2a_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_s00a2s_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_20/synth/bd_67c5_s00a2s_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_s00a2s_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_20/synth/bd_67c5_s00a2s_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 's00_entry_pipeline_imp_1G7UJRH' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:2355]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_s00mmu_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_17/synth/bd_67c5_s00mmu_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_s00mmu_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_17/synth/bd_67c5_s00mmu_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_s00sic_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_19/synth/bd_67c5_s00sic_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_s00sic_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_19/synth/bd_67c5_s00sic_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_s00tr_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_18/synth/bd_67c5_s00tr_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_s00tr_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_18/synth/bd_67c5_s00tr_0.sv:53]
+WARNING: [Synth 8-7071] port 'm_axi_awburst' of module 'bd_67c5_s00tr_0' is unconnected for instance 's00_transaction_regulator' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:2754]
+WARNING: [Synth 8-7071] port 'm_axi_arburst' of module 'bd_67c5_s00tr_0' is unconnected for instance 's00_transaction_regulator' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:2754]
+WARNING: [Synth 8-7023] instance 's00_transaction_regulator' of module 'bd_67c5_s00tr_0' has 82 connections declared, but only 80 given [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:2754]
+INFO: [Synth 8-6155] done synthesizing module 's00_entry_pipeline_imp_1G7UJRH' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:2355]
+INFO: [Synth 8-6157] synthesizing module 's00_nodes_imp_1B1IYDZ' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:2837]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_sarn_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_21/synth/bd_67c5_sarn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_sarn_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_21/synth/bd_67c5_sarn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_sawn_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_23/synth/bd_67c5_sawn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_sawn_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_23/synth/bd_67c5_sawn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_sbn_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_25/synth/bd_67c5_sbn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_sbn_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_25/synth/bd_67c5_sbn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_srn_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_22/synth/bd_67c5_srn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_srn_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_22/synth/bd_67c5_srn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_swn_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_24/synth/bd_67c5_swn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_swn_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_24/synth/bd_67c5_swn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 's00_nodes_imp_1B1IYDZ' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:2837]
+INFO: [Synth 8-6157] synthesizing module 'switchboards_imp_1HYOEPV' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:3079]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_arinsw_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_2/synth/bd_67c5_arinsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_arinsw_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_2/synth/bd_67c5_arinsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_aroutsw_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_7/synth/bd_67c5_aroutsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_aroutsw_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_7/synth/bd_67c5_aroutsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_awinsw_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_4/synth/bd_67c5_awinsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_awinsw_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_4/synth/bd_67c5_awinsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_awoutsw_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_9/synth/bd_67c5_awoutsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_awoutsw_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_9/synth/bd_67c5_awoutsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_binsw_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_6/synth/bd_67c5_binsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_binsw_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_6/synth/bd_67c5_binsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_boutsw_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_11/synth/bd_67c5_boutsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_boutsw_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_11/synth/bd_67c5_boutsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'i_nodes_imp_1RG3I3' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:1145]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_arni_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_12/synth/bd_67c5_arni_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_arni_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_12/synth/bd_67c5_arni_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_awni_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_14/synth/bd_67c5_awni_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_awni_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_14/synth/bd_67c5_awni_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_bni_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_16/synth/bd_67c5_bni_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_bni_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_16/synth/bd_67c5_bni_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_rni_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_13/synth/bd_67c5_rni_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_rni_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_13/synth/bd_67c5_rni_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_wni_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_15/synth/bd_67c5_wni_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_wni_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_15/synth/bd_67c5_wni_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'i_nodes_imp_1RG3I3' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:1145]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_rinsw_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_3/synth/bd_67c5_rinsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_rinsw_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_3/synth/bd_67c5_rinsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_routsw_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_8/synth/bd_67c5_routsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_routsw_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_8/synth/bd_67c5_routsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_winsw_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_5/synth/bd_67c5_winsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_winsw_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_5/synth/bd_67c5_winsw_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_67c5_woutsw_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_10/synth/bd_67c5_woutsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5_woutsw_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_10/synth/bd_67c5_woutsw_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'switchboards_imp_1HYOEPV' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:3079]
+INFO: [Synth 8-6155] done synthesizing module 'bd_67c5' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'tmp3_system_smartconnect_0_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/synth/tmp3_system_smartconnect_0_0.v:53]
+INFO: [Synth 8-3491] module 'tmp3_system_util_vector_logic_0_0' declared at 'c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_util_vector_logic_0_0/synth/tmp3_system_util_vector_logic_0_0.v:53' bound to instance 'util_vector_logic_0' of component 'tmp3_system_util_vector_logic_0_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:1113]
+INFO: [Synth 8-6157] synthesizing module 'tmp3_system_util_vector_logic_0_0' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_util_vector_logic_0_0/synth/tmp3_system_util_vector_logic_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'util_vector_logic_v2_0_5_util_vector_logic' [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/e056/hdl/util_vector_logic_v2_0_vl_rfs.v:90]
+INFO: [Synth 8-6155] done synthesizing module 'util_vector_logic_v2_0_5_util_vector_logic' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/e056/hdl/util_vector_logic_v2_0_vl_rfs.v:90]
+INFO: [Synth 8-6155] done synthesizing module 'tmp3_system_util_vector_logic_0_0' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_util_vector_logic_0_0/synth/tmp3_system_util_vector_logic_0_0.v:53]
+INFO: [Synth 8-256] done synthesizing module 'tmp3_system' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/synth/tmp3_system.vhd:550]
+INFO: [Synth 8-256] done synthesizing module 'tmp3_system_wrapper' (0#1) [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/hdl/tmp3_system_wrapper.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Dual.ALLOUT0_ND_G0.READ_REG_GEN[0].GPIO_DBus_i_reg was removed.  [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:617]
+WARNING: [Synth 8-6014] Unused sequential element Dual.ALLOUT0_ND_G0.READ_REG_GEN[1].GPIO_DBus_i_reg was removed.  [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:617]
+WARNING: [Synth 8-6014] Unused sequential element Dual.ALLOUT0_ND_G0.READ_REG_GEN[2].GPIO_DBus_i_reg was removed.  [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:617]
+WARNING: [Synth 8-6014] Unused sequential element Dual.ALLOUT0_ND_G0.READ_REG_GEN[3].GPIO_DBus_i_reg was removed.  [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:617]
+WARNING: [Synth 8-6014] Unused sequential element Dual.ALLOUT0_ND_G2.READ_REG2_GEN[0].GPIO2_DBus_i_reg was removed.  [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:748]
+WARNING: [Synth 8-6014] Unused sequential element Dual.ALLOUT0_ND_G2.READ_REG2_GEN[1].GPIO2_DBus_i_reg was removed.  [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:748]
+WARNING: [Synth 8-6014] Unused sequential element Dual.ALLOUT0_ND_G2.READ_REG2_GEN[2].GPIO2_DBus_i_reg was removed.  [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:748]
+WARNING: [Synth 8-6014] Unused sequential element Dual.ALLOUT0_ND_G2.READ_REG2_GEN[3].GPIO2_DBus_i_reg was removed.  [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:748]
+WARNING: [Synth 8-6014] Unused sequential element is_read_reg was removed.  [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2447]
+WARNING: [Synth 8-6014] Unused sequential element is_write_reg was removed.  [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2448]
+WARNING: [Synth 8-6014] Unused sequential element set_Ext_BRK_reg was removed.  [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ipshared/00dd/hdl/mdm_v3_2_vh_rfs.vhd:4133]
+WARNING: [Synth 8-3848] Net aresetn_out in module/entity clk_map_imp_1JET2S5 does not have driver. [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/synth/bd_67c5.v:1118]
+WARNING: [Synth 8-7129] Port Op2[0] in module util_vector_logic_v2_0_5_util_vector_logic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[0] in module sc_util_v1_0_4_onehot_to_binary__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port connectivity[1] in module sc_switchboard_v1_0_8_top__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port connectivity[0] in module sc_switchboard_v1_0_8_top__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port connectivity[0] in module sc_switchboard_v1_0_8_top__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[0] in module sc_util_v1_0_4_onehot_to_binary__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port connectivity[1] in module sc_switchboard_v1_0_8_top__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port connectivity[0] in module sc_switchboard_v1_0_8_top__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port connectivity[0] in module sc_switchboard_v1_0_8_top__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[0] in module sc_util_v1_0_4_onehot_to_binary is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slow_clk in module sc_util_v1_0_4_sample_cycle_ratio is either unconnected or has no load
+WARNING: [Synth 8-7129] Port fast_clk in module sc_util_v1_0_4_sample_cycle_ratio is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized10 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized10 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized10 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_node_v1_0_18_reg_slice3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_node_v1_0_18_reg_slice3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_node_v1_0_18_reg_slice3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_sc_req[0] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_sc_info[0] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tvalid in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[15] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[14] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[13] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[12] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[11] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[10] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[9] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[8] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[7] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[6] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[5] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[4] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[3] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[2] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[1] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[0] in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_arb_tready in module sc_node_v1_0_18_si_handler__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_axic_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_axic_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_axic_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_sc_aclken in module sc_node_v1_0_18_top__parameterized13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[0] in module sc_util_v1_0_4_onehot_to_binary__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_node_v1_0_18_reg_slice3__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_node_v1_0_18_reg_slice3__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_node_v1_0_18_reg_slice3__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_node_v1_0_18_fi_regulator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_sc_info[1] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_sc_info[0] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tvalid in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[15] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[14] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[13] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[12] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[11] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[10] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[9] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[8] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[7] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[6] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[5] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[4] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[3] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[2] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[1] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[0] in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_arb_tready in module sc_node_v1_0_18_si_handler__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_sc_aclken in module sc_node_v1_0_18_top__parameterized12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_sc_info[1] in module sc_node_v1_0_18_si_handler__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_sc_info[0] in module sc_node_v1_0_18_si_handler__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tvalid in module sc_node_v1_0_18_si_handler__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[15] in module sc_node_v1_0_18_si_handler__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[14] in module sc_node_v1_0_18_si_handler__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[13] in module sc_node_v1_0_18_si_handler__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[12] in module sc_node_v1_0_18_si_handler__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_arb_tdata[11] in module sc_node_v1_0_18_si_handler__parameterized6 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1984.414 ; gain = 1195.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1984.414 ; gain = 1195.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1984.414 ; gain = 1195.363
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1984.414 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 626 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_microblaze_0_0/tmp3_system_microblaze_0_0.xdc] for cell 'tmp3_system_i/microblaze_0/U0'
+Finished Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_microblaze_0_0/tmp3_system_microblaze_0_0.xdc] for cell 'tmp3_system_i/microblaze_0/U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_microblaze_0_0/tmp3_system_microblaze_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tmp3_system_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/tmp3_system_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_clk_wiz_1_0/tmp3_system_clk_wiz_1_0_board.xdc] for cell 'tmp3_system_i/clk_wiz_1/inst'
+Finished Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_clk_wiz_1_0/tmp3_system_clk_wiz_1_0_board.xdc] for cell 'tmp3_system_i/clk_wiz_1/inst'
+Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_clk_wiz_1_0/tmp3_system_clk_wiz_1_0.xdc] for cell 'tmp3_system_i/clk_wiz_1/inst'
+Finished Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_clk_wiz_1_0/tmp3_system_clk_wiz_1_0.xdc] for cell 'tmp3_system_i/clk_wiz_1/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_clk_wiz_1_0/tmp3_system_clk_wiz_1_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tmp3_system_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/tmp3_system_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_rst_clk_wiz_1_100M_0/tmp3_system_rst_clk_wiz_1_100M_0_board.xdc] for cell 'tmp3_system_i/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_rst_clk_wiz_1_100M_0/tmp3_system_rst_clk_wiz_1_100M_0_board.xdc] for cell 'tmp3_system_i/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_axi_gpio_0_0/tmp3_system_axi_gpio_0_0_board.xdc] for cell 'tmp3_system_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_axi_gpio_0_0/tmp3_system_axi_gpio_0_0_board.xdc] for cell 'tmp3_system_i/axi_gpio_0/U0'
+Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_axi_uartlite_0_0/tmp3_system_axi_uartlite_0_0_board.xdc] for cell 'tmp3_system_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_axi_uartlite_0_0/tmp3_system_axi_uartlite_0_0_board.xdc] for cell 'tmp3_system_i/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_1/bd_67c5_psr_aclk_0_board.xdc] for cell 'tmp3_system_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/bd_0/ip/ip_1/bd_67c5_psr_aclk_0_board.xdc] for cell 'tmp3_system_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/smartconnect.xdc] for cell 'tmp3_system_i/smartconnect_0/inst'
+Finished Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_smartconnect_0_0/smartconnect.xdc] for cell 'tmp3_system_i/smartconnect_0/inst'
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.srcs/constrs_1/new/Board_pinout.xdc]
+Finished Parsing XDC File [C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.srcs/constrs_1/new/Board_pinout.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.srcs/constrs_1/new/Board_pinout.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tmp3_system_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/tmp3_system_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tmp3_system_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/tmp3_system_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_mdm_1_0/tmp3_system_mdm_1_0.xdc] for cell 'tmp3_system_i/mdm_1/U0'
+Finished Parsing XDC File [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_mdm_1_0/tmp3_system_mdm_1_0.xdc] for cell 'tmp3_system_i/mdm_1/U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.gen/sources_1/bd/tmp3_system/ip/tmp3_system_mdm_1_0/tmp3_system_mdm_1_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tmp3_system_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/tmp3_system_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_array_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tmp3_system_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/tmp3_system_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tmp3_system_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/tmp3_system_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 52 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2040.750 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 391 instances were transformed.
+  FDC_1 => FDCE (inverted pins: C): 1 instance 
+  FDR => FDRE: 126 instances
+  FDRE_1 => FDRE (inverted pins: C): 1 instance 
+  FDS => FDSE: 3 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 8 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 96 instances
+  MULT_AND => LUT2: 1 instance 
+  MUXCY_L => MUXCY: 137 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 16 instances
+  SRL16 => SRL16E: 2 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.167 . Memory (MB): peak = 2040.750 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:54 ; elapsed = 00:00:59 . Memory (MB): peak = 2040.750 ; gain = 1251.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:54 ; elapsed = 00:00:59 . Memory (MB): peak = 2040.750 ; gain = 1251.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:55 ; elapsed = 00:00:59 . Memory (MB): peak = 2040.750 ; gain = 1251.699
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_endpoint.w_state_reg' in module 'sc_mmu_v1_0_15_top'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_endpoint.r_state_reg' in module 'sc_mmu_v1_0_15_top'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE2 |                             0001 |                               00
+                  iSTATE |                             0010 |                               01
+                 iSTATE0 |                             0100 |                               10
+                 iSTATE1 |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'slave_attachment'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 sm_idle |                             0010 |                               00
+                 sm_read |                             1000 |                               01
+                sm_write |                             0100 |                               10
+                 sm_resp |                             0001 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'slave_attachment__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 | 00000000000000000000000000000000
+*
+                 W_STALL |                               01 | 00000000000000000000000000000001
+               W_PENDING |                               10 | 00000000000000000000000000000010
+                W_DECERR |                               11 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_endpoint.w_state_reg' using encoding 'sequential' in module 'sc_mmu_v1_0_15_top'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 | 00000000000000000000000000000000
+*
+                 R_STALL |                               01 | 00000000000000000000000000000001
+               R_PENDING |                               10 | 00000000000000000000000000000010
+                R_DECERR |                               11 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_endpoint.r_state_reg' using encoding 'sequential' in module 'sc_mmu_v1_0_15_top'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:00 ; elapsed = 00:01:05 . Memory (MB): peak = 2040.750 ; gain = 1251.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Decode_I/Using_FPGA.Gen_Bits[27].MEM_EX_Result_Inst/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Decode_I/Using_FPGA.Gen_Bits[29].MEM_EX_Result_Inst/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Decode_I/Using_FPGA.Gen_Bits[30].MEM_EX_Result_Inst/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/MEM_MSR_Bits[17].Using_FDR.MSR_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/MEM_MSR_Bits[18].Using_FDR.MSR_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/MEM_MSR_Bits[19].Using_FDR.MSR_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/MEM_MSR_Bits[20].Using_FDR.MSR_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/MEM_MSR_Bits[21].Using_FDR.MSR_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/MEM_MSR_Bits[22].Using_FDR.MSR_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/MEM_MSR_Bits[23].Using_FDR.MSR_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/MEM_MSR_Bits[24].Using_FDR.MSR_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/MEM_MSR_Bits[25].Using_FDR.MSR_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/MEM_MSR_Bits[26].Using_FDR.MSR_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/MEM_MSR_Bits[27].Using_FDR.MSR_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/MEM_MSR_Bits[31].Using_FDR.MSR_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[17].Using_FDR.MSR_ex_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[17].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[18].Using_FDR.MSR_ex_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[18].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[19].Using_FDR.MSR_ex_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[19].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[20].Using_FDR.MSR_ex_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[20].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[21].Using_FDR.MSR_ex_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[21].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[22].Using_FDR.MSR_ex_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[22].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[23].Using_FDR.MSR_ex_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[23].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[24].Using_FDR.MSR_ex_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[24].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[25].Using_FDR.MSR_ex_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[25].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[26].Using_FDR.MSR_ex_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[26].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[27].Using_FDR.MSR_ex_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[27].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[28].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[29].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[30].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[31].Using_FDR.MSR_ex_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (MicroBlaze_Core_I/Performance.Core/Data_Flow_I/msr_reg_i/OF_EX_MSR_Bits[31].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module MicroBlaze.
+INFO: [Synth 8-3332] Sequential element (U0/POR_FF_I) is unused and will be removed from module tmp3_system_dlmb_v10_0.
+INFO: [Synth 8-3332] Sequential element (U0/POR_FF_I) is unused and will be removed from module tmp3_system_ilmb_v10_0.
+WARNING: [Synth 8-3332] Sequential element (ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N) is unused and will be removed from module proc_sys_reset.
+WARNING: [Synth 8-3332] Sequential element (PR_OUT_DFF[0].FDRE_PER) is unused and will be removed from module proc_sys_reset.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/FDRE_inst) is unused and will be removed from module bd_67c5.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/BSR_OUT_DFF[0].FDRE_BSR) is unused and will be removed from module bd_67c5.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/PR_OUT_DFF[0].FDRE_PER) is unused and will be removed from module bd_67c5.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N) is unused and will be removed from module bd_67c5.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:16 ; elapsed = 00:01:21 . Memory (MB): peak = 2040.750 ; gain = 1251.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'tmp3_system_i/microblaze_0/U0/Reset' to pin 'tmp3_system_i/rst_clk_wiz_1_100M/U0/FDRE_inst/Q'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:21 ; elapsed = 00:01:27 . Memory (MB): peak = 2040.750 ; gain = 1251.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:26 ; elapsed = 00:01:32 . Memory (MB): peak = 2040.750 ; gain = 1251.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:29 ; elapsed = 00:01:34 . Memory (MB): peak = 2040.750 ; gain = 1251.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:33 ; elapsed = 00:01:38 . Memory (MB): peak = 2103.930 ; gain = 1314.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:33 ; elapsed = 00:01:38 . Memory (MB): peak = 2103.930 ; gain = 1314.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:33 ; elapsed = 00:01:39 . Memory (MB): peak = 2103.930 ; gain = 1314.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:33 ; elapsed = 00:01:39 . Memory (MB): peak = 2103.930 ; gain = 1314.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:33 ; elapsed = 00:01:39 . Memory (MB): peak = 2103.930 ; gain = 1314.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:33 ; elapsed = 00:01:39 . Memory (MB): peak = 2103.930 ; gain = 1314.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |AND2B1L    |     1|
+|2     |BSCANE2    |     1|
+|3     |BUFG       |     3|
+|4     |LUT1       |   158|
+|5     |LUT2       |   195|
+|6     |LUT3       |   340|
+|7     |LUT4       |   214|
+|8     |LUT5       |   304|
+|9     |LUT6       |   565|
+|11    |MMCME2_ADV |     1|
+|12    |MULT_AND   |     1|
+|13    |MUXCY_L    |   135|
+|14    |MUXF7      |   108|
+|15    |RAM32M     |    16|
+|16    |RAMB36E1   |    32|
+|17    |SRL16      |     2|
+|18    |SRL16E     |   116|
+|19    |SRLC16E    |     8|
+|20    |XORCY      |    94|
+|21    |FDCE       |   172|
+|22    |FDC        |     1|
+|23    |FDPE       |     6|
+|24    |FDR        |    87|
+|25    |FDRE       |  1283|
+|27    |FDS        |     1|
+|28    |FDSE       |    96|
+|29    |IBUF       |     3|
+|30    |IOBUF      |     8|
+|31    |OBUF       |     1|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:33 ; elapsed = 00:01:39 . Memory (MB): peak = 2103.930 ; gain = 1314.879
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 34494 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:45 ; elapsed = 00:01:25 . Memory (MB): peak = 2103.930 ; gain = 1258.543
+Synthesis Optimization Complete : Time (s): cpu = 00:01:33 ; elapsed = 00:01:39 . Memory (MB): peak = 2103.930 ; gain = 1314.879
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.206 . Memory (MB): peak = 2103.930 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 567 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2124.871 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 235 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 38 instances
+  FDC_1 => FDCE (inverted pins: C): 1 instance 
+  FDR => FDRE: 87 instances
+  FDRE_1 => FDRE (inverted pins: C): 1 instance 
+  FDS => FDSE: 1 instance 
+  IOBUF => IOBUF (IBUF, OBUFT): 8 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 80 instances
+  MULT_AND => LUT2: 1 instance 
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 16 instances
+  SRL16 => SRL16E: 2 instances
+
+Synth Design complete | Checksum: f2300235
+INFO: [Common 17-83] Releasing license: Synthesis
+420 Infos, 134 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:39 ; elapsed = 00:01:47 . Memory (MB): peak = 2124.871 ; gain = 1539.898
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2124.871 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/User/Documents/GitHub/Hardware_vhdl_ip_files/tmp3_pmod_design_final/tmp3_pmod_design_final.runs/synth_1/tmp3_system_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file tmp3_system_wrapper_utilization_synth.rpt -pb tmp3_system_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 13 13:41:37 2026...
